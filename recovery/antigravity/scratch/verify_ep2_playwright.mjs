@@ -2,10 +2,14 @@ import http from 'node:http';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import { chromium } from 'playwright-core';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 
-const vnDir = 'C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn';
-const outDir = 'C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots';
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright-core');
+const repoRoot = fileURLToPath(new URL('../../../', import.meta.url));
+const vnDir = path.join(repoRoot, 'vn');
+const outDir = path.join(repoRoot, 'loop', '.runtime', 'vn-verification', 'ep2_screenshots');
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',

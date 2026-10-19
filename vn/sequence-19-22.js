@@ -1,12 +1,13 @@
+import { EP1_ASSETS } from './ep1-assets.js';
 import { presentationForBeat } from './neural-cues.js';
 
 export const SEQUENCE_19_22_CHAPTERS = Object.freeze(['19', '20', '20-1', '21', '21-1', '22']);
 const SEQUENCE_SET = new Set(SEQUENCE_19_22_CHAPTERS);
 
 export const SEQUENCE_19_22_ASSETS = Object.freeze({
-  yoonsera: 'assets/yoonsera.webp',
-  eunkyung: 'assets/eunkyung.webp',
-  haerin: 'assets/haerin.webp',
+  yoonsera: EP1_ASSETS.yoonsera,
+  eunkyung: EP1_ASSETS.eunkyung,
+  haerin: EP1_ASSETS.haerin,
 });
 
 export const SEQUENCE_19_22_CHAPTER_INFO = Object.freeze({

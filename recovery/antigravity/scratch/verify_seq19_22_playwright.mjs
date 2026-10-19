@@ -2,11 +2,18 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import { chromium } from 'playwright-core';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 
-const vnDir = path.resolve('C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn');
-const outDir = path.resolve('C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots');
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright-core');
+const repoRoot = fileURLToPath(new URL('../../../', import.meta.url));
+const vnDir = path.join(repoRoot, 'vn');
+const verificationDir = path.join(repoRoot, 'loop', '.runtime', 'vn-verification');
+const outDir = path.join(verificationDir, 'seq_screenshots');
+const ep2OutDir = path.join(verificationDir, 'ep2_screenshots');
 fs.mkdirSync(outDir, { recursive: true });
+fs.mkdirSync(ep2OutDir, { recursive: true });
 
 const mimeTypes = {
   '.html': 'text/html; charset=utf-8',
@@ -49,6 +56,32 @@ const browser = await chromium.launch({
 });
 
 try {
+  const offlineResults = [];
+  for (const viewport of [{ width: 400, height: 844 }, { width: 1440, height: 900 }]) {
+    const context = await browser.newContext({ viewport });
+    const offlinePage = await context.newPage();
+    const offlineErrors = [];
+    const externalRequests = [];
+    offlinePage.on('pageerror', error => offlineErrors.push(error.message));
+    offlinePage.on('request', request => {
+      if (request.resourceType() !== 'document' && !request.url().startsWith('data:')) externalRequests.push(request.url());
+    });
+    for (const [chapter, beat, actor] of [['19', 71, 'yoonsera'], ['20-1', 8, 'eunkyung'], ['20-1', 36, 'haerin']]) {
+      await offlinePage.goto(baseUrl + '/play-offline.html?sequence=19-22&chapter=' + chapter + '&beat=' + beat, { waitUntil: 'networkidle' });
+      await offlinePage.locator('#gameScreen').waitFor({ state: 'visible' });
+      const portrait = await offlinePage.locator('#portraitImage').evaluate(image => ({ source: image.getAttribute('src') || '', width: image.naturalWidth, height: image.naturalHeight }));
+      assert.ok(portrait.source.startsWith('data:image/webp;base64,'), 'offline ' + actor + ' must be embedded; got ' + portrait.source.slice(0, 80));
+      const expectedSource = 'data:image/webp;base64,' + fs.readFileSync(path.join(vnDir, 'assets', actor + '.webp')).toString('base64');
+      assert.equal(portrait.source === expectedSource, true, 'offline portrait must match ' + actor);
+      assert.ok(portrait.width > 0 && portrait.height > 0, 'offline ' + actor + ' must decode');
+      const device = viewport.width === 400 ? 'mobile' : 'desktop';
+      await offlinePage.screenshot({ path: path.join(outDir, '13-offline-' + actor + '-' + device + '.png') });
+      offlineResults.push({ actor, viewport: viewport.width, embedded: true, matchesExpectedAsset: true, width: portrait.width, height: portrait.height });
+    }
+    assert.deepEqual(offlineErrors, [], 'offline page errors');
+    assert.deepEqual(externalRequests, [], 'standalone HTML must not request adjacent assets');
+    await context.close();
+  }
   // 1. Mobile (400x844) full sequence walkthrough
   const mobileCtx = await browser.newContext({ viewport: { width: 400, height: 844 } });
   const page = await mobileCtx.newPage();
@@ -189,7 +222,6 @@ try {
   assert.equal(errors.length, 0, `Unexpected errors: ${errors.join('; ')}`);
 
   // Recapture Episode 2 beat 118..120 & 121..123 mobile screen to verify document/story-box spacing
-  const ep2OutDir = path.resolve('C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots');
   await page.evaluate(() => {
     const raw = JSON.parse(localStorage.getItem('lost_dreams_vn_20261018_release1'));
     raw.autosave = { progress: { chapterId: '2', beatIndex: 118, choices: {}, finished: false }, timestamp: Date.now(), preview: '118' };
@@ -232,6 +264,7 @@ try {
   await dPage.screenshot({ path: path.join(outDir, '12-ep20-1-haerin-desktop.png') });
 
   console.log(JSON.stringify({
+    offlinePortraits: offlineResults,
     mobileChaptersVisited: visitedChapters,
     totalPagesStepped,
     consoleAndPageErrors: errors.length,

@@ -1,4 +1,5 @@
 export const EP1_ASSETS = Object.freeze({
+  yoonsera:'assets/yoonsera.webp', eunkyung:'assets/eunkyung.webp', haerin:'assets/haerin.webp',
   homeMorning:'assets/ep1/home-morning.webp', homeNight:'assets/ep1/home-night.webp',
   seoinWaking:'assets/ep1/seoin-waking.webp',
   seoinQuestion:'assets/ep1/seoin-question.webp', seoinWorry:'assets/ep1/seoin-worry.webp', seoinNight:'assets/ep1/seoin-night.webp', seoinAngry:'assets/ep1/seoin-angry.webp',
