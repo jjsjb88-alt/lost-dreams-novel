@@ -95,6 +95,7 @@ export function clampProgress(progress, story) {
     beatIndex: clamp(progress?.beatIndex, 0, Math.max(0, chapter.beats.length - 1)),
     choices: progress?.choices && typeof progress.choices === 'object' ? { ...progress.choices } : {},
     finished: Boolean(progress?.finished),
+    ...(progress?.sequenceMode === '19-22' ? { sequenceMode: '19-22' } : {}),
   };
 }
 

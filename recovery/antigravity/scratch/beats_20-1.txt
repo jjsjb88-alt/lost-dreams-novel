@@ -1,0 +1,92 @@
+# Chapter 20-1: 제20-1화. 두 집의 밤 (91 beats)
+0 | narration | sp= | sc=kitchen | 최은경은 작업화를 현관문 옆에 내놓았다.
+1 | narration | sp= | sc=kitchen | 새벽에 신으면 바닥 소리가 컸다.
+2 | narration | sp= | sc=kitchen | 딸은 방문을 반쯤 열고 서 있었다.
+3 | dialogue | sp= | sc=kitchen | “엄마, 내일 아침에 깨워?”
+4 | dialogue | sp= | sc=kitchen | “알람 있어.”
+5 | dialogue | sp= | sc=kitchen | “알람 끄고 또 자잖아.”
+6 | narration | sp= | sc=kitchen | 은경은 휴대폰을 들었다.
+7 | narration | sp= | sc=kitchen | 05:40.
+8 | narration | sp= | sc=kitchen | 알람은 세 개였다.
+9 | narration | sp= | sc=kitchen | 05:40.
+10 | narration | sp= | sc=kitchen | 05:43.
+11 | narration | sp= | sc=kitchen | 05:47.
+12 | dialogue | sp= | sc=kitchen | “세 개나 해 놨어.”
+13 | dialogue | sp= | sc=kitchen | “지난번에도 세 개였어.”
+14 | dialogue | sp= | sc=kitchen | “그럼 네 개.”
+15 | narration | sp= | sc=kitchen | 은경이 05:50을 하나 더 만들었다.
+16 | narration | sp= | sc=kitchen | 딸은 그제야 문을 닫았다.
+17 | narration | sp= | sc=kitchen | 냉장고를 열자 물병이 하나 남아 있었다.
+18 | narration | sp= | sc=kitchen | 은경은 그걸 꺼내 식탁 위에 올려놓았다.
+19 | narration | sp= | sc=kitchen | 우유통은 비어 있었다.
+20 | narration | sp= | sc=kitchen | 손잡이만 잡았다가 다시 놓았다.
+21 | narration | sp= | sc=kitchen | 휴대폰에 메시지가 왔다.
+22 | system | sp= | sc=kitchen | 우유 없음
+23 | narration | sp= | sc=kitchen | 방금 문을 닫은 딸이었다.
+24 | narration | sp= | sc=kitchen | 은경이 답했다.
+25 | system | sp= | sc=kitchen | 내일 사갈게
+26 | narration | sp= | sc=kitchen | 잠깐 뒤 답이 왔다.
+27 | system | sp= | sc=kitchen | 안 까먹게 알람 해
+28 | narration | sp= | sc=kitchen | 은경은 웃었다.
+29 | narration | sp= | sc=kitchen | 05:40 알람 이름을 바꿨다.
+30 | system | sp= | sc=kitchen | 일어나기 / 우유
+31 | narration | sp= | sc=kitchen | 문해린의 아이는 체육복을 찾고 있었다.
+32 | narration | sp= | sc=kitchen | 침대 위에는 교복 셔츠와 체육복 바지가 뒤섞여 있었다.
+33 | dialogue | sp= | sc=kitchen | “엄마, 위에 거 못 봤어?”
+34 | narration | sp= | sc=kitchen | 해린은 식탁에 앉아 병원 앱을 보고 있었다.
+35 | dialogue | sp= | sc=kitchen | “의자 뒤.”
+36 | narration | sp= | sc=kitchen | 아이는 의자 등받이에 걸린 체육복을 집었다.
+37 | narration | sp= | sc=kitchen | 식탁 한쪽에는 학교 가정통신문이 놓여 있었다.
+38 | narration | sp= | sc=kitchen | 그 옆에는 병원 서류 봉투가 있었다.
+39 | system | sp= | sc=kitchen | 추가 검증 완료 예정 06:00
+40 | system | sp= | sc=kitchen | 치료 일정 08:00
+41 | narration | sp= | sc=kitchen | 해린은 화면을 한 번 내렸다가 다시 올렸다.
+42 | narration | sp= | sc=kitchen | 시간은 그대로였다.
+43 | narration | sp= | sc=kitchen | 아이가 체육복을 가방에 넣었다.
+44 | narration | sp= | sc=kitchen | 해린이 물었다.
+45 | dialogue | sp= | sc=kitchen | “병원 끝나고 학교 갈 수 있겠어?”
+46 | dialogue | sp= | sc=kitchen | “가야지.”
+47 | dialogue | sp= | sc=kitchen | “힘들면 안 가도 돼.”
+48 | dialogue | sp= | sc=kitchen | “내일 체육 있어.”
+49 | narration | sp= | sc=kitchen | 해린은 대답하지 않았다.
+50 | narration | sp= | sc=kitchen | 아이가 가방 지퍼를 닫다가 다시 열었다.
+51 | dialogue | sp= | sc=kitchen | “엄마.”
+52 | dialogue | sp= | sc=kitchen | “응.”
+53 | dialogue | sp= | sc=kitchen | “병원복 입고 학교 가도 돼?”
+54 | narration | sp= | sc=kitchen | 해린은 병원 서류 봉투를 들었다.
+55 | narration | sp= | sc=kitchen | 학교 가방에 넣으려다가 멈췄다.
+56 | dialogue | sp= | sc=kitchen | “갈아입고 가면 돼.”
+57 | narration | sp= | sc=kitchen | 그녀는 봉투를 자기 가방에 넣었다.
+58 | narration | sp= | sc=kitchen | 아이는 고개를 끄덕였다.
+59 | narration | sp= | sc=kitchen | 가방 지퍼가 닫혔다.
+60 | narration | sp= | sc=kitchen | 밤 열 시가 조금 넘었다.
+61 | narration | sp= | sc=kitchen | 은경은 침대에 누워 단말을 켰다.
+62 | narration | sp= | sc=kitchen | 화면 아래에 익숙한 문장이 떠 있었다.
+63 | system | sp= | sc=kitchen | 고부하 야간 인지 패키지 / 활성
+64 | narration | sp= | sc=kitchen | 정산 예상액이 그 아래에 있었다.
+65 | narration | sp= | sc=kitchen | 은경은 금액을 오래 보지 않았다.
+66 | narration | sp= | sc=kitchen | 활성을 눌렀다.
+67 | narration | sp= | sc=kitchen | 확인창도 읽지 않았다.
+68 | narration | sp= | sc=kitchen | 매일 하던 일이었다.
+69 | narration | sp= | sc=kitchen | 은경은 05:40 알람을 다시 확인했다.
+70 | system | sp= | sc=kitchen | 일어나기 / 우유
+71 | narration | sp= | sc=kitchen | 그 아래 05:43, 05:47, 05:50이 줄지어 있었다.
+72 | narration | sp= | sc=kitchen | 단말 화면이 어두워졌다.
+73 | narration | sp= | sc=room | 해린의 아이는 먼저 잠들었다.
+74 | narration | sp= | sc=room | 방문 아래로 불빛이 새어 나오지 않았다.
+75 | narration | sp= | sc=room | 해린은 현관 앞에 자기 가방을 세워 두었다.
+76 | narration | sp= | sc=room | 병원 서류 봉투가 가방 안쪽에서 조금 튀어나와 있었다.
+77 | narration | sp= | sc=room | 휴대폰을 충전기에 꽂았다.
+78 | narration | sp= | sc=room | 병원 앱을 다시 열었다.
+79 | system | sp= | sc=room | 추가 검증 완료 예정 06:00
+80 | narration | sp= | sc=room | 변화 없음.
+81 | narration | sp= | sc=room | 해린은 알람을 맞췄다.
+82 | narration | sp= | sc=room | 05:30.
+83 | narration | sp= | sc=room | 아침에 아이가 먹을 죽을 냉장고에서 꺼내 앞쪽으로 옮겼다.
+84 | narration | sp= | sc=room | 숟가락도 하나 꺼내 식탁에 놓았다.
+85 | narration | sp= | sc=room | 다시 휴대폰을 봤다.
+86 | narration | sp= | sc=room | 06:00.
+87 | narration | sp= | sc=room | 그 숫자가 그대로였다.
+88 | narration | sp= | sc=room | 해린은 화면을 끄고 휴대폰을 충전기 옆에 내려놓았다.
+89 | narration | sp= | sc=room | 은경의 휴대폰에는 05:40이 켜져 있었다.
+90 | narration | sp= | sc=room | 해린의 휴대폰에는 06:00이 남아 있었다.

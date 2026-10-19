@@ -34,7 +34,7 @@ export class EpisodeOneStage {
       slot.classList.toggle('speaking',cue.focus===person.name);slot.classList.toggle('listening',Boolean(cue.focus)&&cue.focus!==person.name);
       if(slot.dataset.asset!==person.asset){
         slot.querySelectorAll('.ep1-previous').forEach(n=>n.remove());
-        const previous=slot.querySelector('img');if(previous){previous.classList.add('ep1-previous');previous.setAttribute('aria-hidden','true');}
+        const previous=slot.querySelector('img');if(previous){previous.classList.add('ep1-previous');previous.setAttribute('aria-hidden','true');previous.addEventListener('animationend',()=>previous.remove(),{once:true});}
         const img=document.createElement('img');img.src=this.assets[person.asset];img.alt=person.name;img.className='ep1-current';slot.append(img);slot.dataset.asset=person.asset;
       }
     }
@@ -42,11 +42,12 @@ export class EpisodeOneStage {
     if(cue.document){
       const signature=JSON.stringify(cue.document);
       if(this.panel.dataset.signature!==signature){
-        this.panel.replaceChildren();const eyebrow=document.createElement('span');eyebrow.className='ep1-doc-label';eyebrow.textContent='퇴직 의사 확인서';this.panel.append(eyebrow);
+        this.panel.setAttribute('aria-label',cue.document.ariaLabel||'장면 속 퇴직 의사 확인서');
+        this.panel.replaceChildren();const eyebrow=document.createElement('span');eyebrow.className='ep1-doc-label';eyebrow.textContent=cue.document.label||'퇴직 의사 확인서';this.panel.append(eyebrow);
         if(cue.document.showRisks){
-          const rows=[['향후 24개월 예상 소득 안정성','−31.2%'],['가족 연계 의료 플랜 비용','+14.8%'],['주거 신용등급 하락 가능성','22.1%']];
+          const rows=cue.document.rows||[['향후 24개월 예상 소득 안정성','−31.2%'],['가족 연계 의료 플랜 비용','+14.8%'],['주거 신용등급 하락 가능성','22.1%']];
           const dl=document.createElement('dl');rows.forEach(([k,v])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=k;dd.textContent=v;dl.append(dt,dd);});this.panel.append(dl);
-          const note=document.createElement('p');note.textContent='재고를 권장합니다.';this.panel.append(note);
+          const note=document.createElement('p');note.textContent=cue.document.note??'재고를 권장합니다.';this.panel.append(note);
         }
         this.panel.dataset.signature=signature;
       }

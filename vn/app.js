@@ -11,11 +11,37 @@ import { preparePerception, communicationReadDelay, sensoryContextForBeat } from
 import { exportSaveData, importSaveData } from './save-portability.js';
 import { EP1_ASSETS } from './ep1-assets.js';
 import { episodeOneDirection, EPISODE_ONE_SCENES } from './episode-one.js';
+import { episodeTwoDirection, EPISODE_TWO_SCENES } from './episode-two.js';
 import { EpisodeOneStage } from './episode-one-stage.js';
 import { createEpisodeOneAudio } from './episode-one-audio.js';
 import { episodeOneReadingPage, episodeOnePreviousPage, isEpisodeOneObservation } from './episode-one-reading.js';
+import { episodeTwoReadingPage, episodeTwoPreviousPage, episodeTwoSpeaker } from './episode-two-reading.js';
+import {
+  SEQUENCE_19_22_CHAPTERS,
+  SEQUENCE_19_22_ASSETS,
+  SEQUENCE_19_22_CHAPTER_INFO,
+  SEQUENCE_19_22_SCENES,
+  isSequence1922Chapter,
+  sequenceSpeaker,
+  sequenceBeatDirection,
+  sequenceReadingPage,
+  sequencePreviousPage,
+  nextSequence1922Progress,
+  previousSequence1922Progress,
+} from './sequence-19-22.js';
+
+function episodeDirection(chapter, index) { return episodeOneDirection(chapter, index) ?? episodeTwoDirection(chapter, index); }
+function episodeReadingPage(chapter, index) { return episodeOneReadingPage(chapter, index) ?? episodeTwoReadingPage(chapter, index) ?? sequenceReadingPage(chapter, index); }
+function episodePreviousPage(chapter, index) { return episodeOnePreviousPage(chapter, index) ?? episodeTwoPreviousPage(chapter, index) ?? sequencePreviousPage(chapter, index); }
+function resolvedSpeaker(chapter, beat, index) {
+  const id = String(chapter?.id);
+  if (id === '2') return episodeTwoSpeaker(index, beat);
+  if (isSequence1922Chapter(id)) return sequenceSpeaker(chapter, index, beat);
+  return beat?.speaker ?? '';
+}
 
 const story = normalizeStory(window.STORY);
+story.assets = { ...(story.assets || {}), ...SEQUENCE_19_22_ASSETS };
 const $ = (id) => document.getElementById(id);
 const titleScreen = $('titleScreen'), gameScreen = $('gameScreen');
 const modal = $('modal'), modalContent = $('modalContent');
@@ -31,7 +57,7 @@ store.settings.auto = false; store.settings.skip = false;
 let storageHealthy = Boolean(browserStorage), storageWarningShown = false, restoreFocus = null;
 let typeTimer = 0, fullText = '', typing = false, modalMode = '', backlog = [];
 let backlogRestore = null, transientBacklog = false, autoTimer = 0, previousPlace = '';
-let pendingChapter = null;
+let pendingChapter = null, sequenceMode = null;
 const audio = createAudioDirector(() => store.settings);
 const neuralStage = new NeuralStage($('neuralStage'));
 const episodeStage = new EpisodeOneStage($('episodeOneStage'), EP1_ASSETS);
@@ -65,7 +91,10 @@ function syncReadingTools() {
   $('autoToggle').setAttribute('aria-pressed', String(store.settings.auto));
   $('skipToggle').setAttribute('aria-pressed', String(store.settings.skip));
   $('readingStatus').textContent = store.settings.auto ? '자동 진행 중 · A 또는 Esc로 멈춤' : store.settings.skip ? '읽은 문장만 넘기는 중 · K 또는 Esc로 멈춤' : '직접 읽기';
-  $('previousButton').disabled = progress.chapterId === story.chapters[0]?.id && progress.beatIndex === 0;
+  const atStart = sequenceMode === '19-22'
+    ? (progress.chapterId === SEQUENCE_19_22_CHAPTERS[0] && progress.beatIndex === 0)
+    : (progress.chapterId === story.chapters[0]?.id && progress.beatIndex === 0);
+  $('previousButton').disabled = atStart;
 }
 function pauseReading() {
   clearTimeout(autoTimer); store.settings.auto = false; store.settings.skip = false; syncReadingTools();
@@ -158,10 +187,10 @@ function renderChart(chart, compact = false) {
   figure.append(items); return figure;
 }
 
-function renderDirection(beat, { quiet = false } = {}) {
-  const direction = beat.direction;
+function renderDirection(beat, { quiet = false, directionOverride = null } = {}) {
+  const direction = directionOverride ?? beat.direction;
   stageImage.dataset.mood = direction?.mood ?? 'quiet';
-  stageImage.dataset.episodeNight=String(Boolean(currentEpisodeCue&&currentEpisodeCue.index>=196));
+  stageImage.dataset.episodeNight=String(Boolean(currentEpisodeCue&&(currentEpisodeCue.backgroundAsset==='homeNight'||(chapterAt()?.id==='1'&&currentEpisodeCue.index>=196))));
   stageImage.dataset.camera = direction?.camera ?? 'wide';
   stageImage.dataset.effect = direction?.effect ?? '';
   stageImage.classList.toggle('reduced-motion', store.settings.reducedMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches);
@@ -182,7 +211,7 @@ function renderDirection(beat, { quiet = false } = {}) {
   castRail.hidden = !cast.length;
   const portraits = directedCast(direction, story.assets, beat.portrait);
   const setPortrait = (wrap, image, person) => {
-    if (!person) { wrap.classList.remove('visible'); return; }
+    if (!person) { wrap.classList.remove('visible'); image.removeAttribute('src'); image.alt = ''; return; }
     if (image.getAttribute('src') !== story.assets[person.id]) image.src = story.assets[person.id];
     image.alt = person.name || '';
     wrap.dataset.side = person.side; wrap.classList.add('visible');
@@ -258,21 +287,24 @@ function openVisual(visual) {
   showModal(root, 'visual');
 }
 
-function play(chapterId = story.chapters[0]?.id, beatIndex = 0, reset = false, savedProgress = null) {
+function play(chapterId = story.chapters[0]?.id, beatIndex = 0, reset = false, savedProgress = null, { keepSequence = false } = {}) {
   if (!story.chapters.length) { openLibrary(); return; }
+  if (savedProgress?.sequenceMode === '19-22' && isSequence1922Chapter(chapterId)) sequenceMode = '19-22';
+  else if (!keepSequence || !isSequence1922Chapter(chapterId)) sequenceMode = null;
   clearTimers(); pauseReading(); document.querySelector('.end-screen')?.remove();
   if (store.autosave && (reset || chapterId !== store.autosave.progress.chapterId || beatIndex !== store.autosave.progress.beatIndex)) {
     store.metadata.returnPoint = structuredClone(store.autosave);
   }
   if (reset) { backlog = []; episodeAudio.reset(); }
   progress = reset ? clampProgress({ ...freshProgress(story, chapterId), beatIndex }, story) : clampProgress(savedProgress ?? { chapterId, beatIndex }, story);
+  if (sequenceMode === '19-22' && isSequence1922Chapter(progress.chapterId)) progress.sequenceMode = '19-22';
   if (!reset) {
     backlog = []; const visited = new Set(store.seen), chapterIndex = story.chapters.findIndex((item) => item.id === progress.chapterId);
     for (let c = chapterIndex; c >= 0 && backlog.length < MAX_BACKLOG; c--) {
       const chapter = story.chapters[c], end = c === chapterIndex ? progress.beatIndex - 1 : chapter.beats.length - 1;
       for (let i = end; i >= 0 && backlog.length < MAX_BACKLOG; i--) {
         if (!visited.has(`${chapter.id}:${i}`)) continue;
-        const beat = chapter.beats[i]; backlog.push({ key: `${chapter.id}:${i}`, chapterId: chapter.id, beatIndex: i, label: chapter.label, speaker: beat.speaker, text: beat.text });
+        const beat = chapter.beats[i]; backlog.push({ key: `${chapter.id}:${i}`, chapterId: chapter.id, beatIndex: i, label: chapter.label, speaker: resolvedSpeaker(chapter, beat, i), text: beat.text });
       }
     }
     backlog.reverse();
@@ -282,13 +314,13 @@ function play(chapterId = story.chapters[0]?.id, beatIndex = 0, reset = false, s
   titleScreen.hidden = true; gameScreen.hidden = false; pendingChapter = null;
   lastCommunicationGroup = '';
   renderBeat({ revisit: !reset });
-  if (chapterId === '1' && store.settings.sound) episodeAudio.unlock().then(ok=>{if(ok&&currentEpisodeCue&&!gameScreen.hidden&&!modal.open)episodeAudio.render(currentEpisodeCue,{quiet:true});});
+  if ((chapterId === '1' || chapterId === '2') && store.settings.sound) episodeAudio.unlock().then(ok=>{if(ok&&currentEpisodeCue&&!gameScreen.hidden&&!modal.open)episodeAudio.render(currentEpisodeCue,{quiet:true});});
 }
 
 function recordBacklog(chapter, beat, index) {
   const key = `${chapter.id}:${index}`;
   if (!beat || (backlog.length && backlog.at(-1).key === key)) return;
-  backlog.push({ key, chapterId: chapter.id, beatIndex: index, label: chapter.label, speaker: beat.speaker, text: beat.text });
+  backlog.push({ key, chapterId: chapter.id, beatIndex: index, label: chapter.label, speaker: resolvedSpeaker(chapter, beat, index), text: beat.text });
   if (backlog.length > MAX_BACKLOG) backlog = backlog.slice(-MAX_BACKLOG);
 }
 
@@ -306,11 +338,12 @@ function renderBeat({ revisit = false } = {}) {
   $('readingAnnouncement').textContent = ''; $('storyBox').scrollTop = 0; storyText.scrollTop = 0;
   const chapter = chapterAt(), beat = beatAt();
   if (!chapter || !beat) { renderChapterEnd(); return; }
-  currentReadingPage = episodeOneReadingPage(chapter, progress.beatIndex);
-  currentEpisodeCue = episodeOneDirection(chapter, progress.beatIndex);
+  currentReadingPage = episodeReadingPage(chapter, progress.beatIndex);
+  currentEpisodeCue = episodeDirection(chapter, progress.beatIndex);
   if (currentEpisodeCue && currentReadingPage?.entries.length > 1) currentEpisodeCue.focus = currentReadingPage.focus;
   $('storyBox').classList.toggle('reading-page', Boolean(currentReadingPage?.entries.length > 1));
-  $('chapterLabel').textContent = chapter.label;
+  const seqInfo = sequenceMode === '19-22' ? SEQUENCE_19_22_CHAPTER_INFO[chapter.id] : null;
+  $('chapterLabel').textContent = seqInfo ? `${chapter.label} · 시퀀스 ${seqInfo.step}` : chapter.label;
   $('chapterTitle').textContent = chapter.title;
   const total = chapter.beats.length;
   const pageEnd = currentReadingPage?.end ?? progress.beatIndex;
@@ -319,7 +352,8 @@ function renderBeat({ revisit = false } = {}) {
   stageImage.className = 'stage-image';
   const scene = currentEpisodeCue?.background || beat.scene || 'room';
   const homeScene = currentEpisodeCue && ['room', 'kitchen'].includes(scene);
-  const background = homeScene ? EP1_ASSETS[currentEpisodeCue.index >= 196 ? 'homeNight' : 'homeMorning'] : story.assets?.[scene];
+  const background = (currentEpisodeCue?.backgroundAsset && EP1_ASSETS[currentEpisodeCue.backgroundAsset])
+    || (homeScene ? EP1_ASSETS[currentEpisodeCue.index >= 196 ? 'homeNight' : 'homeMorning'] : story.assets?.[scene]);
   if (background) {
     stageImage.classList.remove('no-background');
     if (background !== sceneBackground) {
@@ -328,6 +362,11 @@ function renderBeat({ revisit = false } = {}) {
     }
   } else { stageImage.classList.add('no-background', `fallback-${sceneClass(scene)}`); }
   currentPerception = preparePerception(chapter, progress.beatIndex, presentationForBeat, (index) => isSeen(store.seen, chapter.id, index));
+  if (chapter.id === '2' && (progress.beatIndex === 283 || progress.beatIndex === 285) && currentPerception?.primary) {
+    currentPerception.presentation.history = [280, 283]
+      .filter((idx) => idx < progress.beatIndex && isSeen(store.seen, '2', idx))
+      .map((idx) => ({ id: `2:${idx}`, body: chapter.beats[idx]?.text || '' }));
+  }
   const primary = Boolean(currentPerception?.primary);
   $('stage').dataset.communication = currentPerception?.source.kind || '';
   $('stage').dataset.signalPriority = currentPerception?.source.priority || '';
@@ -337,13 +376,17 @@ function renderBeat({ revisit = false } = {}) {
   $('storyBox').setAttribute('aria-label', primary ? '연결 내용 다음으로 진행' : '대화 영역. 다음 문장으로 진행');
   storyText.hidden = primary;
   $('perceptionAdvance').hidden = !primary;
-  renderDirection(beat, { quiet: revisit });
+  const activeDirection = isSequence1922Chapter(chapter)
+    ? sequenceBeatDirection(chapter, beat, currentReadingPage?.end ?? progress.beatIndex)
+    : beat.direction;
+  if (activeDirection && currentReadingPage?.focus) activeDirection.focus = currentReadingPage.focus;
+  renderDirection(beat, { quiet: revisit, directionOverride: activeDirection });
   // Authored graphics return immediately when perception stops; do not leave a
   // stale hidden card merely because its visual id has not changed.
-  directionCard.hidden = Boolean(currentEpisodeCue) || Boolean(currentPerception) || !beat.direction?.visual;
-  speakerNode.textContent = currentReadingPage?.speaker ?? beat.speaker ?? '';
+  directionCard.hidden = Boolean(currentEpisodeCue) || Boolean(currentPerception) || !activeDirection?.visual;
+  speakerNode.textContent = currentReadingPage?.speaker ?? resolvedSpeaker(chapter, beat, progress.beatIndex);
   speakerNode.hidden = primary || !speakerNode.textContent;
-  storyText.className = `story-text${beat.kind === 'system' ? ' system' : ''}${beat.direction?.emphasis ? ' authored-emphasis' : ''}`;
+  storyText.className = `story-text${beat.kind === 'system' ? ' system' : ''}${activeDirection?.emphasis ? ' authored-emphasis' : ''}`;
   choiceArea.replaceChildren();
   const chosenIndex = progress.choices?.[`${chapter.id}:${progress.beatIndex}`];
   if (beat.choice) renderChoices(beat, chapter, chosenIndex);
@@ -452,7 +495,9 @@ function advance() {
   const currentBeat = beatAt(), currentChapter = chapterAt();
   if (needsChoice() && progress.choices?.[`${currentChapter.id}:${progress.beatIndex}`] === undefined) { toast('먼저 답을 골라 주세요.'); return; }
   feedback();
-  const next = nextProgress({ ...progress, beatIndex: currentReadingPage?.end ?? progress.beatIndex }, story);
+  const effectivePos = { ...progress, beatIndex: currentReadingPage?.end ?? progress.beatIndex };
+  const inSequence = sequenceMode === '19-22' && isSequence1922Chapter(progress.chapterId);
+  const next = inSequence ? nextSequence1922Progress(effectivePos, story) : nextProgress(effectivePos, story);
   if (next.finished) { progress = { ...progress, finished: true }; if (!transientBacklog) saveCurrent(); renderChapterEnd(true); return; }
   if (next.chapterId !== progress.chapterId) {
     pendingChapter = next.chapterId;
@@ -465,6 +510,7 @@ function advance() {
 }
 
 function saveCurrent() {
+  if (sequenceMode === '19-22' && isSequence1922Chapter(progress.chapterId)) progress.sequenceMode = '19-22';
   store.autosave = makeSave(progress, chapterAt(), beatAt()); saveStore();
 }
 
@@ -472,8 +518,11 @@ function goPrevious() {
   if (gameScreen.hidden || modal.open || document.querySelector('.end-screen')) return;
   if ($('stage').classList.contains('ui-hidden')) { setUiHidden(false); return; }
   pauseReading();
-  const pageIndex = episodeOnePreviousPage(chapterAt(), progress.beatIndex);
-  const previous = pageIndex === null ? previousProgress(progress, story) : { ...progress, beatIndex: pageIndex, finished: false };
+  const pageIndex = episodePreviousPage(chapterAt(), progress.beatIndex);
+  const inSequence = sequenceMode === '19-22' && isSequence1922Chapter(progress.chapterId);
+  const previous = pageIndex === null
+    ? (inSequence ? previousSequence1922Progress(progress, story) : previousProgress(progress, story))
+    : { ...progress, beatIndex: pageIndex, finished: false };
   if (previous.chapterId !== progress.chapterId || previous.beatIndex !== progress.beatIndex) {
     progress = previous; if (!transientBacklog) saveCurrent(); renderBeat({ revisit: true });
   }
@@ -486,19 +535,46 @@ function renderChapterEnd(final = false) {
   document.querySelector('.end-screen')?.remove();
   const ending = document.createElement('div'); ending.className = 'end-screen';
   const card = document.createElement('section'); card.className = 'end-card';
-  const eyebrow = document.createElement('p'); eyebrow.className = 'eyebrow'; eyebrow.textContent = final ? 'END OF STORY' : 'CHAPTER COMPLETE';
-  const title = document.createElement('h2'); title.textContent = progress.chapterId === '1' ? '자신과 단둘이' : final ? '마지막 페이지' : '잠시 숨을 고르고';
-  const message = document.createElement('p'); message.textContent = final ? '이야기의 끝에 도착했습니다. 함께 읽어 주셔서 고맙습니다.' : '이 장의 이야기를 마쳤습니다.';
+  const eyebrow = document.createElement('p'); eyebrow.className = 'eyebrow';
+  const title = document.createElement('h2');
+  const message = document.createElement('p');
   const actions = document.createElement('div'); actions.className = 'end-actions';
-  const nextButton = document.createElement('button'); nextButton.textContent = final ? '목차로' : '다음 장';
+  const seqInfo = sequenceMode === '19-22' ? SEQUENCE_19_22_CHAPTER_INFO[progress.chapterId] : null;
+  if (seqInfo) {
+    eyebrow.textContent = final ? 'SEQUENCE 19–22 COMPLETE' : `SEQUENCE ${seqInfo.step} COMPLETE`;
+    title.textContent = seqInfo.endTitle;
+    message.textContent = seqInfo.endMessage;
+  } else {
+    eyebrow.textContent = final ? 'END OF STORY' : 'CHAPTER COMPLETE';
+    title.textContent = progress.chapterId === '1' ? '자신과 단둘이' : progress.chapterId === '2' ? '이상하게 좋다' : final ? '마지막 페이지' : '잠시 숨을 고르고';
+    message.textContent = final ? '이야기의 끝에 도착했습니다. 함께 읽어 주셔서 고맙습니다.' : '이 장의 이야기를 마쳤습니다.';
+  }
+  const nextButton = document.createElement('button');
+  const nextSeqLabel = pendingChapter && SEQUENCE_19_22_CHAPTER_INFO[pendingChapter]?.label;
+  nextButton.textContent = final ? (seqInfo ? '시퀀스 목차' : '목차로') : (seqInfo && nextSeqLabel ? `다음 화 (${nextSeqLabel})` : '다음 장');
   nextButton.addEventListener('click', () => {
     ending.remove();
-    if (final) { titleScreen.hidden = false; gameScreen.hidden = true; return; }
+    if (final) {
+      titleScreen.hidden = false; gameScreen.hidden = true;
+      if (seqInfo) openSequence1922Modal();
+      return;
+    }
     progress = { ...progress, chapterId: pendingChapter, beatIndex: 0, finished: false }; pendingChapter = null; saveCurrent(); renderBeat();
+    if ((progress.chapterId === '1' || progress.chapterId === '2') && store.settings.sound) episodeAudio.unlock().then(ok=>{if(ok&&currentEpisodeCue&&!gameScreen.hidden&&!modal.open)episodeAudio.render(currentEpisodeCue,{quiet:true});});
   });
-  const menuButton = document.createElement('button'); menuButton.textContent = '목차';
-  menuButton.addEventListener('click', () => { ending.remove(); titleScreen.hidden = false; gameScreen.hidden = true; openChapters(); });
-  actions.append(nextButton, menuButton); card.append(eyebrow, title, message, actions); ending.append(card); $('stage').append(ending);
+  actions.append(nextButton);
+  if (final && seqInfo && chapterAt('22-1')) {
+    const afterSeqButton = document.createElement('button'); afterSeqButton.textContent = '다음 이야기로 (제22-1화)';
+    afterSeqButton.addEventListener('click', () => { ending.remove(); sequenceMode = null; play('22-1', 0, true); });
+    actions.append(afterSeqButton);
+  }
+  const menuButton = document.createElement('button'); menuButton.textContent = seqInfo ? (final ? '타이틀로' : '시퀀스 목차') : '목차';
+  menuButton.addEventListener('click', () => {
+    ending.remove(); titleScreen.hidden = false; gameScreen.hidden = true;
+    if (seqInfo && !final) openSequence1922Modal();
+    else if (!seqInfo) openChapters();
+  });
+  actions.append(menuButton); card.append(eyebrow, title, message, actions); ending.append(card); $('stage').append(ending);
 }
 
 function showModal(content, mode) {
@@ -618,7 +694,9 @@ function openChapters() {
 }
 
 function chapterMoments(chapter) {
-  if (episodeOneDirection(chapter, 0)) return EPISODE_ONE_SCENES.map(({index,title})=>({beatIndex:index,place:title,authored:true}));
+  if (episodeOneDirection(chapter, 0)) return EPISODE_ONE_SCENES.map(({index,title})=>({beatIndex:index,place:title,authored:true,episodeLabel:'1화 체험판'}));
+  if (episodeTwoDirection(chapter, 0)) return EPISODE_TWO_SCENES.map(({index,title})=>({beatIndex:index,place:title,authored:true,episodeLabel:'2화 연출'}));
+  if (SEQUENCE_19_22_SCENES[chapter?.id]) return SEQUENCE_19_22_SCENES[chapter.id].map(({index,title})=>({beatIndex:index,place:title,authored:true,episodeLabel:`19~22화 시퀀스 · ${SEQUENCE_19_22_CHAPTER_INFO[chapter.id]?.step || ''}`}));
   const seenVisuals = new Set(), seenSignals = new Set(); let previousPlace = '';
   return chapter.beats.flatMap((beat, beatIndex) => {
     const direction = beat.direction, place = direction?.place || '';
@@ -635,21 +713,78 @@ function chapterMoments(chapter) {
   });
 }
 
-function openChapterScenes(chapter) {
+function openChapterScenes(chapter, options = {}) {
   const moments = chapterMoments(chapter);
+  const fromSequence = Boolean(options.fromSequence || (sequenceMode === '19-22' && isSequence1922Chapter(chapter?.id)));
   const root = document.createElement('div'); root.append(modalHeading('연출 장면', `${chapter.label} · 장면이 시작되는 위치를 고를 수 있습니다.`));
+  if (fromSequence) {
+    const backBar = document.createElement('div'); backBar.className = 'demo-start-actions';
+    const backBtn = document.createElement('button'); backBtn.type = 'button'; backBtn.className = 'small-button'; backBtn.textContent = '← 19~22화 시퀀스 목차로';
+    backBtn.addEventListener('click', () => openSequence1922Modal());
+    backBar.append(backBtn); root.append(backBar);
+  }
   if (!moments.length) { const empty = document.createElement('p'); empty.className = 'modal-lead'; empty.textContent = '이 장에는 별도로 표시한 장면 연출이 없습니다.'; root.append(empty); }
   const list = document.createElement('div'); list.className = 'chapter-list scene-index-list';
   moments.forEach((moment, index) => {
     const card = document.createElement('div'); card.className = 'chapter-card';
     const copy = document.createElement('div'); copy.className = 'chapter-copy';
     const title = document.createElement('strong'); title.textContent = `${String(index + 1).padStart(2, '0')} · ${moment.place || moment.signal?.title || '시각 기록'}`;
-    const detail = document.createElement('span'); detail.textContent = moment.authored ? '1화 체험판 · 이 장면에서 시작' : moment.signal ? `${moment.signal.sender ? `${moment.signal.sender} · ` : ''}이 장면에서 시작` : `이 장면에서 시작 · ${moment.visualType ? '정보 패널 포함' : '장소 전환'}`;
+    const detail = document.createElement('span'); detail.textContent = moment.authored ? `${moment.episodeLabel || '1화 체험판'} · 이 장면에서 시작` : moment.signal ? `${moment.signal.sender ? `${moment.signal.sender} · ` : ''}이 장면에서 시작` : `이 장면에서 시작 · ${moment.visualType ? '정보 패널 포함' : '장소 전환'}`;
     const button = document.createElement('button'); button.className = 'small-button'; button.type = 'button'; button.textContent = '이곳에서 읽기';
-    button.addEventListener('click', () => { closeModal(); play(chapter.id, moment.beatIndex, true); });
+    button.addEventListener('click', () => { closeModal(); play(chapter.id, moment.beatIndex, true, fromSequence ? { sequenceMode: '19-22' } : null); });
     copy.append(title, detail); card.append(copy, button); list.append(card);
   });
   root.append(list); modalContent.replaceChildren(root); modalMode = 'scenes'; $('modalClose').focus();
+}
+
+function openSequence1922Modal() {
+  const root = document.createElement('div');
+  root.append(modalHeading('19~22화 시퀀스 · 네 번째 안전', '04-771 사건과 여섯 초의 의료 지연이 위원회·물류창고·가정으로 번지는 6편 연속 재생'));
+  const note = document.createElement('p'); note.className = 'demo-mode-note';
+  note.textContent = '제19화부터 제22화까지 04-771·의료 지연 직결 6편(19 → 20 → 20-1 → 21 → 21-1 → 22화)을 전용 연속 시퀀스로 감상합니다. 처음부터 이어서 재생하거나 원하는 화·주요 장면에서 바로 시작할 수 있습니다.';
+  const actions = document.createElement('div'); actions.className = 'demo-start-actions';
+  actions.append(actionButton('처음부터 연속 재생 (제19화)', () => {
+    closeModal();
+    play('19', 0, true, { sequenceMode: '19-22' });
+  }));
+  if (store.autosave && isSequence1922Chapter(store.autosave.progress?.chapterId)) {
+    const savedInfo = SEQUENCE_19_22_CHAPTER_INFO[store.autosave.progress.chapterId];
+    actions.append(actionButton(`시퀀스 이어 읽기 (${savedInfo?.label || store.autosave.progress.chapterId})`, () => {
+      closeModal();
+      play(store.autosave.progress.chapterId, store.autosave.progress.beatIndex, false, { ...store.autosave.progress, sequenceMode: '19-22' });
+    }));
+  }
+  root.append(note, actions);
+  const list = document.createElement('div'); list.className = 'chapter-list sequence-track-list';
+  SEQUENCE_19_22_CHAPTERS.forEach((chapterId) => {
+    const chapter = chapterAt(chapterId);
+    const info = SEQUENCE_19_22_CHAPTER_INFO[chapterId];
+    if (!chapter || !info) return;
+    const card = document.createElement('div'); card.className = 'chapter-card sequence-track-card';
+    card.dataset.chapterId = chapterId;
+    const copy = document.createElement('div'); copy.className = 'chapter-copy';
+    const title = document.createElement('strong');
+    const badge = document.createElement('span'); badge.className = 'sequence-step-badge'; badge.textContent = info.step;
+    title.append(badge, `${info.label} · ${info.title}`);
+    if (store.autosave?.progress?.chapterId === chapterId) {
+      const current = document.createElement('span'); current.className = 'chapter-current'; current.textContent = '읽던 장';
+      title.append(current);
+    }
+    const sub = document.createElement('span');
+    sub.textContent = `${info.summary} · ${chapter.beats.length} 문장 단위`;
+    copy.append(title, sub);
+    const cardActions = document.createElement('div'); cardActions.className = 'chapter-actions';
+    const playBtn = document.createElement('button'); playBtn.className = 'small-button'; playBtn.type = 'button'; playBtn.textContent = '시퀀스 읽기';
+    playBtn.addEventListener('click', () => { closeModal(); play(chapterId, 0, true, { sequenceMode: '19-22' }); });
+    const scenesBtn = document.createElement('button'); scenesBtn.className = 'small-button scene-index-button'; scenesBtn.type = 'button'; scenesBtn.textContent = '주요 장면';
+    scenesBtn.addEventListener('click', () => openChapterScenes(chapter, { fromSequence: true }));
+    cardActions.append(playBtn, scenesBtn);
+    card.append(copy, cardActions);
+    list.append(card);
+  });
+  root.append(list);
+  showModal(root, 'sequence-19-22');
+  Object.values(SEQUENCE_19_22_ASSETS).forEach((path) => { const image = new Image(); image.src = path; });
 }
 
 function openSettings() {
@@ -746,6 +881,7 @@ function openEpisodeOneDemo() {
   Object.entries(EP1_ASSETS).filter(([,path])=>path.endsWith('.webp')).forEach(([,path])=>{const image=new Image();image.src=path;});
 }
 $('demoButton').addEventListener('click', openEpisodeOneDemo);
+$('sequence1922Button')?.addEventListener('click', openSequence1922Modal);
 $('startButton').addEventListener('click', () => play(story.chapters[0]?.id, 0, true));
 $('continueButton').addEventListener('click', () => store.autosave ? play(store.autosave.progress.chapterId, store.autosave.progress.beatIndex, false, store.autosave.progress) : play(story.chapters[0]?.id, 0, true));
 $('chaptersButton').addEventListener('click', openChapters);
@@ -812,3 +948,13 @@ if (!story.chapters.length) {
 }
 syncSoundButton();
 syncContinueInfo(); syncReadingTools();
+const initialParams = new URLSearchParams(window.location.search);
+if (initialParams.get('sequence') === '19-22') {
+  const startCh = initialParams.get('chapter');
+  if (startCh && isSequence1922Chapter(startCh)) {
+    play(startCh, Number(initialParams.get('beat')) || 0, true, { sequenceMode: '19-22' });
+  } else {
+    openSequence1922Modal();
+  }
+}
+

@@ -1,0 +1,69 @@
+{
+  "episode": 2,
+  "title": "AI가 모르는 것",
+  "generatedAt": "2026-10-19",
+  "generator": "Python 3 + NumPy 2.4.6 procedural synthesis + FFmpeg libmp3lame (44.1kHz stereo)",
+  "verificationNote": "Synthesized deterministically via mathematical waveforms and filtered noise; container/decode/duration/hash verified programmatically (not human-listened).",
+  "assets": [
+    {
+      "file": "assets/ep2/livingroom-air.mp3",
+      "category": "ambience",
+      "purpose": "지우의 집 거실 — 희미한 약 냄새와 정적의 실내 공기·시계 초침 루프",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "durationSec": 12.0,
+      "bytes": 144867,
+      "sha256": "5c630066a2e168885866118cd4144f966f827660bb09e9f66250e074dc435252"
+    },
+    {
+      "file": "assets/ep2/tablet-slide.mp3",
+      "category": "fx",
+      "purpose": "식탁 위 태블릿을 서인 쪽으로 미는 마찰음과 탭 소리",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "durationSec": 0.78,
+      "bytes": 10076,
+      "sha256": "c0cc69f0fdd815a5402c997e7d643b6264fd28f40a49569ab50f492b8beedce4"
+    },
+    {
+      "file": "assets/ep2/tablet-off.mp3",
+      "category": "fx",
+      "purpose": "아버지가 가계 시뮬레이션 화면을 끄는 전원 차단음",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "durationSec": 0.62,
+      "bytes": 8195,
+      "sha256": "b6a1f0859129c71db7d4c2d184a6ad96a598c146eb504630ded95fd0a1af0ccb"
+    },
+    {
+      "file": "assets/ep2/street-walk.mp3",
+      "category": "ambience",
+      "purpose": "지우의 집을 나선 뒤 말없이 걷는 오후 골목 바람과 발걸음 루프",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "durationSec": 12.0,
+      "bytes": 144867,
+      "sha256": "14db1862c038f218f0bc23535ae011723238ae34a075a6651102fe0451f37382"
+    },
+    {
+      "file": "assets/ep2/serene-dream.mp3",
+      "category": "music",
+      "purpose": "소중한 사람과 떠나는 휴양지 — 지나치게 평온하고 매끈한 광고꿈 패드 루프",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "durationSec": 16.0,
+      "bytes": 192828,
+      "sha256": "bc194454404ff36f6b0916ec1a916a7f4c44341a5d4334d325760714f4c3f714"
+    },
+    {
+      "file": "assets/ep2/ad-cutoff.mp3",
+      "category": "fx",
+      "purpose": "광고 중도 종료 버튼 클릭 및 수면 링크 강제 차단·각성 충격음",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "durationSec": 0.92,
+      "bytes": 11956,
+      "sha256": "976f45e88fda2bfc6010a15964659df5952493761cc56ab1f3f161fe708d0dbb"
+    }
+  ]
+}

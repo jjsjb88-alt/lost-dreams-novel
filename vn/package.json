@@ -3,6 +3,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test state.test.js audio.test.mjs direction.test.mjs neural-ledger.test.mjs perception.test.mjs save-portability.test.mjs episode-one.test.mjs episode-one-audio.test.mjs episode-one-reading.test.mjs"
+    "test": "node --test state.test.js audio.test.mjs direction.test.mjs neural-ledger.test.mjs perception.test.mjs save-portability.test.mjs episode-one.test.mjs episode-one-audio.test.mjs episode-one-reading.test.mjs episode-two.test.mjs episode-two-reading.test.mjs sequence-19-22.test.mjs"
   }
 }

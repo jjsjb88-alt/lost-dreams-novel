@@ -1,0 +1,122 @@
+{
+  "episode": 2,
+  "title": "AI가 모르는 것",
+  "generatedAt": "2026-10-19",
+  "generator": "Antigravity image-generator subagent + Pillow WebP pipeline",
+  "styleReference": "vn/assets/ep1/* (Episode 1 character cutouts, home revision backgrounds, and event CGs)",
+  "assets": [
+    {
+      "file": "assets/ep2/father-calm.webp",
+      "kind": "character",
+      "description": "지우 아버지 기본(차분·체념) 컷아웃 — 마른 체형과 팔목 안쪽 정기 투약 포트",
+      "references": [
+        "assets/ep1/jiwoo-firm.webp",
+        "assets/ep1/mother-searching.webp"
+      ],
+      "width": 896,
+      "height": 1200,
+      "hasAlpha": true,
+      "transparentAreaRatio": 0.4583,
+      "bytes": 106712,
+      "sha256": "8262b4cc89c041ca099df635db659e78a0f03c0b8f8305bdd55072e5ed9cbf76"
+    },
+    {
+      "file": "assets/ep2/father-urgent.webp",
+      "kind": "character",
+      "description": "지우 아버지 호소(목소리가 높아진 순간) 컷아웃 — '너 지금까지 잘 살았잖아 / 뭐가 부족해?'",
+      "references": [
+        "assets/ep2/father-calm.webp"
+      ],
+      "width": 896,
+      "height": 1200,
+      "hasAlpha": true,
+      "transparentAreaRatio": 0.4579,
+      "bytes": 107194,
+      "sha256": "7a92cd4a08fcf405ddfbadc8f6e3feaa4b3f276ad547a5e4a27fb7b28a7056bd"
+    },
+    {
+      "file": "assets/ep2/father-bowed.webp",
+      "kind": "character",
+      "description": "지우 아버지 침묵·고개 숙임 컷아웃 — 화면을 끄고 끝내 고개를 들지 않는 순간",
+      "references": [
+        "assets/ep2/father-calm.webp"
+      ],
+      "width": 896,
+      "height": 1200,
+      "hasAlpha": true,
+      "transparentAreaRatio": 0.4545,
+      "bytes": 107526,
+      "sha256": "222b95a79d84853af93cf153e7770987c92148efd08b191de082328435583857"
+    },
+    {
+      "file": "assets/ep2/office-empty-desk.webp",
+      "kind": "background",
+      "description": "지우의 빈자리 배경 — 작은 화분과 텀블러, 점토 상자가 모두 사라진 빈 책상",
+      "references": [
+        "assets/office.webp"
+      ],
+      "width": 1376,
+      "height": 768,
+      "hasAlpha": false,
+      "bytes": 120848,
+      "sha256": "d9451611740d99583bcfb5ebacbdcd36a7569cd1c28926f5fa5b3ebf6cd6c200"
+    },
+    {
+      "file": "assets/ep2/jiwoo-home.webp",
+      "kind": "background",
+      "description": "지우의 집 거실·식탁 배경 — 희미한 병원 약 냄새가 감도는 거실과 약통, 식탁 위 태블릿",
+      "references": [
+        "assets/ep1/home-morning.webp"
+      ],
+      "width": 1376,
+      "height": 768,
+      "hasAlpha": false,
+      "bytes": 104384,
+      "sha256": "6ceb6622c2f5f5fc3d855597ff02895b99fa15cb62f89ae3d5dd063e3958b879"
+    },
+    {
+      "file": "assets/ep2/cg-father-tablet.webp",
+      "kind": "cg",
+      "description": "지우 아버지와의 대면 CG — 투약 포트가 붙은 마른 팔목으로 붉은 가계 시뮬레이션 태블릿을 미는 순간",
+      "references": [
+        "assets/ep2/father-calm.webp",
+        "assets/ep1/jiwoo-wounded.webp",
+        "assets/ep1/seoin-question.webp"
+      ],
+      "width": 1376,
+      "height": 768,
+      "hasAlpha": false,
+      "bytes": 148190,
+      "sha256": "309a3473f47ad4b3513a29f0d1f0d4862408a2d78571e3b02b921e20b256de39"
+    },
+    {
+      "file": "assets/ep2/cg-clay-street.webp",
+      "kind": "cg",
+      "description": "밖에서의 점토 대화 CG — 서인의 책상에서 다시 가져온 찌그러진 점토 컵을 손바닥 위에 올린 지우와 서인",
+      "references": [
+        "assets/ep1/cg-clay.webp",
+        "assets/ep1/jiwoo-firm.webp",
+        "assets/ep1/seoin-question.webp"
+      ],
+      "width": 1376,
+      "height": 768,
+      "hasAlpha": false,
+      "bytes": 136110,
+      "sha256": "2e843e50c97322e16d51bf3fd445dba04ffd4f4c3ada4b43933fe606e5a9771a"
+    },
+    {
+      "file": "assets/ep2/cg-dream-resort.webp",
+      "kind": "cg",
+      "description": "지나치게 아름다운 광고꿈 CG — 걱정이 제거된 얼굴로 바닷물에 서서 '여기선 아무도 다치지 않아'라고 말하는 꿈속 지우",
+      "references": [
+        "assets/ep1/cg-sea.webp",
+        "assets/ep1/jiwoo-firm.webp"
+      ],
+      "width": 1376,
+      "height": 768,
+      "hasAlpha": false,
+      "bytes": 237594,
+      "sha256": "eb5eee8d47e083ad65b963ca79842ceb6c75c53e540e4923dacb235ef5feab1a"
+    }
+  ]
+}

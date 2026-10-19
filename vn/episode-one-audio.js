@@ -45,7 +45,7 @@ export function createEpisodeOneAudio(getSettings,assets){
     }
     await trackWork;
   }
-  async function prime(){if(!ensure())return;await Promise.all(['musicSea','musicTable','musicChoice','room','pan','office','train','box','amber','red','approval','dishes','bedding','release','coast'].map(load));}
+  async function prime(){if(!ensure())return;await Promise.all(['musicSea','musicTable','musicChoice','musicSereneDream','room','pan','office','train','livingroom','streetWalk','box','amber','red','approval','dishes','bedding','release','coast','tabletSlide','tabletOff','adCutoff'].map(load));}
   function setVolume(){if(master&&context)master.gain.setTargetAtTime(allowed()&&current?level():0,context.currentTime,.08);}
   function reset(){stop();positions.clear();}
   return{unlock,render,stop,reset,prime,setVolume};
