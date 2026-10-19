@@ -12,18 +12,18 @@ Windows 원본 소설 저장소에서 최신 main을 받은 뒤 OpenCode를 재�
 
 ## GitHub의 Select an account
 
-`jbseo-commits`와 다른 계정이 함께 나오는 창은 Git Credential Manager의 계정 선택이다. 해당 저장소의 HTTPS 인증 계정을 고정하려면 Windows의 **원본 소설 저장소 폴더**에서 아래 명령을 한 번 실행한다.
+`jjsjb88-alt`와 다른 계정이 함께 나오는 창은 Git Credential Manager의 계정 선택이다. 해당 저장소의 HTTPS 인증 계정을 고정하려면 Windows의 **원본 소설 저장소 폴더**에서 아래 명령을 한 번 실행한다.
 
 ```powershell
-git config --local credential.https://github.com.username jbseo-commits
+git config --local credential.https://github.com.username jjsjb88-alt
 ```
 
-이 Git 로컬 설정은 커밋하거나 push할 파일이 아니다. 같은 Git 공통 설정을 사용하는 worktree에도 적용된다. 기존 로그인된 `jbseo-commits`의 인증을 사용하며, 다른 계정을 삭제하지 않는다. 인증이 만료됐거나 저장된 인증이 없으면 실제 로그인이 한 번 필요할 수 있다. `git config user.name`은 커밋 작성자 설정이므로 이 계정 선택 문제를 해결하지 않는다.
+이 Git 로컬 설정은 커밋하거나 push할 파일이 아니다. 같은 Git 공통 설정을 사용하는 worktree에도 적용된다. 기존 로그인된 `jjsjb88-alt`의 인증을 사용하며, 다른 계정을 삭제하지 않는다. 인증이 만료됐거나 저장된 인증이 없으면 실제 로그인이 한 번 필요할 수 있다. `git config user.name`은 커밋 작성자 설정이므로 이 계정 선택 문제를 해결하지 않는다.
 
 설정과 최신 파일을 받은 뒤 OpenCode를 다시 시작한다.
 
 ```powershell
-git config --local credential.https://github.com.username jbseo-commits
+git config --local credential.https://github.com.username jjsjb88-alt
 git pull --ff-only origin main
 ```
 

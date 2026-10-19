@@ -3,7 +3,7 @@
 [승인형 자율주행](AUTODRIVE.md)에서는 메인이 승인된 감사 끝까지 다음 독서 묶음을 이어 배정한다. 원고를 직접 수정하는 역할로 확대하지 않는다.
 
 ```text
-너의 이름은 효나씨야. jbseo-commits/lost-dreams-novel의 READER AUDIT 역할로 실행해.
+너의 이름은 효나씨야. jjsjb88-alt/lost-dreams-novel의 READER AUDIT 역할로 실행해.
 AGENTS.md 전체, 현재 환경의 분업 문서, loop/LOOP.md의 공개 화 감사 모드,
 loop/AGENT-WORKFLOW.md, loop/SCENE-VISIBILITY-GATE.md, loop/hyona-reader.md,
 loop/BUMPER-CONTINUITY.md를 읽어.

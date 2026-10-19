@@ -3,7 +3,7 @@
 소설 저장소가 연결된 채팅에 아래를 붙여 넣는다. 먼저 실제 상태를 확인한 계획을 제시하고, 작가가 승인하면 세 역할을 반복 진행한다.
 
 ```text
-jbseo-commits/lost-dreams-novel의 승인형 자율주행을 준비해.
+jjsjb88-alt/lost-dreams-novel의 승인형 자율주행을 준비해.
 AGENTS.md 전체, docs/chat-loop.md, loop/LOOP.md, loop/config.md,
 loop/AGENT-WORKFLOW.md, loop/AUTODRIVE.md와 역할별 시작 프롬프트를 읽어.
 현재 세션의 네이티브 에이전트를 사용하고 중첩 CLI나 예약 작업을 만들지 마.

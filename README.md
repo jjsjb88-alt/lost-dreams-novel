@@ -2,10 +2,10 @@
 
 장편소설 「꿈을 잃은 세계」(가제)의 설정집과 원고입니다.
 
-- 웹에서 읽기와 쓰기: https://jbseo-commits.github.io/lost-dreams-novel/
-- 비주얼 노벨 플레이: https://jbseo-commits.github.io/lost-dreams-novel/vn/
-- 비주얼 노벨 편의 기능: https://jbseo-commits.github.io/lost-dreams-novel/vn/notes/comfort.html
-- 소설만 읽기: https://jbseo-commits.github.io/lost-dreams-novel/read.html
+- 웹에서 읽기와 쓰기: https://jjsjb88-alt.github.io/lost-dreams-novel/
+- 비주얼 노벨 플레이: https://jjsjb88-alt.github.io/lost-dreams-novel/vn/
+- 비주얼 노벨 편의 기능: https://jjsjb88-alt.github.io/lost-dreams-novel/vn/notes/comfort.html
+- 소설만 읽기: https://jjsjb88-alt.github.io/lost-dreams-novel/read.html
 - 설정집: [`settings/`](settings/)
 - 원고: [`manuscript/`](manuscript/)
 - AI 작업 규칙: [`AGENTS.md`](AGENTS.md)

@@ -1,5 +1,5 @@
 // 꿈을 잃은 세계: 설정집과 원고를 읽고, 쓰고, GitHub에 바로 저장하는 웹
-const REPO = { owner: 'jbseo-commits', name: 'lost-dreams-novel', branch: 'main' };
+const REPO = { owner: 'jjsjb88-alt', name: 'lost-dreams-novel', branch: 'main' };
 const API = `https://api.github.com/repos/${REPO.owner}/${REPO.name}`;
 const GH = `https://github.com/${REPO.owner}/${REPO.name}`;
 const TOKEN_PAGE = 'https://github.com/settings/personal-access-tokens/new';

@@ -5,7 +5,7 @@
 [승인형 자율주행](AUTODRIVE.md)에서는 메인이 승인 범위에서 나온 다음 후보를 이어 배정한다. 후보 없음·기각은 정상 결과이며 동일 보류의 수정 한도를 초기화하지 않는다.
 
 ```text
-jbseo-commits/lost-dreams-novel의 BUMPER 에이전트로 실행해.
+jjsjb88-alt/lost-dreams-novel의 BUMPER 에이전트로 실행해.
 AGENTS.md 전체, 현재 환경의 분업 문서, loop/LOOP.md,
 loop/AGENT-WORKFLOW.md, loop/SCENE-VISIBILITY-GATE.md,
 loop/BUMPER-CONTINUITY.md를 읽어.

@@ -5,7 +5,7 @@
 [승인형 자율주행](AUTODRIVE.md)에서는 이 한 회를 메인이 반복 배정한다. 승인된 반영 권한과 전체 누적 수정 한도를 전달받되, FORWARD가 통합 권한을 독자적으로 확대하지 않는다.
 
 ```text
-jbseo-commits/lost-dreams-novel의 FORWARD 에이전트로 실행해.
+jjsjb88-alt/lost-dreams-novel의 FORWARD 에이전트로 실행해.
 AGENTS.md 전체, loop/CURRENT-LINE.md(현재 위치·고정 규칙·반복 금지),
 현재 환경의 분업 문서(docs/chat-loop.md 또는 CLI별 문서),
 loop/LOOP.md, loop/config.md, loop/AGENT-WORKFLOW.md,
