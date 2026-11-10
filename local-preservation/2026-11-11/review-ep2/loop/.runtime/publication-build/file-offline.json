@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "actor": "yoonsera",
+      "viewport": 400,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "actor": "eunkyung",
+      "viewport": 400,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "actor": "haerin",
+      "viewport": 400,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "actor": "yoonsera",
+      "viewport": 1440,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "actor": "eunkyung",
+      "viewport": 1440,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "actor": "haerin",
+      "viewport": 1440,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "externalRequests": 0,
+  "pageErrors": 0
+}

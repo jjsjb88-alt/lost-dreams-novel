@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lost-dreams-novel",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/serve.mjs", "5212"],
+      "port": 5212
+    }
+  ]
+}

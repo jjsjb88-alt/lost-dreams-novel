@@ -1,0 +1,646 @@
+{
+  "title": "Lost Dreams episode 1 original audio provenance",
+  "date": "2026-10-19",
+  "assetCount": 15,
+  "foleyAndAmbienceCount": 12,
+  "originalScoreCount": 3,
+  "sourceAudioFolder": "production-masters/audio-work (local archive)",
+  "provenance": {
+    "preExistingRecordingsUsed": false,
+    "externalSamplesUsed": false,
+    "preExistingMelodiesUsed": false,
+    "namedArtistImitationRequested": false,
+    "paidExternalMediaServicesUsed": false,
+    "externalMediaGenerationFees": 0,
+    "currency": "USD",
+    "networkDownloadsPerformedForTheseAudioAssets": 0,
+    "tools": "Original Python/NumPy signal synthesis and composition; existing local ffmpeg binary used solely for encoding/decoding. No ffmpeg binary included in game media.",
+    "rightsStatement": "All recordings were newly synthesized for this project from original score events and instrument/material models. No external media-license dependency. This records production provenance, not a legal opinion."
+  },
+  "validation": {
+    "allWavFormatAndLengthVerified": true,
+    "allOggAndMp3Decoded": true,
+    "allHashesVerified": true,
+    "decodedClippedSamples": 0,
+    "auditionMixLastSecondPcmAndMp3ExactlyZero": true,
+    "subjectiveListeningPerformed": false,
+    "limits": "No musician performance, human headphone/speaker audition, player-emotion validation or final gameplay mix audition by this audio worker."
+  },
+  "packaging": {
+    "preferredBrowserFormat": "audio/mpeg MP3",
+    "optionalBrowserFormat": "audio/ogg Ogg Vorbis",
+    "masters": "24-bit 48 kHz stereo WAV; preserve locally rather than loading into normal web runtime.",
+    "runtimeMp3Bytes": 7301460,
+    "originalMusicOggBytes": 3157302
+  },
+  "assets": [
+    {
+      "id": "room-morning",
+      "title": "작은 집의 아침 공기",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/room-morning.mp3",
+      "durationSeconds": 12.0,
+      "sourceModel": "Periodic band-shaped stochastic airflow; distant city low mass; 100/200 Hz vent motor partials.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "room-morning.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 192812,
+          "sha256": "20c3864d9ab8be933d401c7285a7545514e1cad39384bf90487a07a81b7604ba"
+        },
+        {
+          "format": "ogg",
+          "fileName": "room-morning.ogg",
+          "mime": "audio/ogg",
+          "bytes": 94804,
+          "sha256": "95706c789248d2cdffc38570051343cebde222328b1b5d621f01204d7e7f9e38"
+        },
+        {
+          "format": "wav",
+          "fileName": "room-morning.wav",
+          "mime": "audio/wav",
+          "bytes": 3456044,
+          "sha256": "e559ffa20aca2dc94fbf7b3d0e28e4832e8c750819f64141dd86b312650d5088"
+        }
+      ],
+      "peakDbfs": -17.0,
+      "rmsDbfs": -29.999,
+      "decodedMp3PeakDbfs": -17.449,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "pan-sizzle",
+      "title": "프라이팬 위 합성 달걀",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/pan-sizzle.mp3",
+      "durationSeconds": 7.0,
+      "sourceModel": "Band-shaped frying film and 185 irregular oil-bubble bursts with independent decays; narrow left scene placement.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "pan-sizzle.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 112940,
+          "sha256": "27b74053e3451efcf939755ef75fff34eb46dc771ffba2037f073175371dd4a8"
+        },
+        {
+          "format": "ogg",
+          "fileName": "pan-sizzle.ogg",
+          "mime": "audio/ogg",
+          "bytes": 134044,
+          "sha256": "23e8ff4c28161fabeb5b2793b470ab664a2e754522ecbfe8a7b178d03cd6c20b"
+        },
+        {
+          "format": "wav",
+          "fileName": "pan-sizzle.wav",
+          "mime": "audio/wav",
+          "bytes": 2016044,
+          "sha256": "5453b5af69f5da9dab90899c02917b184bbe07cc1a1922e4568e9e9b6bcffe13"
+        }
+      ],
+      "peakDbfs": -15.0,
+      "rmsDbfs": -29.175,
+      "decodedMp3PeakDbfs": -15.541,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "ceramic-chopsticks",
+      "title": "접시를 놓고 젓가락을 드는 소리",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/ceramic-chopsticks.mp3",
+      "durationSeconds": 2.6,
+      "sourceModel": "Damped inharmonic ceramic modal bank and two short wooden contacts, small apartment early reflections.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "ceramic-chopsticks.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 42668,
+          "sha256": "62eaaa1576d916fd5ff40270659ad0beeee4d0cc889ebdda8b8b25735c0841fe"
+        },
+        {
+          "format": "ogg",
+          "fileName": "ceramic-chopsticks.ogg",
+          "mime": "audio/ogg",
+          "bytes": 14537,
+          "sha256": "7a45d7561596c618d52e1b7c35209e375623bc7c0c871e1754cdcfa86bfa08df"
+        },
+        {
+          "format": "wav",
+          "fileName": "ceramic-chopsticks.wav",
+          "mime": "audio/wav",
+          "bytes": 748844,
+          "sha256": "4ee532710b642a5c81a772a1b678f538e0577076edb6c8142f902c781d47bc98"
+        }
+      ],
+      "peakDbfs": -10.0,
+      "rmsDbfs": -35.499,
+      "decodedMp3PeakDbfs": -10.477,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "train-car",
+      "title": "출근 전철의 내부",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/train-car.mp3",
+      "durationSeconds": 12.0,
+      "sourceModel": "Occluded broad-band carriage air, low rolling resonance and irregular damped wheel/track impulses.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "train-car.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 192812,
+          "sha256": "3fec1a8022908d3748bd4f1a377d013f07d1c1924081463cbd8d7f7915e1b177"
+        },
+        {
+          "format": "ogg",
+          "fileName": "train-car.ogg",
+          "mime": "audio/ogg",
+          "bytes": 132715,
+          "sha256": "97648cd83ba3149bc7ca66df319c1683ccbe5111df6c0cd5e4c8fccfb3616dac"
+        },
+        {
+          "format": "wav",
+          "fileName": "train-car.wav",
+          "mime": "audio/wav",
+          "bytes": 3456044,
+          "sha256": "5cee627e046e8d80c5ee639e8b63e9e051bcb8692c2ecb6b397d63ec60b2684d"
+        }
+      ],
+      "peakDbfs": -15.0,
+      "rmsDbfs": -29.565,
+      "decodedMp3PeakDbfs": -15.471,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "office-air",
+      "title": "사무실의 낮은 공기",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/office-air.mp3",
+      "durationSeconds": 12.0,
+      "sourceModel": "Dry diffuse ventilation with six deeply attenuated inharmonic desk contacts; no external chatter.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "office-air.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 192812,
+          "sha256": "9548261e4633a16e71643b8cdb1a343fd32c696c2e1bf35e3fb33fe3015c327f"
+        },
+        {
+          "format": "ogg",
+          "fileName": "office-air.ogg",
+          "mime": "audio/ogg",
+          "bytes": 124931,
+          "sha256": "6c6b91f09bb6c2fb1a3ef16f402db37fd3f0e7e21b85767c959e32432bc47e01"
+        },
+        {
+          "format": "wav",
+          "fileName": "office-air.wav",
+          "mime": "audio/wav",
+          "bytes": 3456044,
+          "sha256": "b728f62dcc7a40f0ab68912120043c5c385d76a61c4357cdb95727c7c833966d"
+        }
+      ],
+      "peakDbfs": -20.0,
+      "rmsDbfs": -33.721,
+      "decodedMp3PeakDbfs": -20.45,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "clay-box",
+      "title": "종이 상자 안의 낡은 점토",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/clay-box.mp3",
+      "durationSeconds": 3.6,
+      "sourceModel": "Granular paperboard flex and tissue friction, followed by highly damped low ceramic contact.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "clay-box.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 58412,
+          "sha256": "e0831838d42e891fd13c9822f178092ee2c3c4435eaaf80dacfb682ee842fff0"
+        },
+        {
+          "format": "ogg",
+          "fileName": "clay-box.ogg",
+          "mime": "audio/ogg",
+          "bytes": 30546,
+          "sha256": "38a71ca26ad89db89b36082bc4db7284dd5dab1961224696aa20638f6242c5df"
+        },
+        {
+          "format": "wav",
+          "fileName": "clay-box.wav",
+          "mime": "audio/wav",
+          "bytes": 1036844,
+          "sha256": "401f53809e270529faf3aa594d16ac06a1cbc5dd771bcfa4931dcf148f29128c"
+        }
+      ],
+      "peakDbfs": -12.0,
+      "rmsDbfs": -37.539,
+      "decodedMp3PeakDbfs": -12.602,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "approval-soft",
+      "title": "절제된 승인 접촉",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/approval-soft.mp3",
+      "durationSeconds": 1.0,
+      "sourceModel": "Short damped contact plus low-level 426/639 Hz confirmation resonance. Original microgesture; no sampled UI preset.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "approval-soft.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 16940,
+          "sha256": "58c45a6de2b49168f74e9418ac24c503da67c697037ed61c327ad6f863bcf326"
+        },
+        {
+          "format": "ogg",
+          "fileName": "approval-soft.ogg",
+          "mime": "audio/ogg",
+          "bytes": 7672,
+          "sha256": "fe7581e8edbf0e9e45c092d3ac5b648eda1fa1d09992e90d87363441606b6280"
+        },
+        {
+          "format": "wav",
+          "fileName": "approval-soft.wav",
+          "mime": "audio/wav",
+          "bytes": 288044,
+          "sha256": "be2edd286cf6823ba0f81a1c68b68a93860cf4ffbb09e63978a644461abd771f"
+        }
+      ],
+      "peakDbfs": -14.0,
+      "rmsDbfs": -41.452,
+      "decodedMp3PeakDbfs": -14.43,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "warning-amber",
+      "title": "노란 재고 권고",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/warning-amber.mp3",
+      "durationSeconds": 1.8,
+      "sourceModel": "Smooth mid-low resonance and filtered pressure, 120 ms attack, single decaying gesture.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "warning-amber.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 29612,
+          "sha256": "a94e0443263d61ddfd0844eb421b5cce549046a3d44b20b1c299d91905e426c8"
+        },
+        {
+          "format": "ogg",
+          "fileName": "warning-amber.ogg",
+          "mime": "audio/ogg",
+          "bytes": 12475,
+          "sha256": "90db5e9699d797ff40050ec6466e6ae085adefe281cce84844782f980b7d32fb"
+        },
+        {
+          "format": "wav",
+          "fileName": "warning-amber.wav",
+          "mime": "audio/wav",
+          "bytes": 518444,
+          "sha256": "dce67130c9710d764f6433d438bacb80bc8ed7af8921132485baf11316d0034f"
+        }
+      ],
+      "peakDbfs": -14.0,
+      "rmsDbfs": -33.598,
+      "decodedMp3PeakDbfs": -14.446,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "warning-red",
+      "title": "붉은 경고의 압력",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/warning-red.mp3",
+      "durationSeconds": 2.5,
+      "sourceModel": "Descending 142-to-118 Hz body, slightly inharmonic companion and soft filtered warning breath. No looped alarm.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "warning-red.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 41132,
+          "sha256": "dce6fabe57f2fc98229a0af463745e87006a2e959ebebc8a5706660b60dd32c6"
+        },
+        {
+          "format": "ogg",
+          "fileName": "warning-red.ogg",
+          "mime": "audio/ogg",
+          "bytes": 20408,
+          "sha256": "d723c1bd989c6aba926e10ccfcb414fc1d212abfb4b7856b6f8149e561611be5"
+        },
+        {
+          "format": "wav",
+          "fileName": "warning-red.wav",
+          "mime": "audio/wav",
+          "bytes": 720044,
+          "sha256": "403910970819627baa6a6105b95c84eef57f59c7328adc5ee84b859e6b69ffed"
+        }
+      ],
+      "peakDbfs": -12.0,
+      "rmsDbfs": -29.866,
+      "decodedMp3PeakDbfs": -12.471,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "bedding-swipe",
+      "title": "이불과 옆으로 미는 손",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/bedding-swipe.mp3",
+      "durationSeconds": 2.0,
+      "sourceModel": "Two soft granular fabric friction envelopes, low weighted cloth body, mild rightward movement.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "bedding-swipe.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 33068,
+          "sha256": "3d8b593e193d68fc4c4b905b8715e617fc18f190309eee32f24bf52e9c6318e1"
+        },
+        {
+          "format": "ogg",
+          "fileName": "bedding-swipe.ogg",
+          "mime": "audio/ogg",
+          "bytes": 17400,
+          "sha256": "97a7936a4d0b7ad1cf942463ab9c429f52a68d167d94bc4c791f67ff215603fd"
+        },
+        {
+          "format": "wav",
+          "fileName": "bedding-swipe.wav",
+          "mime": "audio/wav",
+          "bytes": 576044,
+          "sha256": "2d20d8fb0342c2b5e75331c0f4e4caff42a38abe7992bc9d819a2981998d9a13"
+        }
+      ],
+      "peakDbfs": -15.0,
+      "rmsDbfs": -33.383,
+      "decodedMp3PeakDbfs": -15.465,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "coast-residue",
+      "title": "기억에 남은 바다의 잔류감",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/coast-residue.mp3",
+      "durationSeconds": 9.0,
+      "sourceModel": "Slow periodic water-like filtered mass and fine foam grains with diffuse stereo width. No voice, branded ad music or sampled ocean.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "coast-residue.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 144812,
+          "sha256": "39f24fc8f586fd127480d45b02b6afc582f7a2600cc7551452f7d87052fafcba"
+        },
+        {
+          "format": "ogg",
+          "fileName": "coast-residue.ogg",
+          "mime": "audio/ogg",
+          "bytes": 135936,
+          "sha256": "916c93c0999fecbd09f90bee8595497d22a173f4930af6674241fd5561a0e1ef"
+        },
+        {
+          "format": "wav",
+          "fileName": "coast-residue.wav",
+          "mime": "audio/wav",
+          "bytes": 2592044,
+          "sha256": "b85f6aabaab899d6e6a431c569ca820974fd727ea47ce7b82a0e150416b34dc6"
+        }
+      ],
+      "peakDbfs": -16.0,
+      "rmsDbfs": -32.226,
+      "decodedMp3PeakDbfs": -16.386,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "neural-release",
+      "title": "시야에서 사라지는 계약창",
+      "category": "foley-or-ambience",
+      "runtimeFile": "assets/ep1/neural-release.mp3",
+      "durationSeconds": 1.4,
+      "sourceModel": "Subtle low-passed transient and declining low resonance, short decay to exact zero.",
+      "compositionMethod": null,
+      "tempoBpm": null,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "neural-release.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 23468,
+          "sha256": "bba852b40ff9152170932b2b023d6d2659cd47f64c6b1b4b934ef8a10ce66906"
+        },
+        {
+          "format": "ogg",
+          "fileName": "neural-release.ogg",
+          "mime": "audio/ogg",
+          "bytes": 15279,
+          "sha256": "085c17f1b5c0c4e6ab1d0c14aa478601cb62dc306bdd0db615617d421e61427d"
+        },
+        {
+          "format": "wav",
+          "fileName": "neural-release.wav",
+          "mime": "audio/wav",
+          "bytes": 403244,
+          "sha256": "50a9676aba57177cbd3ba8d043347a8a8adecd8afcb78d8122a3a76fb0f75364"
+        }
+      ],
+      "peakDbfs": -20.0,
+      "rmsDbfs": -39.346,
+      "decodedMp3PeakDbfs": -20.472,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "borrowed-sea",
+      "title": "빌려온 바다",
+      "category": "original-score",
+      "runtimeFile": "assets/ep1/borrowed-sea.mp3",
+      "durationSeconds": 98.82352083333333,
+      "sourceModel": "Original damped inharmonic coupled-string piano modes, noise hammer, plucked string modes or bowed harmonic/pressure/vibrato model, diffuse stereo room FIR. No recordings/presets used.",
+      "compositionMethod": "Original four-note call/response with eight-bar A/B/A-prime structure, diatonic inversion, rhythmic displacement, voice-led spread voicings, rest bars, fragment coda.",
+      "tempoBpm": 68,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "borrowed-sea.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 1977644,
+          "sha256": "d17b19a6a5bc70ab9a62bcef677dfdff58b2da54563fb9f8a70ef2657eb14adb"
+        },
+        {
+          "format": "ogg",
+          "fileName": "borrowed-sea.ogg",
+          "mime": "audio/ogg",
+          "bytes": 1119816,
+          "sha256": "29a9a5d7c180e5f93aeabb40b109217c699bc36f1310a9046ad518c72fa5bfbc"
+        },
+        {
+          "format": "wav",
+          "fileName": "borrowed-sea.wav",
+          "mime": "audio/wav",
+          "bytes": 28461218,
+          "sha256": "eb107d8ea5506a687271091acd0fe5461fbd241cc1f73db315fde9e927a73dcd"
+        }
+      ],
+      "peakDbfs": -7.5,
+      "rmsDbfs": -23.386,
+      "decodedMp3PeakDbfs": -7.966,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "small-table",
+      "title": "작은 식탁",
+      "category": "original-score",
+      "runtimeFile": "assets/ep1/small-table.mp3",
+      "durationSeconds": 100.0,
+      "sourceModel": "Original damped inharmonic coupled-string piano modes, noise hammer, plucked string modes or bowed harmonic/pressure/vibrato model, diffuse stereo room FIR. No recordings/presets used.",
+      "compositionMethod": "Original four-note call/response with eight-bar A/B/A-prime structure, diatonic inversion, rhythmic displacement, voice-led spread voicings, rest bars, fragment coda.",
+      "tempoBpm": 72,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "small-table.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 2001164,
+          "sha256": "e8d3ea1343e7dd1405fdbe73815e6002dc590c3baeed5accc4ce4d25c079c231"
+        },
+        {
+          "format": "ogg",
+          "fileName": "small-table.ogg",
+          "mime": "audio/ogg",
+          "bytes": 1025065,
+          "sha256": "4438cdd5b458e3964373a334b0c993fa6baa18879e63296cbfc9d37b928a74d7"
+        },
+        {
+          "format": "wav",
+          "fileName": "small-table.wav",
+          "mime": "audio/wav",
+          "bytes": 28800044,
+          "sha256": "9e9a0b0770e1f79271d8fae2b04eb714d4292dc5b878b23266a13137d89ef827"
+        }
+      ],
+      "peakDbfs": -8.5,
+      "rmsDbfs": -22.955,
+      "decodedMp3PeakDbfs": -8.951,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    },
+    {
+      "id": "unanswered",
+      "title": "대답 없는 선택",
+      "category": "original-score",
+      "runtimeFile": "assets/ep1/unanswered.mp3",
+      "durationSeconds": 112.0,
+      "sourceModel": "Original damped inharmonic coupled-string piano modes, noise hammer, plucked string modes or bowed harmonic/pressure/vibrato model, diffuse stereo room FIR. No recordings/presets used.",
+      "compositionMethod": "Original four-note call/response with eight-bar A/B/A-prime structure, diatonic inversion, rhythmic displacement, voice-led spread voicings, rest bars, fragment coda.",
+      "tempoBpm": 60,
+      "sourceFormats": [
+        {
+          "format": "mp3",
+          "fileName": "unanswered.mp3",
+          "mime": "audio/mpeg",
+          "bytes": 2241164,
+          "sha256": "bc256962ca8c9e0e7cc83ac8d427dc493e1b3759da54c1b46c313b9491990715"
+        },
+        {
+          "format": "ogg",
+          "fileName": "unanswered.ogg",
+          "mime": "audio/ogg",
+          "bytes": 1012421,
+          "sha256": "a450f496b4fa20ebb3c0fb453cadc9d2aacd1f63d7e0290cfc4c9dd17038f84c"
+        },
+        {
+          "format": "wav",
+          "fileName": "unanswered.wav",
+          "mime": "audio/wav",
+          "bytes": 32256044,
+          "sha256": "b7fbe124c250e211be073ed72bc6f3aee326d41d31ef82a0fecaba8f347958f7"
+        }
+      ],
+      "peakDbfs": -8.0,
+      "rmsDbfs": -24.559,
+      "decodedMp3PeakDbfs": -8.444,
+      "decodedMp3ClippedSamples": 0,
+      "subjectiveListeningPerformed": false
+    }
+  ],
+  "productionSources": [
+    {
+      "file": "design_audio.py",
+      "sha256": "f494bfd31bb20d9afa783ab1720531950d6f2073081636760b324aa48d1efd78"
+    },
+    {
+      "file": "compose_music.py",
+      "sha256": "fd58db900648ee00ff659b60e62eeaad2e80b9bcb8a9159c4f7b8f59cd9cbf38"
+    },
+    {
+      "file": "export_mobile_and_mix.py",
+      "sha256": "31414a8d33d954fde7ef32202a5f47b7b668acd2ec66aaf1b4e521d077ed40e6"
+    },
+    {
+      "file": "audio-manifest.json",
+      "sha256": "f994852283d5ef7c2b0fcb2995e84e202aefc6eae286620002b671240e63c5ed"
+    },
+    {
+      "file": "music-manifest.json",
+      "sha256": "d0384ed1da3c950df51a2ed3316993bd0e6fcdfa79adf4723819f48e7d644209"
+    },
+    {
+      "file": "borrowed-sea-score.json",
+      "sha256": "dd91652594afebe6840bb346504ed6a31d613688545949da1202e45f224ffd66"
+    },
+    {
+      "file": "small-table-score.json",
+      "sha256": "c480abbe443667c430d15b3a6d81f5c60541093102b99600c5c060e105a3581b"
+    },
+    {
+      "file": "unanswered-score.json",
+      "sha256": "3bc57c73ee3101fe9fbeddc7f7f143eca59338912d1df9aa2c75392231c29142"
+    },
+    {
+      "file": "final-audio-qa.json",
+      "sha256": "1f2232e7c3223711657f2f38d4e0772bd1ff7782f81778c3589e2884617d2ef3"
+    }
+  ]
+}

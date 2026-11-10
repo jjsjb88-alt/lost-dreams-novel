@@ -1,0 +1,334 @@
+/* Communications are light inside the world. The dialogue remains below them. */
+.neural-stage {
+  --neural-accent: #b1ded5;
+  --neural-dim: color-mix(in srgb, var(--neural-accent) 38%, transparent);
+  --neural-line: color-mix(in srgb, var(--neural-accent) 23%, transparent);
+  --neural-glow: color-mix(in srgb, var(--neural-accent) 11%, transparent);
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  color: #edf3ed;
+  isolation: isolate;
+  -webkit-font-smoothing: antialiased;
+}
+.neural-stage[hidden] { display: none !important; }
+.neural-stage *, .neural-stage *::before, .neural-stage *::after { box-sizing: border-box; }
+.neural-stage .neural-scene {
+  position: absolute;
+  inset: clamp(124px, 17vh, 178px) clamp(24px, 6vw, 104px) var(--neural-floor, 280px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 0;
+  transform-origin: center;
+  transition: opacity var(--neural-reveal, 780ms) ease, transform var(--neural-reveal, 780ms) cubic-bezier(.16, 1, .3, 1);
+}
+.neural-stage[data-neural-phase="entering"] .neural-scene { opacity: 0; transform: translateY(14px) scale(.985); }
+.neural-stage[data-neural-phase="arriving"] .neural-scene,
+.neural-stage[data-neural-phase="settled"] .neural-scene { opacity: 1; transform: none; }
+.neural-stage .neural-field { position: absolute; inset: -20px -6%; pointer-events: none; }
+.neural-stage .neural-card { position: relative; width: min(100%, 510px); min-width: 0; padding: 27px 32px 25px; }
+.neural-stage .neural-header { display: flex; align-items: center; gap: 12px; min-width: 0; margin-bottom: 17px; }
+.neural-stage .neural-mark { width: 35px; height: 35px; flex: none; color: var(--neural-accent); overflow: visible; }
+.neural-stage .neural-mark > * { stroke: currentColor; stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; }
+.neural-stage .neural-identity { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.neural-stage .neural-channel { color: var(--neural-accent); font-size: 9px; line-height: 1.3; font-weight: 400; letter-spacing: .24em; }
+.neural-stage .neural-sender { overflow-wrap: anywhere; font-size: 14px; line-height: 1.35; letter-spacing: .08em; font-weight: 500; }
+.neural-stage .neural-status { margin-left: auto; max-width: 36%; color: #b8cac5; font-size: 10px; line-height: 1.5; letter-spacing: .055em; text-align: right; }
+.neural-stage .neural-status::before { content: ""; display: inline-block; vertical-align: 2px; width: 4px; height: 4px; margin-right: 7px; border-radius: 50%; background: var(--neural-accent); box-shadow: 0 0 10px var(--neural-dim); }
+.neural-stage .neural-title { margin: 0 0 13px; color: #f0f1e7; font-size: clamp(18px, 1.9vw, 27px); font-weight: 400; line-height: 1.55; letter-spacing: .035em; word-break: keep-all; overflow-wrap: anywhere; }
+.neural-stage .neural-body { margin: 0; color: #d0ded7; font-size: clamp(12px, 1.02vw, 15px); font-weight: 400; line-height: 1.9; letter-spacing: .035em; white-space: pre-wrap; overflow-wrap: anywhere; word-break: keep-all; text-wrap: pretty; }
+.neural-stage .neural-meta { display: flex; flex-wrap: wrap; gap: 7px 14px; margin-top: 18px; color: #a5b9b3; font-size: 9px; line-height: 1.6; letter-spacing: .08em; }
+.neural-stage .neural-meta > span + span::before { content: "·"; position: relative; left: -7px; margin-right: -1px; opacity: .5; }
+.neural-stage .neural-senses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px 24px; margin: 22px 0 0; }
+.neural-stage .neural-sense { min-width: 0; padding-top: 9px; border-top: 1px solid var(--neural-line); }
+.neural-stage .neural-sense-label { color: var(--neural-accent); font-size: 9px; letter-spacing: .15em; line-height: 1.5; }
+.neural-stage .neural-sense-value { margin: 4px 0 0; color: #d4dfd6; font-size: 11px; line-height: 1.5; letter-spacing: .03em; overflow-wrap: anywhere; }
+.neural-stage .neural-expand { pointer-events: auto; display: inline-flex; align-items: center; gap: 13px; margin-top: 15px; padding: 6px 0; min-height: 32px; border: 0; border-bottom: 1px solid var(--neural-dim); background: transparent; color: var(--neural-accent); font-size: 10px; line-height: 1.4; letter-spacing: .09em; cursor: pointer; touch-action: manipulation; }
+.neural-stage .neural-expand::after { content: "↗"; font-size: 13px; transition: transform 180ms ease; }
+.neural-stage .neural-expand:hover { color: #fff8e9; border-bottom-color: #e4ccab; }
+.neural-stage .neural-expand:hover::after { transform: translate(2px, -2px); }
+.neural-stage .neural-expand:focus-visible { outline: 2px solid var(--neural-accent); outline-offset: 5px; }
+
+/* An attendant voice has no rectangular screen: its orbit stays at your side. */
+.neural-stage .neural-scene-assistant { justify-content: flex-start; inset-inline: clamp(28px, 8vw, 150px); }
+.neural-stage .neural-scene-assistant .neural-card { width: min(510px, 48vw); padding-left: 28px; background: linear-gradient(105deg, rgba(5, 19, 26, .9), rgba(8, 23, 31, .48) 76%, transparent); border-left: 1px solid var(--neural-dim); }
+.neural-stage .neural-scene-assistant .neural-header { margin-bottom: 15px; }
+.neural-stage .neural-scene-assistant .neural-mark { width: 48px; height: 48px; margin: -5px 0 -4px -10px; }
+.neural-stage .neural-mark-core { fill: color-mix(in srgb, var(--neural-accent) 10%, transparent); }
+.neural-stage .neural-mark-orbit { opacity: .55; transform-origin: center; animation: neural-attendant-orbit 38s linear infinite; }
+.neural-stage .neural-mark-voice { opacity: .8; stroke-width: .8; }
+.neural-stage .neural-scene-assistant .neural-title { font-size: clamp(17px, 1.7vw, 23px); }
+.neural-stage .neural-field-assistant { width: 540px; max-width: 55vw; inset: auto auto -35px -30px; height: 190px; opacity: .35; mask-image: linear-gradient(90deg, black, transparent 95%); }
+.neural-stage .neural-presence-wave { width: 100%; height: 100%; overflow: visible; }
+.neural-stage .neural-presence-wave path { stroke: var(--neural-accent); stroke-width: .65; }
+.neural-stage .neural-presence-wave path + path { opacity: .38; }
+.neural-stage .neural-scene-assistant .neural-card::after { content: ""; position: absolute; z-index: -1; inset: -65px -40px -50px -80px; background: radial-gradient(ellipse at 23% 50%, var(--neural-glow), transparent 67%); }
+
+/* A private message is a close ribbon in the reader's perception. */
+.neural-stage .neural-scene-message { justify-content: flex-end; }
+.neural-stage .neural-scene-message .neural-card { width: min(470px, 46vw); border-block: 1px solid var(--neural-line); background: linear-gradient(105deg, rgba(20, 39, 45, .9), rgba(8, 23, 31, .82) 82%, rgba(8, 23, 31, .18)); box-shadow: 0 18px 65px rgba(0, 0, 0, .18); backdrop-filter: blur(18px); }
+.neural-stage .neural-scene-message .neural-card::before { content: ""; position: absolute; top: 24px; left: -1px; width: 2px; height: 33px; background: var(--neural-accent); box-shadow: 0 0 18px var(--neural-dim); }
+.neural-stage .neural-scene-message .neural-header { margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--neural-line); }
+.neural-stage .neural-scene-message .neural-title { font-size: clamp(16px, 1.6vw, 22px); }
+.neural-stage .neural-scene-message .neural-body { color: #dfe9e1; }
+.neural-stage .neural-scene-message .neural-mark { width: 31px; height: 31px; }
+.neural-stage .neural-scene-message .neural-meta { margin-top: 16px; }
+.neural-stage[data-neural-kind="message"][data-neural-phase="entering"] .neural-scene { transform: translateX(22px); }
+
+/* Sensory contact: concentric light and two displaced memory planes. */
+.neural-stage[data-neural-kind="neural"] { --neural-accent: #c3c4ec; }
+.neural-stage .neural-field-neural { inset: -62px -13%; opacity: .86; background: radial-gradient(ellipse at center, rgba(8, 16, 32, .26), transparent 65%); }
+.neural-stage .neural-field-neural::before { content: ""; position: absolute; inset: 7% 15%; border-radius: 50%; background: radial-gradient(ellipse, var(--neural-glow), transparent 69%); filter: blur(18px); }
+.neural-stage .neural-field-svg { position: absolute; top: 50%; left: 50%; width: min(100%, 870px); height: 130%; min-height: 400px; transform: translate(-50%, -50%); overflow: visible; }
+.neural-stage .neural-ring { stroke: var(--neural-accent); stroke-width: .7; opacity: .23; }
+.neural-stage .neural-ring-0 { opacity: .08; }
+.neural-stage .neural-ring-1 { opacity: .38; stroke-dasharray: 74 7 2 8 190 31; }
+.neural-stage .neural-ring-2 { opacity: .15; stroke-dasharray: 2 15; }
+.neural-stage .neural-ring-3 { opacity: .22; }
+.neural-stage .neural-orbital { stroke: var(--neural-accent); stroke-width: .75; opacity: .4; transform-origin: 380px 230px; animation: neural-contact-orbit 90s linear infinite; }
+.neural-stage .neural-orbit-point { fill: var(--neural-accent); stroke: none; }
+.neural-stage .neural-trails { stroke: var(--neural-accent); stroke-width: 1.2; opacity: .55; }
+.neural-stage .neural-memory-plane { position: absolute; inset: 18% 15% 15%; border: 1px solid var(--neural-line); background: linear-gradient(110deg, var(--neural-glow), transparent 44%); mask-image: linear-gradient(90deg, black 4%, transparent 43% 58%, black 99%); opacity: .47; }
+.neural-stage .neural-memory-before { transform: translate(-24px, 11px) skewY(-3deg); }
+.neural-stage .neural-memory-after { transform: translate(24px, -11px) skewY(3deg); opacity: .27; }
+.neural-stage .neural-scene-neural .neural-card { width: min(550px, 62vw); padding: 23px 34px; text-align: center; background: radial-gradient(ellipse at center, rgba(9, 18, 32, .94) 25%, rgba(9, 18, 32, .72) 60%, transparent 76%); }
+.neural-stage .neural-scene-neural .neural-header { justify-content: center; gap: 9px; margin-bottom: 18px; }
+.neural-stage .neural-scene-neural .neural-mark { width: 29px; height: 29px; }
+.neural-stage .neural-scene-neural .neural-identity { gap: 4px; text-align: left; }
+.neural-stage .neural-scene-neural .neural-channel { font-size: 8px; letter-spacing: .26em; }
+.neural-stage .neural-scene-neural .neural-sender { font-size: 12px; }
+.neural-stage .neural-scene-neural .neural-status { position: absolute; top: 9px; right: 12px; margin: 0; color: var(--neural-accent); font-size: 9px; }
+.neural-stage .neural-scene-neural .neural-title { font-family: Batang, "바탕", Georgia, serif; font-size: clamp(21px, 2.5vw, 34px); line-height: 1.6; letter-spacing: .08em; text-shadow: 0 0 24px var(--neural-dim); }
+.neural-stage .neural-scene-neural .neural-body { max-width: 420px; margin-inline: auto; font-size: clamp(12px, 1vw, 14px); line-height: 2; color: #d6d9e7; }
+.neural-stage .neural-scene-neural .neural-meta { justify-content: center; }
+.neural-stage .neural-scene-neural .neural-senses { max-width: 420px; margin: 21px auto 0; text-align: left; }
+.neural-stage .neural-scene-neural .neural-expand { margin-top: 13px; }
+.neural-stage[data-neural-kind="neural"][data-neural-phase="entering"] .neural-field { transform: scale(1.12); opacity: 0; }
+.neural-stage .neural-field-neural { transition: transform calc(var(--neural-reveal, 780ms) * 1.5) ease, opacity var(--neural-reveal, 780ms) ease; }
+
+/* Transactions use a flat ledger. There is no simulated loading or progress. */
+.neural-stage[data-neural-kind="system"] { --neural-accent: #d4c9ab; }
+.neural-stage .neural-scene-system { justify-content: flex-end; align-items: flex-start; padding-top: 12px; }
+.neural-stage .neural-scene-system .neural-card { width: min(475px, 47vw); padding: 21px 26px; background: rgba(10, 21, 27, .94); border-top: 2px solid var(--neural-accent); border-bottom: 1px solid var(--neural-line); box-shadow: 0 14px 42px rgba(0, 0, 0, .2); }
+.neural-stage .neural-scene-system .neural-header { gap: 8px; margin-bottom: 13px; }
+.neural-stage .neural-scene-system .neural-mark { width: 28px; height: 28px; }
+.neural-stage .neural-scene-system .neural-channel { font-size: 8px; }
+.neural-stage .neural-scene-system .neural-sender { font-size: 12px; }
+.neural-stage .neural-scene-system .neural-title { font-size: clamp(15px, 1.4vw, 20px); margin-bottom: 10px; }
+.neural-stage .neural-scene-system .neural-body { font-size: clamp(11px, .96vw, 13px); line-height: 1.8; color: #ccd5ce; }
+.neural-stage .neural-scene-system .neural-meta { border-top: 1px solid var(--neural-line); padding-top: 11px; margin-top: 13px; }
+.neural-stage .neural-scene-system .neural-senses { margin-top: 17px; gap: 10px 22px; }
+.neural-stage .neural-scene-system .neural-sense { padding-top: 8px; }
+.neural-stage[data-neural-kind="system"][data-neural-phase="entering"] .neural-scene { transform: translateY(-6px); }
+
+/* Public voices are farther away, a wide and impersonal perceptual signal. */
+.neural-stage[data-neural-kind="broadcast"] { --neural-accent: #d9c69d; }
+.neural-stage .neural-scene-broadcast { inset-inline: clamp(40px, 11vw, 180px); align-items: center; }
+.neural-stage .neural-scene-broadcast .neural-card { width: min(100%, 820px); padding: 24px 55px 27px; border-block: 1px solid var(--neural-line); background: linear-gradient(90deg, transparent, rgba(11, 29, 37, .92) 13% 87%, transparent); box-shadow: 0 17px 60px rgba(0, 0, 0, .2); text-align: center; }
+.neural-stage .neural-scene-broadcast .neural-card::before,
+.neural-stage .neural-scene-broadcast .neural-card::after { content: ""; position: absolute; top: 12px; bottom: 12px; width: 3px; background: var(--neural-line); }
+.neural-stage .neural-scene-broadcast .neural-card::before { left: 12px; }
+.neural-stage .neural-scene-broadcast .neural-card::after { right: 12px; }
+.neural-stage .neural-scene-broadcast .neural-header { justify-content: center; gap: 9px; margin-bottom: 17px; }
+.neural-stage .neural-scene-broadcast .neural-mark { width: 27px; height: 27px; }
+.neural-stage .neural-scene-broadcast .neural-identity { text-align: left; gap: 4px; }
+.neural-stage .neural-scene-broadcast .neural-channel { font-size: 8px; letter-spacing: .27em; }
+.neural-stage .neural-scene-broadcast .neural-sender { font-size: 11px; letter-spacing: .15em; }
+.neural-stage .neural-scene-broadcast .neural-title { margin-bottom: 16px; font-size: clamp(21px, 2.7vw, 36px); font-weight: 500; line-height: 1.5; letter-spacing: .065em; color: #e9e8d7; }
+.neural-stage .neural-scene-broadcast .neural-body { max-width: 640px; margin-inline: auto; font-size: clamp(11px, 1vw, 14px); line-height: 1.85; color: #c3cec6; }
+.neural-stage .neural-scene-broadcast .neural-meta { justify-content: center; margin-top: 19px; }
+.neural-stage .neural-scene-broadcast .neural-status { position: absolute; top: 28px; right: 30px; font-size: 8px; }
+.neural-stage .neural-broadcast-beam { position: absolute; inset: 0 18% -50%; background: linear-gradient(180deg, var(--neural-glow), transparent 70%); clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%); opacity: .45; }
+.neural-stage .neural-broadcast-edge { position: absolute; top: 50%; left: 3%; right: 3%; height: 1px; background: linear-gradient(90deg, transparent, var(--neural-line), transparent); opacity: .35; }
+.neural-stage[data-neural-kind="broadcast"][data-neural-phase="entering"] .neural-scene { transform: scale(.97); }
+
+/* An expanded message scrolls in place and never pushes the story down. */
+.neural-stage .neural-reader { pointer-events: auto; position: absolute; z-index: 3; inset: 0 max(0px, calc((100% - 700px) / 2)) 48px; overflow: auto; overscroll-behavior: contain; padding: 25px 30px; border: 1px solid var(--neural-dim); background: rgba(8, 20, 29, .98); box-shadow: 0 16px 60px rgba(0, 0, 0, .4); scrollbar-width: thin; scrollbar-color: var(--neural-dim) transparent; }
+.neural-stage .neural-reader:focus { outline: 1px solid var(--neural-dim); outline-offset: -5px; }
+.neural-stage .neural-reader-body { margin: 0; color: #e0e8df; font-size: clamp(14px, 1.15vw, 17px); line-height: 1.95; white-space: pre-wrap; word-break: keep-all; overflow-wrap: anywhere; }
+.neural-stage .neural-reader-open > .neural-card { position: static; visibility: hidden; }
+.neural-stage .neural-reader-open .neural-expand { visibility: visible; position: absolute; z-index: 4; bottom: 0; left: 50%; transform: translateX(-50%); margin: 0; white-space: nowrap; }
+.neural-stage .neural-reader-open .neural-expand::after { content: "↙"; }
+.neural-stage .neural-reader-open .neural-field { opacity: .3; }
+
+/* Short authored transmissions can become the one primary reading surface. */
+.neural-stage[data-neural-primary="true"] .neural-card {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  min-height: 0;
+}
+.neural-stage[data-neural-primary="true"] .neural-header,
+.neural-stage[data-neural-primary="true"] .neural-title,
+.neural-stage[data-neural-primary="true"] .neural-senses,
+.neural-stage[data-neural-primary="true"] .neural-meta { flex: none; }
+.neural-stage .neural-history {
+  pointer-events: auto;
+  flex: none;
+  min-height: 0;
+  max-height: var(--neural-history-max, 72px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  margin: 0 0 15px;
+  padding: 0 8px 10px 0;
+  border-bottom: 1px solid var(--neural-line);
+  text-align: left;
+  scrollbar-width: thin;
+  scrollbar-color: var(--neural-line) transparent;
+  touch-action: pan-y;
+}
+.neural-stage .neural-history-entry {
+  margin: 0;
+  color: #a0b2ac;
+  font-size: 11px;
+  line-height: 1.8;
+  letter-spacing: .035em;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.neural-stage .neural-history-entry + .neural-history-entry { margin-top: 5px; }
+.neural-stage .neural-history-entry:not(:last-child) { color: #809690; }
+.neural-stage .neural-history:focus-visible { outline: 1px solid var(--neural-dim); outline-offset: 3px; }
+.neural-stage .neural-scene-system .neural-history-entry { padding-left: 10px; border-left: 1px solid var(--neural-line); }
+.neural-stage[data-neural-primary="true"] .neural-card .neural-body {
+  pointer-events: auto;
+  min-height: 0;
+  max-height: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 6px;
+  font-size: var(--font-size, 20px);
+  line-height: 1.85;
+  scrollbar-width: thin;
+  scrollbar-color: var(--neural-dim) transparent;
+  touch-action: pan-y;
+}
+.neural-stage[data-neural-primary="true"] .neural-card .neural-body:focus-visible { outline: 1px solid var(--neural-dim); outline-offset: 4px; }
+.neural-stage[data-neural-primary="true"] .neural-card .neural-body.neural-ledger { white-space: normal; line-height: 1.45; }
+.neural-stage .neural-ledger-field {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, auto);
+  align-items: baseline;
+  gap: 10px 20px;
+  padding-block: 4px;
+  border-bottom: 1px solid var(--neural-line);
+}
+.neural-stage .neural-ledger-field:first-child { padding-top: 0; }
+.neural-stage .neural-ledger-field:last-of-type { padding-bottom: 0; border-bottom: 0; }
+.neural-stage .neural-ledger-label { min-width: 0; color: #b9c9bf; font: inherit; white-space: pre-wrap; overflow-wrap: anywhere; }
+.neural-stage .neural-ledger-value { min-width: 0; margin: 0; color: #eee8d6; font: inherit; font-variant-numeric: tabular-nums; text-align: right; white-space: pre-wrap; overflow-wrap: anywhere; }
+.neural-stage[data-neural-primary="true"] .neural-scene-assistant .neural-card { width: min(610px, 54vw); }
+.neural-stage[data-neural-primary="true"] .neural-scene-message .neural-card,
+.neural-stage[data-neural-primary="true"] .neural-scene-system .neural-card { width: min(600px, 54vw); }
+.neural-stage[data-neural-primary="true"] .neural-scene-neural .neural-card { width: min(650px, 68vw); }
+.neural-stage[data-neural-primary="true"] .neural-scene-neural .neural-body { max-width: 560px; }
+.neural-stage[data-neural-primary="true"] .neural-scene-broadcast .neural-body { max-width: 680px; }
+
+.neural-stage[data-neural-priority="quiet"] .neural-card { opacity: .9; }
+.neural-stage[data-neural-priority="quiet"] .neural-field { opacity: .42; }
+.neural-stage[data-neural-priority="interrupt"] .neural-scene::before { content: ""; position: absolute; z-index: -1; inset: -90px -22vw; background: radial-gradient(ellipse at center, rgba(3, 10, 20, .64), transparent 73%); }
+.neural-stage[data-neural-priority="interrupt"] .neural-title { color: #faf4e5; }
+.ui-hidden .neural-stage { opacity: 0; visibility: hidden; pointer-events: none; }
+.neural-stage.neural-reduced *, .neural-stage.neural-reduced *::before, .neural-stage.neural-reduced *::after,
+.neural-stage.neural-instant .neural-scene, .neural-stage.neural-instant .neural-field { animation: none !important; transition: none !important; }
+.neural-stage.neural-reduced .neural-scene { opacity: 1 !important; transform: none !important; }
+.neural-stage.neural-reduced .neural-field-neural { transform: none !important; }
+
+/* Preserve the upper / lower separation even when a passage changes height. */
+.neural-stage.neural-short .neural-scene { top: 103px; }
+.neural-stage.neural-short .neural-card { padding-block: 14px; }
+.neural-stage.neural-short .neural-header { margin-bottom: 9px; }
+.neural-stage.neural-short .neural-title { margin-bottom: 7px; font-size: 19px; }
+.neural-stage.neural-short .neural-body { max-height: 5.3em; overflow: hidden; line-height: 1.75; }
+.neural-stage.neural-short .neural-meta { margin-top: 8px; }
+.neural-stage.neural-short .neural-senses { margin-top: 11px; gap: 6px 18px; }
+.neural-stage.neural-short .neural-sense:nth-child(n+3) { display: none; }
+.neural-stage.neural-short .neural-expand { margin-top: 6px; }
+.neural-stage.neural-short .neural-field-svg { min-height: 280px; }
+
+@keyframes neural-attendant-orbit { to { transform: rotate(360deg); } }
+@keyframes neural-contact-orbit { to { transform: rotate(360deg); } }
+
+@media (min-width: 1500px) {
+  .neural-stage .neural-scene-assistant { inset-inline: max(7vw, calc((100vw - 1320px) / 2)); }
+  .neural-stage .neural-scene-message, .neural-stage .neural-scene-system { right: max(6vw, calc((100vw - 1320px) / 2)); }
+}
+@media (max-width: 760px) {
+  .neural-stage .neural-scene { inset-inline: 22px; top: 122px; }
+  .neural-stage .neural-card { padding: 21px 25px; }
+  .neural-stage .neural-scene-assistant, .neural-stage .neural-scene-message, .neural-stage .neural-scene-system { justify-content: center; }
+  .neural-stage .neural-scene-assistant .neural-card { width: min(100%, 490px); padding-left: 24px; }
+  .neural-stage .neural-scene-message .neural-card, .neural-stage .neural-scene-system .neural-card { width: min(100%, 470px); }
+  .neural-stage .neural-scene-neural .neural-card { width: min(100%, 510px); padding-inline: 24px; }
+  .neural-stage .neural-scene-neural .neural-title { font-size: clamp(21px, 5vw, 29px); }
+  .neural-stage .neural-field-assistant { max-width: 95%; width: 440px; }
+  .neural-stage .neural-scene-broadcast { inset-inline: 28px; }
+  .neural-stage .neural-scene-broadcast .neural-card { padding: 22px 31px; }
+  .neural-stage .neural-scene-broadcast .neural-title { font-size: 25px; }
+  .neural-stage .neural-scene-broadcast .neural-status { position: static; max-width: 26%; margin-left: auto; }
+  .neural-stage .neural-field-neural { inset-inline: -17%; }
+  .neural-stage .neural-memory-plane { inset-inline: 12%; }
+  .neural-stage .neural-body { font-size: 12px; }
+  .neural-stage .neural-reader { padding: 19px 21px; }
+  .neural-stage[data-neural-primary="true"] .neural-card,
+  .neural-stage[data-neural-primary="true"] .neural-scene-assistant .neural-card,
+  .neural-stage[data-neural-primary="true"] .neural-scene-message .neural-card,
+  .neural-stage[data-neural-primary="true"] .neural-scene-system .neural-card,
+  .neural-stage[data-neural-primary="true"] .neural-scene-neural .neural-card { width: min(100%, 600px); }
+}
+@media (max-width: 440px) {
+  .neural-stage .neural-scene { inset-inline: 17px; top: 116px; }
+  .neural-stage .neural-card { padding: 20px 21px; }
+  .neural-stage .neural-header { gap: 9px; margin-bottom: 13px; }
+  .neural-stage .neural-mark { width: 30px; height: 30px; }
+  .neural-stage .neural-channel { font-size: 8px; }
+  .neural-stage .neural-sender { font-size: 12px; }
+  .neural-stage .neural-title { font-size: 19px; margin-bottom: 10px; }
+  .neural-stage .neural-body { font-size: 11px; line-height: 1.85; letter-spacing: .025em; }
+  .neural-stage .neural-status { font-size: 8px; }
+  .neural-stage .neural-meta { font-size: 8px; margin-top: 13px; }
+  .neural-stage .neural-senses { margin-top: 16px; gap: 8px 17px; }
+  .neural-stage .neural-sense-label { font-size: 8px; }
+  .neural-stage .neural-sense-value { font-size: 10px; }
+  .neural-stage .neural-scene-neural .neural-card { padding: 18px 19px; }
+  .neural-stage .neural-scene-neural .neural-body { font-size: 11px; }
+  .neural-stage .neural-scene-neural .neural-title { font-size: 23px; }
+  .neural-stage .neural-scene-neural .neural-header { margin-bottom: 13px; }
+  .neural-stage .neural-scene-neural .neural-status { position: static; margin-left: 5px; max-width: 25%; text-align: left; }
+  .neural-stage .neural-scene-neural .neural-status::before { display: none; }
+  .neural-stage .neural-field-neural { inset: -37px -23%; }
+  .neural-stage .neural-field-svg { height: 112%; min-height: 330px; }
+  .neural-stage .neural-memory-before { transform: translate(-13px, 8px) skewY(-3deg); }
+  .neural-stage .neural-memory-after { transform: translate(13px, -8px) skewY(3deg); }
+  .neural-stage .neural-scene-broadcast { inset-inline: 22px; }
+  .neural-stage .neural-scene-broadcast .neural-card { padding: 20px 26px; }
+  .neural-stage .neural-scene-broadcast .neural-title { font-size: 22px; }
+  .neural-stage .neural-scene-broadcast .neural-body { font-size: 10px; }
+  .neural-stage .neural-scene-broadcast .neural-channel { letter-spacing: .15em; }
+  .neural-stage .neural-scene-broadcast .neural-sender { font-size: 10px; }
+  .neural-stage .neural-scene-system .neural-card { padding: 18px 21px; }
+  .neural-stage .neural-scene-system .neural-body { font-size: 11px; }
+  .neural-stage .neural-reader { padding: 17px 18px; }
+  .neural-stage .neural-reader-body { font-size: 14px; }
+  .neural-stage.neural-short .neural-scene { top: 104px; }
+  .neural-stage.neural-short .neural-title { font-size: 18px; }
+}
+@media (max-height: 550px) and (min-width: 600px) {
+  .neural-stage .neural-scene { top: 79px; }
+  .neural-stage .neural-header { margin-bottom: 7px; }
+  .neural-stage .neural-card { padding: 12px 21px; }
+  .neural-stage .neural-title { font-size: 17px; margin-bottom: 5px; }
+  .neural-stage .neural-body { font-size: 10px; max-height: 3.5em; line-height: 1.75; overflow: hidden; }
+  .neural-stage .neural-senses, .neural-stage .neural-meta { display: none; }
+  .neural-stage .neural-mark { width: 25px; height: 25px; }
+  .neural-stage .neural-expand { min-height: 25px; margin-top: 2px; padding-block: 3px; }
+  .neural-stage[data-neural-primary="true"] .neural-body { max-height: none; font-size: var(--font-size, 20px); overflow-y: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .neural-stage *, .neural-stage *::before, .neural-stage *::after { animation: none !important; transition: none !important; }
+  .neural-stage .neural-scene { opacity: 1 !important; transform: none !important; }
+}

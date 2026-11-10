@@ -1,0 +1,171 @@
+# Chapter 22: 제22화. 네 번째 안전 (170 beats)
+0 | narration | sp= | sc=meeting | 그날 오전 8시 40분, 04-771 운영 회의실. 서인의 보고서에 제안서 하나가 붙었다.
+1 | system | sp= | sc=meeting | 민간 연산 예비층 임시 전환 제안.
+2 | system | sp= | sc=meeting | 아르카디아 인지안전실.
+3 | narration | sp= | sc=meeting | 서인은 먼저 마지막 장을 열었다. 대가를 적는 칸에 금액이 없었다.
+4 | narration | sp= | sc=meeting | 강연우가 옆에서 말했다.
+5 | dialogue | sp= | sc=meeting | “내려오셨네요.”
+6 | dialogue | sp= | sc=meeting | “누가요.”
+7 | dialogue | sp= | sc=meeting | “그 빈칸 설명할 사람.”
+8 | narration | sp= | sc=meeting | 백윤하는 옆 소회의실에서 서인을 기다리고 있었다. 벽 화면에는 윤세라가 공공망 쪽 자리에서 접속해 있었다.
+9 | narration | sp= | sc=meeting | 아르카디아 인지안전실장. 탁자 위에는 서인이 아침에 고친 보고서가 열려 있었다. 중간에 되돌린 6퍼센트포인트까지 펼쳐 놓은 채였다.
+10 | dialogue | sp= | sc=meeting | “이 부분을 회사 예비 연산으로 메우겠습니다.”
+11 | narration | sp= | sc=meeting | 그녀는 인사 뒤에 바로 제안서를 열었다.
+12 | narration | sp= | sc=meeting | 네 개의 검증층이 나왔다. 기업 임원과 핵심 기술직 가족의 고복잡도 의료 판단을 서로 다른 계열의 모델이 한 번씩 확인하는 구조였다.
+13 | dialogue | sp= | sc=meeting | “같은 결과가 세 번 나와도 한 번 더 봅니다.”
+14 | narration | sp= | sc=meeting | 서인이 네 번째를 눌렀다.
+15 | dialogue | sp= | sc=meeting | “여기까지 필요한 사람이 따로 있어요?”
+16 | dialogue | sp= | sc=meeting | “계약에 들어 있는 사람이요.”
+17 | dialogue | sp= | sc=meeting | “병이 더 어려워서가 아니라?”
+18 | dialogue | sp= | sc=meeting | “그 경우도 있습니다. 하지만 자격은 계약으로 정합니다.”
+19 | narration | sp= | sc=meeting | 박선호가 떠올랐다. 아내의 치료 후보를 늘리려고 회사 연산을 몰래 썼던 사람.
+20 | narration | sp= | sc=meeting | 서인은 보호자 자격표를 아래로 넘겼다. 전 직원 대상은 아니었다.
+21 | dialogue | sp= | sc=meeting | “회사를 나가면요?”
+22 | dialogue | sp= | sc=meeting | “이 보장도 끝납니다.”
+23 | narration | sp= | sc=meeting | 백윤하가 다음 장을 열었다.
+24 | system | sp= | sc=meeting | 제4 검증층 야간 예비 연산 일부 전환.
+25 | system | sp= | sc=meeting | 동부 27번 시범 지원 / 오늘 밤 1회.
+26 | system | sp= | sc=meeting | 공공 의료 대기: 추가 지연 예상 없음.
+27 | system | sp= | sc=meeting | 기업 제4 검증: 최대 3시간 지연 가능.
+28 | narration | sp= | sc=meeting | 어젯밤 공공 의료에서 빌려 온 여유를 이번에는 회사가 내놓겠다는 제안이었다. 첫 세 검증은 그대로 진행하고, 네 번째를 기다리는 시간만 늘어날 수 있었다.
+29 | dialogue | sp= | sc=meeting | “이 계약 대상에 실장님도 들어갑니까?”
+30 | narration | sp= | sc=meeting | 강연우가 물었다.
+31 | dialogue | sp= | sc=meeting | “가족까지요.”
+32 | narration | sp= | sc=meeting | 서인은 마지막 장을 앞으로 당겼다.
+33 | dialogue | sp= | sc=meeting | “돈 대신 이거네요.”
+34 | system | sp= | sc=meeting | 시범 결과 익명화 피드백 공유.
+35 | system | sp= | sc=meeting | 향후 동일 자원 전환 시 아르카디아 우선 협의.
+36 | dialogue | sp= | sc=meeting | “다음에도 회사부터 찾아오라는 거죠.”
+37 | dialogue | sp= | sc=meeting | “협의하자는 겁니다. 계약은 다시 해야 합니다.”
+38 | dialogue | sp= | sc=meeting | “거절하면 그날은 못 하고.”
+39 | narration | sp= | sc=meeting | 백윤하는 그 줄을 지우지 않았다.
+40 | dialogue | sp= | sc=meeting | “다른 자원이 없다면요.”
+41 | narration | sp= | sc=meeting | 강연우가 자기 쪽 제안서를 잠시 닫았다.
+42 | narration | sp= | sc=meeting | 서인은 기업 의료의 대기 목록을 요청했다. 개인 정보 대신 건수와 예약 시간만 나왔다.
+43 | dialogue | sp= | sc=meeting | “지연될 사람한테 물어봤어요?”
+44 | dialogue | sp= | sc=meeting | “아직요.”
+45 | dialogue | sp= | sc=meeting | “그럼 언제 물어요?”
+46 | narration | sp= | sc=meeting | 백윤하가 승인 근거를 열었다.
+47 | narration | sp= | sc=meeting | 회사 의결로 인지안전실장에게 맡겨진 일시 전환 권한. 한도는 세 시간, 사후 보고.
+48 | dialogue | sp= | sc=meeting | “이번에는 제가 승인합니다.”
+49 | dialogue | sp= | sc=meeting | “왜 본인이 정해요?”
+50 | dialogue | sp= | sc=meeting | “제가 받은 권한이니까요.”
+51 | narration | sp= | sc=meeting | 서인은 자기 이름이 붙은 어젯밤 보고서를 봤다. 문해린의 첫 문의가 들어올 때까지 그는 그녀의 이름을 몰랐다.
+52 | narration | sp= | sc=meeting | 백윤하는 대기 목록 옆에 네 번째 검증의 진행 창을 붙였다.
+53 | dialogue | sp= | sc=meeting | “첫 세 번으로 치료 판단이 가능한 경우만 남깁니다. 네 번째가 먼저 필요한 건 전환 대상에서 빼고요.”
+54 | dialogue | sp= | sc=meeting | “그러면 안전하다는 거예요?”
+55 | dialogue | sp= | sc=meeting | “기존 세 검증은 유지된다는 뜻입니다.”
+56 | narration | sp= | sc=meeting | 서인이 그녀를 봤다.
+57 | narration | sp= | sc=meeting | 백윤하가 덧붙였다.
+58 | dialogue | sp= | sc=meeting | “네 번째를 계약한 보호자에게는 부족한 답이겠죠.”
+59 | narration | sp= | sc=meeting | 그녀는 승인란을 비워 둔 채 서인 쪽으로 돌렸다.
+60 | dialogue | sp= | sc=meeting | “공공망에서 받을지는 여기서 정하세요.”
+61 | narration | sp= | sc=meeting | 서인은 취소할 경우의 의료 대기를 확인했다. 동부 27번의 완화 폭을 다시 줄여야 했다. 어젯밤처럼.
+62 | narration | sp= | sc=meeting | 다른 지역의 예비량도 열었다. 하나를 선택할 때마다 그 아래 기다릴 작업이 붙었다.
+63 | narration | sp= | sc=meeting | 백윤하는 재촉하지 않았다.
+64 | dialogue | sp= | sc=meeting | “오늘 한 번.”
+65 | narration | sp= | sc=meeting | 서인이 말했다.
+66 | dialogue | sp=서인 | sc=meeting | “다음 밤까지 자동으로 넘어가지는 않게요.”
+67 | narration | sp= | sc=meeting | 그가 요청을 남겼다. 백윤하는 회사 쪽 전환에 서명했고, 윤세라가 공공망 쪽 조건을 대조했다.
+68 | narration | sp= | sc=meeting | 세 사람의 기록이 모두 남은 뒤에야 제안서가 닫혔다.
+69 | narration | sp= | sc=meeting | 서인이 일어서려는데 백윤하가 별도의 검토 메모를 보냈다.
+70 | system | sp= | sc=meeting | 서인 / 외부 추론 보조 가능성 낮음.
+71 | system | sp= | sc=meeting | 인간 단독 판단 가능성 높음.
+72 | narration | sp= | sc=meeting | 그는 앉은 채 다음 줄로 내려갔다.
+73 | system | sp= | sc=meeting | 공공 의사결정 권한 추가 확대: 반대.
+74 | dialogue | sp= | sc=meeting | “같은 분이 쓴 거예요?”
+75 | dialogue | sp= | sc=meeting | “네.”
+76 | dialogue | sp= | sc=meeting | “제가 모델을 안 쓰는 것 같아서 반대해요?”
+77 | narration | sp= | sc=meeting | 백윤하는 대답 대신 어젯밤 승인 기록의 첫 줄을 가리켰다.
+78 | system | sp= | sc=meeting | 요청자 거주 지역.
+79 | dialogue | sp= | sc=meeting | “이걸 남기신 건 좋았습니다. 윤세라 승인자가 다른 지역과 비교한 것도요.”
+80 | dialogue | sp= | sc=meeting | “그럼 계속 그렇게 하면 되잖아요.”
+81 | dialogue | sp= | sc=meeting | “승인자 둘이 매번 같은 사람이면요. 그 둘이 같은 답을 고르기 시작하면, 이 줄은 누가 읽습니까?”
+82 | narration | sp= | sc=meeting | 서인은 그 줄에서 눈을 떼지 않았다.
+83 | narration | sp= | sc=meeting | 백윤하가 자리에서 일어났다.
+84 | dialogue | sp= | sc=meeting | “오늘 시범에는 찬성합니다. 다음 권한은 이 결과까지 보고 심사하겠습니다.”
+85 | dialogue | sp= | sc=meeting | “오늘 잘돼도 반대할 수 있고요.”
+86 | dialogue | sp= | sc=meeting | “네.”
+87 | narration | sp= | sc=meeting | 서인은 검토 메모를 저장했다.
+88 | narration | sp= | sc=meeting | 오후 9시 50분, 04-771 운영 회의실.
+89 | narration | sp= | sc=meeting | 두 번째 시범이 시작됐다. 동부 27번은 어젯밤 처음 정했던 완화 폭으로 돌아갔다.
+90 | narration | sp= | sc=meeting | 이번에 연결된 예비 연산은 아르카디아의 것이었다.
+91 | system | sp= | sc=meeting | 패키지 강도 완화 14% / 정산 최저선 유지.
+92 | system | sp= | sc=meeting | 공공 의료 대기: 정상 범위.
+93 | system | sp= | sc=meeting | 기업 제4 검증: 지연 가능.
+94 | narration | sp= | sc=meeting | 백윤하는 회사 쪽 대기 목록을 열어 두었다. 서인은 공공 의료 목록을 맡았다.
+95 | narration | sp= | sc=meeting | 새벽 1시 12분, 백윤하 쪽에서 알림이 났다.
+96 | narration | sp= | sc=meeting | 아르카디아 전략 임원의 딸. 정기 심장 검사.
+97 | narration | sp= | sc=meeting | 첫 세 검증은 정상이었다. 지금 완료됐어야 할 네 번째 검증에는 2시 09분이라는 새 예상이 붙어 있었다.
+98 | narration | sp= | sc=meeting | 57분.
+99 | narration | sp= | sc=meeting | 보호자 이의 신청이 함께 떴다.
+100 | system | sp= | sc=meeting | 계약은 네 번인데 왜 세 번 끝났다는 안내를 합니까?
+101 | narration | sp= | sc=meeting | 백윤하가 직접 답변 창을 열었다.
+102 | system | sp= | sc=meeting | 운영 책임자 백윤하입니다. 제 승인으로 제4 검증층 일부를 임시 전환했습니다.
+103 | system | sp= | sc=meeting | 보장된 시각보다 늦어져 죄송합니다. 지연 보상 조항을 적용하고, 남은 검증을 직접 확인하겠습니다.
+104 | narration | sp= | sc=meeting | 답은 금방 왔다.
+105 | system | sp= | sc=meeting | 보상 문제가 아닙니다. 아이 문제입니다.
+106 | narration | sp= | sc=meeting | 백윤하의 손이 멈췄다.
+107 | system | sp= | sc=meeting | 네 번째도 정상일 거라고 지금 말할 수 있습니까?
+108 | narration | sp= | sc=meeting | 서인은 옆자리에서 그 문장을 읽었다.
+109 | narration | sp= | sc=meeting | 백윤하가 답했다.
+110 | system | sp= | sc=meeting | 아직 말씀드릴 수 없습니다.
+111 | narration | sp= | sc=meeting | 전송한 뒤에도 그녀는 창을 닫지 않았다.
+112 | narration | sp= | sc=meeting | 강연우가 물을 가져왔다. 백윤하는 받았지만 마시지 않았다.
+113 | narration | sp= | sc=meeting | 1시 40분, 예상 완료 시각은 그대로였다.
+114 | narration | sp= | sc=meeting | 서인이 말했다.
+115 | dialogue | sp=서인 | sc=meeting | “지금 연산을 돌려주면요?”
+116 | narration | sp= | sc=meeting | 백윤하가 즉시 계산을 열었다. 기업 검증은 앞당겨질 수 있었다. 대신 공공망 지원이 끊겼고, 동부 27번 조정을 함께 되돌려야 했다.
+117 | narration | sp= | sc=meeting | 그는 아침에 봤던 회사 권한표를 떠올렸다. 세 시간. 아직 한도 안이었다. 하지만 그것을 보호자에게 답으로 보낼 수는 없었다.
+118 | dialogue | sp= | sc=meeting | “원상복구 요청할까요?”
+119 | narration | sp= | sc=meeting | 백윤하가 물었다. 서인 쪽 화면에도 변경 요청 창이 떴다.
+120 | narration | sp= | sc=meeting | 서인은 공공 의료의 대기 상태를 다시 봤다. 예약들이 제시간에 진행되고 있었다.
+121 | dialogue | sp= | sc=meeting | “지금 상태를 유지하겠습니다.”
+122 | narration | sp= | sc=meeting | 백윤하는 그 선택을 운영 기록에 남겼다. 자기 승인도 붙였다. 벽 화면의 윤세라가 공공망 쪽 유지에 이름을 넣었다.
+123 | narration | sp= | sc=meeting | 서인은 유지 기록 맨 아래에 한 줄을 직접 붙였다.
+124 | system | sp= | sc=meeting | 요청자 거주 지역: 동부 27번.
+125 | narration | sp= | sc=meeting | 백윤하가 그 줄을 봤다. 지우라고 하지 않았다.
+126 | narration | sp= | sc=meeting | 서인은 보호자의 답변 창을 자기 화면에도 열었다.
+127 | narration | sp= | sc=meeting | 잠시 뒤 새 문의가 왔다.
+128 | system | sp= | sc=meeting | 제가 더 기다리면 됩니까?
+129 | narration | sp= | sc=meeting | 백윤하가 답을 입력했다. 예상 완료 시각은 변동이 없고, 결과가 나오는 즉시 알리겠다고.
+130 | narration | sp= | sc=meeting | 공공 의료의 정상 표시와 보호자의 문의 창이 서인의 화면에 나란히 떠 있었다. 두 창 사이에서 분 표시만 바뀌었다.
+131 | narration | sp= | sc=meeting | 2시 09분.
+132 | system | sp= | sc=meeting | 제4 독립 검증 완료 / 정상.
+133 | narration | sp= | sc=meeting | 백윤하가 보호자에게 결과를 보냈다.
+134 | narration | sp= | sc=meeting | 읽음 표시가 생겼다. 답은 없었다.
+135 | narration | sp= | sc=meeting | 그녀는 완료 시각을 기록하고 나서야 물을 마셨다.
+136 | narration | sp= | sc=meeting | 시범 종료 보고에는 공공 의료의 추가 지연이 없다고 나왔다. 정산도 최저선 아래로 내려가지 않았다.
+137 | narration | sp= | sc=meeting | 강연우가 손해 항목을 펼쳤다.
+138 | system | sp= | sc=meeting | 기업 의료 보장 지연 보상: 발생.
+139 | dialogue | sp= | sc=meeting | “이쪽도 붙이죠.”
+140 | narration | sp= | sc=meeting | 서인은 보호자가 기다린 57분을 같은 장에 넣었다.
+141 | narration | sp= | sc=meeting | 보고서를 정리하는 동안 회사 쪽 문의가 늘었다. 자기 가족의 네 번째 검증도 옮겨질 수 있는지 묻는 직원들이었다.
+142 | narration | sp= | sc=meeting | 처음에는 한 건이었다. 네 건이 됐다.
+143 | narration | sp= | sc=meeting | 두 건에는 타사 이직 상담 예약이 연결돼 있었다.
+144 | narration | sp= | sc=meeting | 강연우가 그 숫자를 백윤하에게 돌려 보였다.
+145 | dialogue | sp= | sc=meeting | “내일 아침에 묻겠네요.”
+146 | dialogue | sp= | sc=meeting | “오늘 아침이죠.”
+147 | narration | sp= | sc=meeting | 백윤하가 답했다.
+148 | narration | sp= | sc=meeting | 서인은 다음 시범 일정 칸을 열었다.
+149 | dialogue | sp= | sc=meeting | “한 번 더는요?”
+150 | dialogue | sp= | sc=meeting | “같은 방식으로 계속할 수는 없습니다.”
+151 | narration | sp= | sc=meeting | 백윤하는 방금 들어온 문의 하나를 펼쳤다.
+152 | system | sp= | sc=meeting | 이 보장이 유지되는지 알아야 계약을 갱신합니다.
+153 | dialogue | sp= | sc=meeting | “이 사람한테도 고를 시간이 있어야죠.”
+154 | narration | sp= | sc=meeting | 서인은 빈 일정 칸을 그대로 두었다.
+155 | narration | sp= | sc=meeting | 백윤하가 회사로 돌아갈 채비를 했다. 아직 제출할 보고서가 남아 있었다.
+156 | narration | sp= | sc=meeting | 서인은 아침에 받은 메모를 그녀에게 보였다.
+157 | dialogue | sp= | sc=meeting | “이건 그대로입니까?”
+158 | system | sp= | sc=meeting | 권한 추가 확대: 반대.
+159 | narration | sp= | sc=meeting | 백윤하가 읽고 고개를 끄덕였다.
+160 | narration | sp= | sc=meeting | 서인은 유지 기록을 메모 옆에 띄웠다. 서명 칸에 이름이 셋 있었다. 서인, 윤세라, 백윤하.
+161 | dialogue | sp= | sc=meeting | “오늘은 셋이 같은 답을 골랐어요.”
+162 | dialogue | sp= | sc=meeting | “네. 그중 둘은 어제와 같은 사람이고요.”
+163 | narration | sp= | sc=meeting | 그녀는 회사 쪽 보호자 문의를 가리켰다. 마지막 답변은 여전히 자기 것이었다.
+164 | narration | sp= | sc=meeting | 서인은 메모를 닫았다. 그녀가 틀렸다는 말은 나오지 않았다.
+165 | dialogue | sp= | sc=meeting | “다음에도 와 줄 겁니까?”
+166 | narration | sp= | sc=meeting | 백윤하가 문 앞에서 돌아봤다.
+167 | dialogue | sp= | sc=meeting | “불러 주세요.”
+168 | narration | sp= | sc=meeting | 문이 닫힌 뒤, 서인은 다음 시범의 검토자 칸에 백윤하를 넣었다.
+169 | narration | sp= | sc=meeting | 반대 의견도 함께 첨부했다.

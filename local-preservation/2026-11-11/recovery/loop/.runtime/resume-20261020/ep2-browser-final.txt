@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "mobileReadingPagesStepped": 134,
+  "totalBeatsCovered": 286,
+  "screenshotsCaptured": 33,
+  "backlogDeduplicatedCount": 100,
+  "midSaveResumeVerified": true,
+  "transitionsVerified": [
+    "1->2",
+    "2->3"
+  ],
+  "offlineHtmlVerified": true,
+  "errors": 0
+}

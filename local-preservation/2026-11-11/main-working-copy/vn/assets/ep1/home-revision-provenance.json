@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-19",
+  "mode": "Built-in image_gen edits; original PNGs retained in execution workspace generated_images; WebP format transcoding only",
+  "scope": "Episode one home only; shared later-chapter art unchanged",
+  "assets": [
+    {
+      "name": "home-morning",
+      "key": "home",
+      "source": "exec-114d6a49-e6f6-458c-ad0b-2e1953d1a4f0.png",
+      "refs": [
+        "vn/assets/room.webp"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Edit the supplied visual novel room reference into one final landscape 16:9 background for the SAME Korean near-future story, preserving the muted semi-realistic painterly style and material texture. The purpose of this correction is to make the home actually match the prose: a very small worn rented one-room apartment shared by an adult son and his middle-aged mother, with only a folding partition separating sleep space from living space. Show the physical constraint clearly: at left a battered narrow refrigerator beside a tiny kitchenette, and a cheap folding two-person table opened so close across the fridge front that its door could not swing all the way open. Right third: a modest bed edge, with a thin partly folded freestanding accordion partition immediately beside it. Center/back: only a small ordinary window facing a close neighboring building, no panoramic skyline, no balcony, no floor-to-ceiling windows, no spacious empty floor, no designer furniture, no fancy plants or luxury apartment styling. Tight believable proportions, tired cheap cabinets, cracked ceiling and simple old ceiling lamp. Cared for and lived in, not a filthy slum; warmth comes from one small practical kitchen light and ordinary breakfast bowls, restrained grey morning daylight. Empty of people, no hologram screens, writing, labels, logos, watermarks. Keep upper and center composition readable behind character cutouts and lower fifth relatively quiet for dialogue. Strong coherent small-room geometry is more important than decorative beauty. This one shot is the shared geography for the room and breakfast, so show the kitchenette, table/fridge conflict and folding partition in the same cramped space.",
+      "runtime": "vn/assets/ep1/home-morning.webp",
+      "transparent": false
+    },
+    {
+      "name": "home-night",
+      "key": "home-night",
+      "source": "exec-58898c1a-3b7d-405e-b7f2-429f51d7cb62.png",
+      "refs": [
+        "generated_images/exec-114d6a49-e6f6-458c-ad0b-2e1953d1a4f0.png"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Edit this exact empty-room background into its nighttime state. Preserve every architectural position, narrow dimensions, kitchen, refrigerator, folding table obstructing the fridge door, ordinary small window, accordion divider and bed. This must be the identical apartment and camera, no moved objects or redesigned space. Night at 23:48: no daylight, exterior neighboring building mostly dark with at most one faint warm window, old ceiling light off, kitchen work light off, only a small weak bedside lamp near the bed at viewer right. Restrained cool night tones with enough subtle detail to read the partition and cramped home. No people, no text, UI, logo or watermark. Same landscape16:9 refined semi-realistic painterly art.",
+      "runtime": "vn/assets/ep1/home-night.webp",
+      "transparent": false
+    },
+    {
+      "name": "cg-table-small-home",
+      "key": "table",
+      "source": "exec-816dc324-d468-4d2e-ac0d-2438d238eb22.png",
+      "refs": [
+        "vn/assets/ep1/cg-table.webp",
+        "generated_images/exec-114d6a49-e6f6-458c-ad0b-2e1953d1a4f0.png"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Edit the supplied breakfast event illustration, preserving the EXACT adult Korean male Seoin (black hair, charcoal jacket and grey shirt) and his middle-aged Korean mother (grey bob, white blouse, grey cardigan), matching their same faces and painterly illustration style. The new empty room reference is the authoritative home architecture: tiny worn one-room flat, fridge and kitchenette at left, small ordinary window looking into a close neighboring building, accordion folding divider and bed at right, almost no passage when a little folding table is open across the refrigerator door. Re-stage the breakfast INSIDE THAT SAME cramped home, not a spacious or luxurious apartment. No balcony, no panoramic skyline, no floor-to-ceiling glass or expansive kitchen. CLOSE INTIMATE EVENT CG: mother at viewer RIGHT passes one piece of cooked egg with chopsticks onto Seoin's bowl, son at viewer LEFT receiving the bowl. Keep both recognizable faces close to the image center (roughly 35% and 62% horizontally), hands and bowls in the middle, natural anatomically believable fingers. Mother genuinely warm and matter-of-fact, son quietly worried. Only simple rice bowls, one small egg plate, an ordinary cup: a modest meal, not a restaurant spread. In soft background at left the battered refrigerator is visibly right against the edge of the opened cheap folding table; at right glimpse the narrow folding divider, not new rooms. Warm practical light and modest grey morning daylight. Fine material detail without glamorizing the housing. 16:9 landscape, final game illustration, keep bottom fifth quiet for separately overlaid dialogue, no text, UI, logo or watermark.",
+      "runtime": "vn/assets/ep1/cg-table-small-home.webp",
+      "transparent": false
+    },
+    {
+      "name": "cg-night-small-home",
+      "key": "night",
+      "source": "exec-14760589-1b35-4e1f-970c-3ffb654ddfbb.png",
+      "refs": [
+        "vn/assets/ep1/cg-night.webp",
+        "generated_images/exec-114d6a49-e6f6-458c-ad0b-2e1953d1a4f0.png"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Edit the supplied night event CG preserving EXACTLY Seoin's adult Korean male identity, black hair, grey sleep shirt, thoughtful profile and raised hand poised toward empty air. Keep the existing refined painterly style and intimate side-angle feeling, but correct the surroundings to be the SAME cramped rented room in the second architecture reference: worn plaster wall, cheap bed and blanket, thin accordion divider immediately beside the bed, small regular window facing a close neighboring building. No panoramic glass wall, no balcony or spacious empty interior. Night: window dark, one dim far neighbor window may glow, restrained cool blue ambient light and a very weak warm bedside practical. Frame Seoin's face and poised hand in the central half so both remain visible in portrait mobile crop; the hand is near an invisible approval window, with correct five-finger anatomy and EMPTY space before it, no phone, tablet, hologram or drawn screen. Quiet uncertainty and a real personal decision, not a fashion portrait. The bed and divider should belong to the provided room. 16:9 landscape, lower fifth quiet/dark for dialogue, no writing, interface, logo or watermark.",
+      "runtime": "vn/assets/ep1/cg-night-small-home.webp",
+      "transparent": false
+    }
+  ]
+}

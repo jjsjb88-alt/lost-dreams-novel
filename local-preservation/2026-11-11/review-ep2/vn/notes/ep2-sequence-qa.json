@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-20",
+  "branch": "codex/vn-ep2-sequence-review-20261020",
+  "recoveryBaseline": "fb60df718af82a63097140750a40736ae25eb7c6",
+  "status": "PASS",
+  "node": {
+    "files": 12,
+    "tests": 73,
+    "pass": 73,
+    "fail": 0,
+    "skipped": 0
+  },
+  "episodeTwo": {
+    "status": "PASS",
+    "mobileReadingPagesStepped": 134,
+    "totalBeatsCovered": 286,
+    "screenshotsCaptured": 33,
+    "backlogDeduplicatedCount": 100,
+    "midSaveResumeVerified": true,
+    "transitionsVerified": [
+      "1->2",
+      "2->3"
+    ],
+    "offlineHtmlVerified": true,
+    "errors": 0
+  },
+  "sequence": {
+    "offlinePortraits": [
+      {
+        "actor": "yoonsera",
+        "viewport": 400,
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "actor": "eunkyung",
+        "viewport": 400,
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "actor": "haerin",
+        "viewport": 400,
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "actor": "yoonsera",
+        "viewport": 1440,
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "actor": "eunkyung",
+        "viewport": 1440,
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "actor": "haerin",
+        "viewport": 1440,
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      }
+    ],
+    "mobileChaptersVisited": [
+      "19",
+      "20",
+      "20-1",
+      "21",
+      "21-1",
+      "22"
+    ],
+    "totalPagesStepped": 638,
+    "consoleAndPageErrors": 0,
+    "screenshotsSaved": [
+      "01-title-mobile.png",
+      "02-seq-modal-mobile.png",
+      "03-ep19-yoonsera-mobile.png",
+      "04-ep20-1-eunkyung-mobile.png",
+      "05-ep20-1-haerin-mobile.png",
+      "06-ep21-haerin-call-mobile.png",
+      "07-ep21-1-rescue12-mobile.png",
+      "08-ep22-yoonha-mobile.png",
+      "09-ep22-complete-mobile.png",
+      "10-seq-modal-desktop.png",
+      "11-ep19-yoonsera-desktop.png",
+      "12-ep20-1-haerin-desktop.png",
+      "13-offline-eunkyung-desktop.png",
+      "13-offline-eunkyung-mobile.png",
+      "13-offline-haerin-desktop.png",
+      "13-offline-haerin-mobile.png",
+      "13-offline-yoonsera-desktop.png",
+      "13-offline-yoonsera-mobile.png"
+    ],
+    "screenshotsSavedCount": 18
+  },
+  "fileOffline": {
+    "protocol": "file:",
+    "status": "PASS",
+    "checks": [
+      {
+        "viewport": 400,
+        "actor": "yoonsera",
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "viewport": 400,
+        "actor": "eunkyung",
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "viewport": 400,
+        "actor": "haerin",
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "viewport": 1440,
+        "actor": "yoonsera",
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "viewport": 1440,
+        "actor": "eunkyung",
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "viewport": 1440,
+        "actor": "haerin",
+        "embedded": true,
+        "matchesExpectedAsset": true,
+        "width": 1024,
+        "height": 1536
+      }
+    ],
+    "externalRequests": 0,
+    "pageErrors": 0
+  },
+  "offline": {
+    "bytes": 37681896,
+    "sha256": "d47604957453eb7049b92641e06197b2c554a7eac4af9de31430d198b8b33cc6",
+    "embeddedAssets": 84,
+    "inlineScriptsParsed": 2,
+    "sourceModuleHashesMatch": true,
+    "embeddedAssetHashesMatch": true
+  },
+  "sourceTextUnchanged": true,
+  "originalPreservation": {
+    "sourceFilesChecked": 215,
+    "missingOriginalFiles": [],
+    "changedOriginalFiles": [],
+    "headUnchanged": true,
+    "branchUnchanged": true,
+    "indexUnchanged": true,
+    "statusUnchanged": true
+  },
+  "screenshots": [
+    {
+      "file": "vn/notes/ep2-sequence-proof/father-port-mobile.png",
+      "sha256": "abf26435c417e898cdb547e0b916e1b9252b96887743ba2042c857df5231ca8f",
+      "bytes": 304097
+    },
+    {
+      "file": "vn/notes/ep2-sequence-proof/father-port-continuation-mobile.png",
+      "sha256": "147be900ae183485926a5edf374ca10570785a427c09d2de4ee1edaed845f91e",
+      "bytes": 295371
+    },
+    {
+      "file": "vn/notes/ep2-sequence-proof/eunkyung-card-mobile.png",
+      "sha256": "f627cad21d26144e6cce5d57a554dc0ec602a284ce6b3ae1e9bd543951dbafbf",
+      "bytes": 367452
+    },
+    {
+      "file": "vn/notes/ep2-sequence-proof/haerin-card-mobile.png",
+      "sha256": "15143eb5f79faaa769ccdca0fd5f1b8fa070161eb084917017130f90effcc76c",
+      "bytes": 378296
+    },
+    {
+      "file": "vn/notes/ep2-sequence-proof/sequence-menu-desktop.png",
+      "sha256": "38e0b0a8ea7caf3f2f551bdc7ed1c7c784259d93b674f5f01c505dcc67ddede2",
+      "bytes": 240873
+    },
+    {
+      "file": "vn/notes/ep2-sequence-proof/offline-yoonsera-desktop.png",
+      "sha256": "b07435b79fe5e4b74337d9c3d8bddc04122b9a70c92a91e8dbde3095bb1d360f",
+      "bytes": 1118041
+    }
+  ],
+  "limits": [
+    "Instant-text automated functional tests; no natural reader-time measurement",
+    "No human audio listening or full-novel editorial audit",
+    "Verification was completed locally before publication; no merge or deployment"
+  ],
+  "independentReview": {
+    "runtimeDiff": "PASS: centralized asset registration and safe verification paths",
+    "freshMobileCaptures": "PASS: both Episode 2 spacing states and both Episode 20-1 cards",
+    "portraitIdentityFinding": "resolved: all 6 HTTP and all 6 file cases compare embedded bytes to the expected runtime image"
+  },
+  "publicationBranch": "codex/vn-ep2-sequence-review-20261020",
+  "verifiedRecoveryCommit": "54e58340af46c71679a405810f0a2e41331ef349",
+  "recordScope": "Recovered playback snapshot, reverified on the public LF source tree on 2026-10-20",
+  "recoveryOfflineBeforeLF": {
+    "bytes": 37689200,
+    "sha256": "6b297e1c012ed105cc9bf304029ac5e7534c64561078ae2d773faeaaab89379a",
+    "embeddedAssets": 84,
+    "inlineScriptsParsed": 2,
+    "sourceModuleHashesMatch": true,
+    "embeddedAssetHashesMatch": true
+  },
+  "publicationVerification": {
+    "node": {
+      "files": 12,
+      "tests": 73,
+      "pass": 73,
+      "fail": 0,
+      "skipped": 0
+    },
+    "episodeTwo": {
+      "status": "PASS",
+      "mobileReadingPagesStepped": 134,
+      "totalBeatsCovered": 286,
+      "screenshotsCaptured": 33,
+      "backlogDeduplicatedCount": 100,
+      "midSaveResumeVerified": true,
+      "transitionsVerified": [
+        "1->2",
+        "2->3"
+      ],
+      "offlineHtmlVerified": true,
+      "errors": 0
+    },
+    "sequence": {
+      "offlinePortraits": [
+        {
+          "actor": "yoonsera",
+          "viewport": 400,
+          "embedded": true,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "eunkyung",
+          "viewport": 400,
+          "embedded": true,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "haerin",
+          "viewport": 400,
+          "embedded": true,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "yoonsera",
+          "viewport": 1440,
+          "embedded": true,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "eunkyung",
+          "viewport": 1440,
+          "embedded": true,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "haerin",
+          "viewport": 1440,
+          "embedded": true,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "mobileChaptersVisited": [
+        "19",
+        "20",
+        "20-1",
+        "21",
+        "21-1",
+        "22"
+      ],
+      "totalPagesStepped": 638,
+      "consoleAndPageErrors": 0,
+      "screenshotsSaved": [
+        "01-title-mobile.png",
+        "02-seq-modal-mobile.png",
+        "03-ep19-yoonsera-mobile.png",
+        "04-ep20-1-eunkyung-mobile.png",
+        "05-ep20-1-haerin-mobile.png",
+        "06-ep21-haerin-call-mobile.png",
+        "07-ep21-1-rescue12-mobile.png",
+        "08-ep22-yoonha-mobile.png",
+        "09-ep22-complete-mobile.png",
+        "10-seq-modal-desktop.png",
+        "11-ep19-yoonsera-desktop.png",
+        "12-ep20-1-haerin-desktop.png",
+        "13-offline-eunkyung-desktop.png",
+        "13-offline-eunkyung-mobile.png",
+        "13-offline-haerin-desktop.png",
+        "13-offline-haerin-mobile.png",
+        "13-offline-yoonsera-desktop.png",
+        "13-offline-yoonsera-mobile.png"
+      ]
+    },
+    "fileOffline": {
+      "status": "PASS",
+      "cases": [
+        {
+          "actor": "yoonsera",
+          "viewport": 400,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "eunkyung",
+          "viewport": 400,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "haerin",
+          "viewport": 400,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "yoonsera",
+          "viewport": 1440,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "eunkyung",
+          "viewport": 1440,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "actor": "haerin",
+          "viewport": 1440,
+          "matchesExpectedAsset": true,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "externalRequests": 0,
+      "pageErrors": 0
+    },
+    "sourceModuleHashesChecked": 16,
+    "sourceModuleHashMismatches": [],
+    "imageAndAudioBytesUnchanged": true,
+    "runtimeTextChanges": "CRLF to LF only; offline HTML and manifest rebuilt from the LF tree",
+    "originalFilesRechecked": 215,
+    "originalFilesChanged": 0,
+    "originalHeadBranchIndexStatusUnchanged": true,
+    "privatePathsOrCredentialsDetected": 0,
+    "mergeOrDeploymentPerformed": false
+  }
+}

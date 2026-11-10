@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "chapters": [
+    {
+      "chapter": "19",
+      "beats": 178
+    },
+    {
+      "chapter": "19-1",
+      "beats": 163
+    },
+    {
+      "chapter": "19-2",
+      "beats": 182
+    },
+    {
+      "chapter": "20",
+      "beats": 208
+    },
+    {
+      "chapter": "20-1",
+      "beats": 91
+    },
+    {
+      "chapter": "21",
+      "beats": 190
+    },
+    {
+      "chapter": "21-1",
+      "beats": 127
+    },
+    {
+      "chapter": "22",
+      "beats": 178
+    }
+  ],
+  "totalBeatsStepped": 1317,
+  "saveResumeVerified": true,
+  "offlinePortraits": [
+    {
+      "protocol": "http",
+      "viewport": 400,
+      "actor": "yoonsera",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "http",
+      "viewport": 400,
+      "actor": "eunkyung",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "http",
+      "viewport": 400,
+      "actor": "haerin",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "http",
+      "viewport": 1440,
+      "actor": "yoonsera",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "http",
+      "viewport": 1440,
+      "actor": "eunkyung",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "http",
+      "viewport": 1440,
+      "actor": "haerin",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "file",
+      "viewport": 400,
+      "actor": "yoonsera",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "file",
+      "viewport": 400,
+      "actor": "eunkyung",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "file",
+      "viewport": 400,
+      "actor": "haerin",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "file",
+      "viewport": 1440,
+      "actor": "yoonsera",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "file",
+      "viewport": 1440,
+      "actor": "eunkyung",
+      "matchesExpectedAsset": true
+    },
+    {
+      "protocol": "file",
+      "viewport": 1440,
+      "actor": "haerin",
+      "matchesExpectedAsset": true
+    }
+  ],
+  "pageAndConsoleErrors": [],
+  "screenshots": [
+    "19-doubt-mobile.png",
+    "19-1-refund-mobile.png",
+    "19-2-dinner-mobile.png",
+    "20-refusal-mobile.png",
+    "20-rooftop-mobile.png",
+    "20-1-school-mobile.png",
+    "21-seven-lines-mobile.png",
+    "21-1-victory-mobile.png",
+    "22-dissent-mobile.png",
+    "22-child-shoes-mobile.png",
+    "22-three-signatures-mobile.png",
+    "19-doubt-desktop.png",
+    "20-rooftop-desktop.png",
+    "22-three-signatures-desktop.png"
+  ]
+}

@@ -1,0 +1,25 @@
+.episode-teaser {
+  position: fixed; inset: 0; margin: 0; padding: 0; border: 0;
+  width: 100%; max-width: none; height: 100%; height: 100dvh; max-height: none;
+  background: #000; color: #fff; overflow: hidden;
+}
+.episode-teaser:not([open]) { display: none; pointer-events: none; }
+.episode-teaser::backdrop { background: #000; }
+.episode-teaser video { display: block; width: 100%; height: 100%; object-fit: contain; }
+.teaser-controls {
+  position: absolute; inset: auto 0 0; display: flex; flex-wrap: wrap; align-items: center;
+  gap: 12px; padding: 40px max(20px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+  background: linear-gradient(transparent, #000d); pointer-events: none;
+}
+.teaser-controls p { flex: 1 1 180px; margin: 0; font-size: 14px; text-shadow: 0 1px 3px #000; }
+.teaser-controls button {
+  pointer-events: auto; min-height: 48px; padding: 12px 18px; border: 1px solid #fff9;
+  border-radius: 8px; background: #101923e8; color: #fff; font: inherit; cursor: pointer;
+}
+.teaser-controls button:focus-visible { outline: 3px solid #ffe1a3; outline-offset: 3px; }
+#teaserSkip { background: #fff; color: #111; font-weight: 700; }
+@media (max-width: 480px) {
+  .teaser-controls { gap: 10px; }
+  .teaser-controls p { flex-basis: 100%; }
+  .teaser-controls button { flex: 1; padding-inline: 10px; }
+}

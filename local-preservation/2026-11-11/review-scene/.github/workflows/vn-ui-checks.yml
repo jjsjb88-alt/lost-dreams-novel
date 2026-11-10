@@ -1,0 +1,25 @@
+name: 비주얼노벨 작동 검사
+
+on:
+  pull_request:
+    paths:
+      - 'vn/**'
+      - 'tools/build-vn-offline.mjs'
+      - '.github/workflows/vn-ui-checks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 비주얼노벨 기능과 타이틀 메뉴 검사
+        run: npm test --prefix vn
+      - name: 오프라인판도 완전히 생성되는지 검사
+        run: node tools/build-vn-offline.mjs "$GITHUB_WORKSPACE/vn" "$RUNNER_TEMP/play-offline.html"

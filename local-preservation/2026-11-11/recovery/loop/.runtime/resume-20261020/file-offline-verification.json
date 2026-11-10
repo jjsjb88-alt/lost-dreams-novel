@@ -1,0 +1,56 @@
+{
+  "protocol": "file:",
+  "status": "PASS",
+  "checks": [
+    {
+      "viewport": 400,
+      "actor": "yoonsera",
+      "embedded": true,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "viewport": 400,
+      "actor": "eunkyung",
+      "embedded": true,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "viewport": 400,
+      "actor": "haerin",
+      "embedded": true,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "viewport": 1440,
+      "actor": "yoonsera",
+      "embedded": true,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "viewport": 1440,
+      "actor": "eunkyung",
+      "embedded": true,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "viewport": 1440,
+      "actor": "haerin",
+      "embedded": true,
+      "matchesExpectedAsset": true,
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "externalRequests": 0,
+  "pageErrors": 0
+}

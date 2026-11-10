@@ -1,0 +1,25 @@
+{
+  "repository": "jbseo-commits/lost-dreams-novel",
+  "title": "꿈을 잃은 세계",
+  "novel": true,
+  "models": {
+    "codex": {
+      "main": "gpt-6.1-sol / high",
+      "explorer": "gpt-6-luna / high",
+      "worker": "gpt-6-luna / high",
+      "researcher": "gpt-6-luna / high",
+      "reviewer": "gpt-6.1-sol / high",
+      "continuity_reviewer": "gpt-6-luna / high",
+      "editorial_reviewer": "gpt-6.1-sol / high"
+    },
+    "claude": {
+      "main": "opus / high",
+      "explorer": "sonnet / medium",
+      "worker": "sonnet / medium",
+      "researcher": "sonnet / medium",
+      "reviewer": "opus / advisor",
+      "continuity_reviewer": "sonnet / medium",
+      "editorial_reviewer": "opus / high"
+    }
+  }
+}

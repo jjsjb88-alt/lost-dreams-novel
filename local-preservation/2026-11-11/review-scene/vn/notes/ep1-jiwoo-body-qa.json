@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "tease PC: new image decoded, no old body request, save resume, overlay close and next input work",
+    "firm PC: new image decoded, no old body request, save resume, overlay close and next input work",
+    "wounded PC: new image decoded, no old body request, save resume, overlay close and next input work",
+    "clay PC: new image decoded, no old body request, save resume, overlay close and next input work",
+    "tease 400px touch: new image decoded, no old body request, save resume, overlay close and next input work",
+    "firm 400px touch: new image decoded, no old body request, save resume, overlay close and next input work",
+    "wounded 400px touch: new image decoded, no old body request, save resume, overlay close and next input work",
+    "clay 400px touch: new image decoded, no old body request, save resume, overlay close and next input work",
+    "standalone HTML: source bundle and embedded media load; mobile demo skip, body, home and chapter button work without asset requests",
+    "standalone HTML: new body clay CG decoded from embedded WebP and mobile next input works with external requests blocked"
+  ],
+  "errors": []
+}

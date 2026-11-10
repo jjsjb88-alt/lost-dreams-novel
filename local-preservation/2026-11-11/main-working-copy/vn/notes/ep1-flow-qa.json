@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-19",
+  "baseMain": "f84308274217790880840b58512a63a9bdb4c560",
+  "scope": "Episode-one presentation revision; original source indices and saves retained",
+  "sourceBeats": 263,
+  "readingPages": 161,
+  "fullWalkthroughViewport": {
+    "width": 400,
+    "height": 844
+  },
+  "representativeDesktopViewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "functionalSummary": {
+    "readingPages": 161,
+    "sourceBeats": 263,
+    "overflow": [],
+    "errors": [],
+    "failures": []
+  },
+  "functionalChecks": [
+    "263 source beats in 161 mobile reading pages, optional point unselected, ending and chapter-two advance",
+    "legacy save111 resumes at111, previous110, next114, reload and original-line backlog",
+    "legacy observation choice restored; touch and keyboard expand/collapse do not advance; selection preserved",
+    "auto passes optional observation without selecting",
+    "auto delay includes the full grouped exchange",
+    "single-file edition loads new reading pages with no asset requests"
+  ],
+  "followupChecks": [
+    {
+      "check": "mobile meal preserves the full source composition",
+      "art": {
+        "fit": "contain",
+        "renderedWidth": 400,
+        "renderedHeight": 481,
+        "naturalWidth": 1672,
+        "naturalHeight": 941
+      }
+    },
+    {
+      "check": "four backlog/settings modal round trips keep four original-line entries and restore the current page"
+    },
+    {
+      "check": "direct file URL play",
+      "result": "blocked",
+      "reason": "Browser administrator policy: ERR_BLOCKED_BY_ADMINISTRATOR"
+    }
+  ],
+  "sourceAndSharedAssetsUnchanged": true,
+  "runtimeTestFiles": {
+    "passed": 9,
+    "failed": 0
+  },
+  "repositoryChecks": {
+    "passed": 10,
+    "failed": 0
+  },
+  "independentReview": "same reviewer: changed portions PASS after backlog suffix fix and mobile meal composition correction",
+  "audioListening": false,
+  "naturalReaderDurationMeasured": false,
+  "rawWalkthroughSha256": "d1a8e7bff89e8f586f19bad060de9c6d36ea14315f3ac96db4146bd38c8682de",
+  "screenshots": {
+    "table-pc.png": "1fd409a6c1676862d0b49bb6df2f5f8bbce827d101915972149b73850366cd7c",
+    "table-mobile.png": "b8b6162bbfc1d195603047c7b92b7fbdfc6fc4e7fbf05e4ae1193f3652173f12",
+    "approval-pc.png": "817907abfb0bf209f8fa8e86b898681d162917d6503c1069fc2f4d132d77021b",
+    "approval-mobile.png": "04f06ead91bde769fc39eaa05d7f3295d00d2f303b51a13f1f63db932c4f80d5",
+    "jiwoo-mobile.png": "1d7525c7b9a4622f3fe95a165b698233c34b29f1ee03e35f92fc3dc684d8d56e",
+    "choice-mobile.png": "df7b7e3f4a6f1058a2f3104423fcfe3fb952e278d09b65a711dc5591afcc84e5",
+    "clay-mobile.png": "ad4d60f7663bcdc9b75b9663512682e3303939d382a434cd40efb7eb811e6a4e",
+    "ending-mobile.png": "6284dea967f7e97df58f72780b557436caa5dfce3ac9022f6adedc484d96588e",
+    "reading-mobile.png": "fb6b2fe3e663ff736cb443c76edb532df2303356fcab800f8a76bc99da8449c8",
+    "home-pc.png": "e39ce17d031a1ad7e3ab7ba4baed11ee644934662b4fbbc2086213929e74ec9d",
+    "night-mobile.png": "2ec9d6364b5c0f8944bb45983a4ee09896b435078614cb0d50e0bad0e34062bd"
+  }
+}

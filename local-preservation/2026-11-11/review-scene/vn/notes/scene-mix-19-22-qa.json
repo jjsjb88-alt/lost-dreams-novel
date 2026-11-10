@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-20",
+  "branch": "codex/scene-mix-19-22-20261020",
+  "base": "84d2445ef07c1175d7d59f1fb70c864098eed1ad",
+  "comparedRecovery": "54e58340af46c71679a405810f0a2e41331ef349",
+  "manuscriptPasses": 2,
+  "manuscriptFiles": [
+    "ep019.md",
+    "ep020.md",
+    "ep021.md",
+    "ep022.md"
+  ],
+  "unchangedSupportManuscripts": [
+    "ep019-1.md",
+    "ep019-2.md",
+    "ep020-1.md",
+    "ep021-1.md"
+  ],
+  "node": {
+    "tests": 81,
+    "pass": 81,
+    "fail": 0,
+    "skip": 0
+  },
+  "browser": {
+    "status": "PASS",
+    "chapters": [
+      {
+        "chapter": "19",
+        "beats": 178
+      },
+      {
+        "chapter": "19-1",
+        "beats": 163
+      },
+      {
+        "chapter": "19-2",
+        "beats": 182
+      },
+      {
+        "chapter": "20",
+        "beats": 208
+      },
+      {
+        "chapter": "20-1",
+        "beats": 91
+      },
+      {
+        "chapter": "21",
+        "beats": 190
+      },
+      {
+        "chapter": "21-1",
+        "beats": 127
+      },
+      {
+        "chapter": "22",
+        "beats": 178
+      }
+    ],
+    "totalBeatsStepped": 1317,
+    "saveResumeVerified": true,
+    "offlinePortraits": [
+      {
+        "protocol": "http",
+        "viewport": 400,
+        "actor": "yoonsera",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "http",
+        "viewport": 400,
+        "actor": "eunkyung",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "http",
+        "viewport": 400,
+        "actor": "haerin",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "http",
+        "viewport": 1440,
+        "actor": "yoonsera",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "http",
+        "viewport": 1440,
+        "actor": "eunkyung",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "http",
+        "viewport": 1440,
+        "actor": "haerin",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "file",
+        "viewport": 400,
+        "actor": "yoonsera",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "file",
+        "viewport": 400,
+        "actor": "eunkyung",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "file",
+        "viewport": 400,
+        "actor": "haerin",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "file",
+        "viewport": 1440,
+        "actor": "yoonsera",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "file",
+        "viewport": 1440,
+        "actor": "eunkyung",
+        "matchesExpectedAsset": true
+      },
+      {
+        "protocol": "file",
+        "viewport": 1440,
+        "actor": "haerin",
+        "matchesExpectedAsset": true
+      }
+    ],
+    "pageAndConsoleErrors": [],
+    "screenshots": [
+      "19-doubt-mobile.png",
+      "19-1-refund-mobile.png",
+      "19-2-dinner-mobile.png",
+      "20-refusal-mobile.png",
+      "20-rooftop-mobile.png",
+      "20-1-school-mobile.png",
+      "21-seven-lines-mobile.png",
+      "21-1-victory-mobile.png",
+      "22-dissent-mobile.png",
+      "22-child-shoes-mobile.png",
+      "22-three-signatures-mobile.png",
+      "19-doubt-desktop.png",
+      "20-rooftop-desktop.png",
+      "22-three-signatures-desktop.png"
+    ]
+  },
+  "source": {
+    "sequence": [
+      "19",
+      "19-1",
+      "19-2",
+      "20",
+      "20-1",
+      "21",
+      "21-1",
+      "22"
+    ],
+    "beats": 1317,
+    "dialogues": 573,
+    "missingSpeakers": 0,
+    "outsideChanged": [],
+    "sourceCoverage": "All eight chapter titles, ordered paragraphs and line spans independently compared with manuscript",
+    "storyDataBytes": 6830823,
+    "serialization": "Compact baseline format; semantic equality verified after formatting"
+  },
+  "offline": {
+    "bytes": 54108293,
+    "sha256": "6c8acd1b0515b1f8235ea5d2e697350614f59a0c361cea0a265b644622c2c6f9",
+    "assets": 90,
+    "modules": 17,
+    "inlineScripts": 3,
+    "moduleHashMismatches": []
+  },
+  "screenshots": [
+    {
+      "file": "vn/notes/scene-mix-proof/19-doubt-mobile.png",
+      "bytes": 357246,
+      "sha256": "c84f8243e507f4072ba5e493b612a6259ee2daefaaa4e85a0f13fe859be62fb3"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/19-1-refund-mobile.png",
+      "bytes": 350785,
+      "sha256": "9f37ba3e99ab0e008a561a1fe6f211f9ffc0b04b2cabbed52483f8c27f0a8135"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/19-2-dinner-mobile.png",
+      "bytes": 406790,
+      "sha256": "f16eb63e53e3d11073c5f37a06480985bc55b67d5910ac47975b97f3f325bfcf"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/20-refusal-mobile.png",
+      "bytes": 407023,
+      "sha256": "49cae5d5c2470e48dbec6c1136ef8e8dd2bfa05d233fb195c6f256da1420921f"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/20-rooftop-mobile.png",
+      "bytes": 399258,
+      "sha256": "867380bfefcb5fa05cde5e9631747015f417a194a10d69ee055e2d6ac2a1e2b4"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/20-1-school-mobile.png",
+      "bytes": 391970,
+      "sha256": "9a661a80448d2abbbbe19558f05b54b5c4509c8b49f62bd56f327dc9d84aaf27"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/21-seven-lines-mobile.png",
+      "bytes": 403677,
+      "sha256": "032bb844d3a8b33ed4db74ea2fe58a86a389b1adce8ad7937f9b12e8e07d7a1d"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/21-1-victory-mobile.png",
+      "bytes": 426532,
+      "sha256": "448f4f1b601d6495b908a60eb2d8df56289fc524787ee026ed3cab5414ac7853"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/22-dissent-mobile.png",
+      "bytes": 408686,
+      "sha256": "d03370e2ba3185c7981b9ccd91e509838542677781cae74c212c2bb902e6d063"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/22-child-shoes-mobile.png",
+      "bytes": 396888,
+      "sha256": "0307b0ab1d5d57df9114ef6aad533cd01b01a73656627a63c03d4a2c3ee29b63"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/22-three-signatures-mobile.png",
+      "bytes": 359474,
+      "sha256": "17b291338dfa950097469ee49f6820dbc5f05f605a2797750db5337bca46168c"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/19-doubt-desktop.png",
+      "bytes": 1261085,
+      "sha256": "6f9a433dc01a8fdb13ed053861d99427c24d49fe1f907c7caec0b5d1f9d7136a"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/20-rooftop-desktop.png",
+      "bytes": 1539764,
+      "sha256": "d18c9cceb6382b7aa583cc9464b6c389c5b6babb42225b398722c7859bcc49c2"
+    },
+    {
+      "file": "vn/notes/scene-mix-proof/22-three-signatures-desktop.png",
+      "bytes": 1269750,
+      "sha256": "4de54e5810d9ed30e56ad0abcb2346c347aa05c353f7c306be636220324aa4b9"
+    }
+  ],
+  "review": {
+    "continuity": "PASS after local corrections",
+    "editorialProse": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "visual": {
+      "mobile": 9,
+      "proseSix": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "sevenCriterionAverage": 9,
+      "desktopCompletedTextRecaptured": true,
+      "remainingLimitations": [
+        "The hospital child and guardian use cast labels and dialogue; no new character art was generated",
+        "The refusal scene relies mainly on dialogue; complete audio listening was not performed"
+      ]
+    }
+  },
+  "limits": [
+    "Automated functional playback uses instant text; no natural reading-time measurement",
+    "No new image or audio generation; no human listening certification",
+    "No main merge or deployment"
+  ]
+}

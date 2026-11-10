@@ -1,0 +1,9 @@
+{
+  "blockedExternalHosts": [
+    "fonts.googleapis.com"
+  ],
+  "bumperSvgFont": "system-ui, sans-serif",
+  "bodyFont": "system-ui, \"Noto Sans KR\", sans-serif",
+  "localReaderLoaded": "저녁값",
+  "localOnly": true
+}

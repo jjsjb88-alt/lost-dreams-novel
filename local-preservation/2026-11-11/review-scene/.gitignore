@@ -1,0 +1,15 @@
+# 배포할 때 자동으로 만들어진다
+manifest.json
+
+# 로컬 미리보기 캐시
+.vite/
+undefined/
+
+# Local AI loop telemetry (never commit session data)
+loop/.runtime/
+
+# 티저 렌더용 폰트 (tools/fetch-fonts.sh로 내려받음)
+teaser/fonts/
+
+# Local verification dependencies
+node_modules/

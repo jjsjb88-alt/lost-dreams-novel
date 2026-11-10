@@ -1,0 +1,126 @@
+{
+  "chapters": [
+    {
+      "id": "19",
+      "title": "제19화. 문 앞에 선 사람",
+      "sourceParagraphs": 178,
+      "dialogues": 80,
+      "unlabelledDialogues": 0,
+      "sourceSections": 5,
+      "oldBeats": 347
+    },
+    {
+      "id": "20",
+      "title": "제20화. 문 안에서 내리는 판단",
+      "sourceParagraphs": 208,
+      "dialogues": 91,
+      "unlabelledDialogues": 0,
+      "sourceSections": 6,
+      "oldBeats": 188
+    },
+    {
+      "id": "21",
+      "title": "제21화. 좋아진 밤의 가격",
+      "sourceParagraphs": 190,
+      "dialogues": 91,
+      "unlabelledDialogues": 0,
+      "sourceSections": 7,
+      "oldBeats": 185
+    },
+    {
+      "id": "22",
+      "title": "제22화. 네 번째 안전",
+      "sourceParagraphs": 178,
+      "dialogues": 82,
+      "unlabelledDialogues": 0,
+      "sourceSections": 8,
+      "oldBeats": 166
+    },
+    {
+      "id": "19-1",
+      "title": "제19-1화. 권한이 없는 현장",
+      "sourceParagraphs": 163,
+      "dialogues": 77,
+      "unlabelledDialogues": 0,
+      "sourceSections": 5,
+      "oldBeats": 174
+    },
+    {
+      "id": "19-2",
+      "title": "제19-2화. 저녁값",
+      "sourceParagraphs": 182,
+      "dialogues": 91,
+      "unlabelledDialogues": 0,
+      "sourceSections": 8,
+      "oldBeats": 183
+    },
+    {
+      "id": "20-1",
+      "title": "제20-1화. 두 집의 밤",
+      "sourceParagraphs": 91,
+      "dialogues": 16,
+      "unlabelledDialogues": 0,
+      "sourceSections": 5,
+      "oldBeats": 91
+    },
+    {
+      "id": "21-1",
+      "title": "제21-1화. 마지막 한 사람",
+      "sourceParagraphs": 127,
+      "dialogues": 45,
+      "unlabelledDialogues": 0,
+      "sourceSections": 4,
+      "oldBeats": 127
+    }
+  ],
+  "cues": [
+    {
+      "id": "19",
+      "old": 44,
+      "retained": 3,
+      "dropped": 41
+    },
+    {
+      "id": "20",
+      "old": 11,
+      "retained": 11,
+      "dropped": 0
+    },
+    {
+      "id": "21",
+      "old": 9,
+      "retained": 9,
+      "dropped": 0
+    },
+    {
+      "id": "22",
+      "old": 7,
+      "retained": 7,
+      "dropped": 0
+    },
+    {
+      "id": "19-1",
+      "old": 2,
+      "retained": 1,
+      "dropped": 1
+    },
+    {
+      "id": "19-2",
+      "old": 0,
+      "retained": 0,
+      "dropped": 0
+    },
+    {
+      "id": "20-1",
+      "old": 9,
+      "retained": 9,
+      "dropped": 0
+    },
+    {
+      "id": "21-1",
+      "old": 23,
+      "retained": 23,
+      "dropped": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "outputHtml": "play-offline.html",
+  "offlineBytes": 54108293,
+  "uniqueEmbeddedAssets": 90,
+  "mimeTypes": [
+    "image/webp",
+    "video/mp4",
+    "image/avif",
+    "audio/mpeg",
+    "image/jpeg"
+  ],
+  "modules": [
+    "state.js",
+    "direction.js",
+    "audio.js",
+    "neural-cues.js",
+    "neural-stage.js",
+    "perception.js",
+    "save-portability.js",
+    "ep1-assets.js",
+    "episode-one.js",
+    "episode-one-stage.js",
+    "episode-one-audio.js",
+    "episode-one-reading.js",
+    "episode-one-teaser.js",
+    "title-atmosphere.js",
+    "episode-two.js",
+    "episode-two-reading.js",
+    "app.js"
+  ],
+  "inlineScriptsParsed": 3,
+  "sourceCheckoutModified": false,
+  "externalCost": 0
+}

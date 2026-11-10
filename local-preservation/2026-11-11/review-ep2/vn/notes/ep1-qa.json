@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "scope": "Episode1, existing original prose unchanged",
+  "beats": 263,
+  "observedUiFrames": 263,
+  "allBeatsInOrderFoundInRenderedUi": true,
+  "missing": [],
+  "mode": "final build; manual UI; instant text; all263 beats; no chapter jumps; not natural reading-time study",
+  "startedAt": "2026-10-18T21:41:52.871Z",
+  "finishedAt": "2026-10-18T21:46:01.943Z",
+  "wallSeconds": 249.072,
+  "wallTimeMeaning": "Technical browser QA with instant text and interruptions; not reader comprehension or enjoyment duration.",
+  "endingObserved": true,
+  "rawEvidenceSha256": "868d1dcad4573b143109e90c02f499a2d83802b6f38d3eeaa7b2128a0797e86f",
+  "runtimeTests": {
+    "passed": 53,
+    "failed": 0
+  },
+  "independentReview": "Read-only source, screenshots and four audio lifecycle reproductions; no direct listening or separate full play by reviewer.",
+  "limits": [
+    "No human headphone/speaker listening review",
+    "No measured ordinary reader 20–30 minute duration",
+    "file:// direct opening was blocked by the testing browser policy"
+  ],
+  "followUpChecks": [
+    "400px focus scrolling corrected: stageScroll=0, HUD top=0",
+    "18 scene-index jumps and exact source-space restoration checked after full walkthrough",
+    "Original prose and story-data remain unchanged"
+  ]
+}

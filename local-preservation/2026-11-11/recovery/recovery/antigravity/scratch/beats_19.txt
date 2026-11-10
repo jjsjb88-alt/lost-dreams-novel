@@ -1,0 +1,348 @@
+# Chapter 19: 제19화. 문을 열어 주는 사람 (347 beats)
+0 | narration | sp= | sc=office | 등급 6은 생각보다 가까이 있었다.
+1 | narration | sp= | sc=office | 문제는 그 문을 여는 사람이 서인을 믿지 않았다는 것이다.
+2 | narration | sp= | sc=office | 서인은 열람 기록의 맨 아래 줄을 다시 열었다.
+3 | system | sp= | sc=office | 열람자 확인: 서인 / 확인 주체: 참여자 4.
+4 | narration | sp= | sc=office | 이름은 여전히 가려져 있었다.
+5 | narration | sp= | sc=office | 서인은 누르지 않고 닫았다.
+6 | narration | sp= | sc=office | 누르면 누른 기록이 저쪽에도 남을 것 같았다.
+7 | narration | sp= | sc=office | 04-771의 제한 열람 화면에 새 항목이 붙었다.
+8 | system | sp= | sc=office | 수동 중단 권한: 등급 6 이상.
+9 | system | sp= | sc=office | 승인 주체: 공동 운영위원회.
+10 | system | sp= | sc=office | 현재 열람자 등급: 4.
+11 | narration | sp= | sc=office | 강연우가 화면을 가리켰다.
+12 | dialogue | sp= | sc=office | “어제 R-2는 읽는 자격이었고요. 이건 누르는 자격이에요.”
+13 | dialogue | sp= | sc=office | “문이 두 개였네요.”
+14 | dialogue | sp= | sc=office | “네. 어제 연 건 앞문이에요.”
+15 | narration | sp= | sc=office | 서인은 화면의 4를 봤다.
+16 | dialogue | sp= | sc=office | “두 칸이네요.”
+17 | dialogue | sp= | sc=office | “숫자로는요.”
+18 | dialogue | sp= | sc=office | “현실에서는?”
+19 | dialogue | sp= | sc=office | “모르죠.”
+20 | narration | sp= | sc=office | 서인은 등급 승급 조건을 열었다.
+21 | narration | sp= | sc=office | 성과.
+22 | narration | sp= | sc=office | 보안.
+23 | narration | sp= | sc=office | 공동 프로젝트 기여.
+24 | narration | sp= | sc=office | 상위 승인.
+25 | narration | sp= | sc=office | 마지막 줄만 숫자가 아니었다.
+26 | system | sp= | sc=office | 필요성 입증.
+27 | dialogue | sp= | sc=office | “필요하면 올려 준다는 건가요?”
+28 | narration | sp= | sc=office | 강연우가 고개를 저었다.
+29 | dialogue | sp= | sc=office | “필요하다고 인정받으면.”
+30 | dialogue | sp= | sc=office | “누구한테요?”
+31 | dialogue | sp= | sc=office | “등급 6인 사람들한테.”
+32 | narration | sp= | sc=office | 서인은 웃었다.
+33 | dialogue | sp= | sc=office | “문 안에 있는 사람한테 문이 필요하다고 설명해야 하네요.”
+34 | dialogue | sp= | sc=office | “보안이 원래 그래요.”
+35 | narration | sp= | sc=office | 목록 아래에 공동 운영위원 이름이 떴다.
+36 | narration | sp= | sc=office | 다섯 명.
+37 | narration | sp= | sc=office | 그중 세 명은 AI 대리 심사 허용.
+38 | narration | sp= | sc=office | 한 명은 해외.
+39 | narration | sp= | sc=office | 마지막 한 명만 직접 면담 필수.
+40 | system | sp= | sc=office | 윤세라 / 공동 운영위원 / 인간 승인 전용.
+41 | narration | sp= | sc=office | 강연우가 이름을 보더니 말했다.
+42 | dialogue | sp= | sc=office | “아.”
+43 | dialogue | sp= | sc=office | “왜요.”
+44 | dialogue | sp= | sc=office | “어려운 사람.”
+45 | dialogue | sp= | sc=office | “AI 안 써요?”
+46 | dialogue | sp= | sc=office | “써요.”
+47 | dialogue | sp= | sc=office | “근데 인간 승인 전용?”
+48 | dialogue | sp= | sc=office | “최종 서명만 직접 해요.”
+49 | dialogue | sp= | sc=office | “왜.”
+50 | dialogue | sp= | sc=office | “그걸 물어본 사람이 많았는데.”
+51 | narration | sp= | sc=office | 강연우가 서인을 봤다.
+52 | dialogue | sp= | sc=office | “다 떨어졌어요.”
+53 | narration | sp= | sc=office | 윤세라는 서인을 만나기 전에 자료부터 거절했다.
+54 | system | sp= | sc=office | 추론 출처 가설 보고서: 검토 불필요.
+55 | system | sp= | sc=office | 외부 평가표: 검토 불필요.
+56 | system | sp= | sc=office | 전략 기여 실적: 참고만.
+57 | narration | sp= | sc=office | 강연우가 화면을 읽었다.
+58 | dialogue | sp= | sc=office | “당신 팬은 아닌데요.”
+59 | dialogue | sp= | sc=office | “다행이네요.”
+60 | dialogue | sp= | sc=office | “왜요?”
+61 | dialogue | sp= | sc=office | “팬은 설명하기 더 어렵잖아요.”
+62 | narration | sp= | sc=meeting | 면담실은 작았다.
+63 | narration | sp= | sc=meeting | 윤세라는 혼자 들어왔다.
+64 | narration | sp= | sc=meeting | 나이는 서인이 짐작하지 않았다.
+65 | narration | sp= | sc=meeting | 회색 정장.
+66 | narration | sp= | sc=meeting | 손목에 개인 AI 접속 표시.
+67 | narration | sp= | sc=meeting | 책상 위에는 종이 한 장.
+68 | narration | sp= | sc=meeting | 서인의 손목에서 띠가 한 번 떨렸다.
+69 | system | sp= | sc=meeting | 연속 열람 한도: 남은 시간 18분.
+70 | narration | sp= | sc=meeting | 윤세라가 그 손목을 봤다.
+71 | dialogue | sp= | sc=meeting | “면담이 시작된 뒤로 개인 AI 호출이 한 번도 없습니다.”
+72 | narration | sp= | sc=meeting | 서인은 표시등을 내려다봤다.
+73 | narration | sp= | sc=meeting | 꺼진 것이 아니라 켜진 채 조용했다.
+74 | dialogue | sp= | sc=meeting | “쓸 일이 없어서요.”
+75 | dialogue | sp= | sc=meeting | “지금까지는 쓸 일이 많았던 사람입니까.”
+76 | narration | sp= | sc=meeting | 서인은 바로 답하지 않았다.
+77 | dialogue | sp= | sc=meeting | “오늘은 제 말로 들어야 하는 질문 같아서요.”
+78 | narration | sp= | sc=meeting | 윤세라가 종이에 짧게 적었다.
+79 | narration | sp= | sc=meeting | 무엇을 적었는지는 보이지 않았다.
+80 | dialogue | sp= | sc=meeting | “서인 씨.”
+81 | dialogue | sp= | sc=meeting | “네.”
+82 | dialogue | sp= | sc=meeting | “등급 6이 왜 필요합니까?”
+83 | narration | sp= | sc=meeting | 서인은 준비한 답을 꺼내지 않았다.
+84 | narration | sp= | sc=meeting | 혁명 이야기는 할 수 없었다.
+85 | narration | sp= | sc=meeting | 04-771을 멈추고 싶다고도 말할 수 없었다.
+86 | dialogue | sp= | sc=meeting | “누가 멈출 수 있는지 알고 싶어서요.”
+87 | narration | sp= | sc=meeting | 윤세라가 종이를 넘겼다.
+88 | dialogue | sp= | sc=meeting | “그건 등급 4에서도 볼 수 있습니다.”
+89 | dialogue | sp= | sc=meeting | “이름은요?”
+90 | dialogue | sp= | sc=meeting | “일부.”
+91 | dialogue | sp= | sc=meeting | “조건은.”
+92 | dialogue | sp= | sc=meeting | “일부.”
+93 | dialogue | sp= | sc=meeting | “실제로 중단된 기록은요?”
+94 | dialogue | sp= | sc=meeting | “지금 열람하실 수 있는 기록에는 없습니다.”
+95 | narration | sp= | sc=meeting | 서인의 시선이 멈췄다.
+96 | dialogue | sp= | sc=meeting | “한 번도요?”
+97 | dialogue | sp= | sc=meeting | “등급 4에서 보이는 범위 안에서는요.”
+98 | dialogue | sp= | sc=meeting | “그럼 권한은 왜 있어요?”
+99 | narration | sp= | sc=meeting | 윤세라가 처음으로 서인을 제대로 봤다.
+100 | dialogue | sp= | sc=meeting | “비상시에 필요하니까.”
+101 | dialogue | sp= | sc=meeting | “비상인지 누가 정하죠?”
+102 | dialogue | sp= | sc=meeting | “등급 6 이상.”
+103 | dialogue | sp= | sc=meeting | “그 사람들이 비상이라고 생각하지 않으면요?”
+104 | dialogue | sp= | sc=meeting | “중단되지 않겠죠.”
+105 | narration | sp= | sc=meeting | 서인은 입을 다물었다.
+106 | narration | sp= | sc=meeting | 윤세라는 그 침묵을 기다렸다.
+107 | narration | sp= | sc=meeting | 서인이 사람을 읽는 대신 질문을 하나 더 골랐다.
+108 | dialogue | sp= | sc=meeting | “윤 위원님은 중단해 본 적 있어요?”
+109 | dialogue | sp= | sc=meeting | “없습니다.”
+110 | dialogue | sp= | sc=meeting | “중단하고 싶었던 적은요?”
+111 | narration | sp= | sc=meeting | 강연우가 옆에서 아주 작게 숨을 들이켰다.
+112 | narration | sp= | sc=meeting | 윤세라의 표정은 변하지 않았다.
+113 | dialogue | sp= | sc=meeting | “그 질문이 승급과 관련 있습니까?”
+114 | dialogue | sp= | sc=meeting | “있을 수도 있고.”
+115 | dialogue | sp= | sc=meeting | “없을 수도 있고?”
+116 | dialogue | sp= | sc=meeting | “네.”
+117 | narration | sp= | sc=meeting | 윤세라가 종이를 접었다.
+118 | dialogue | sp= | sc=meeting | “비밀 모델 소문 치고는 생각보다 말을 많이 하는군요.”
+119 | dialogue | sp= | sc=meeting | “그 소문부터 틀릴 수 있으니까요.”
+120 | narration | sp= | sc=meeting | 처음으로 윤세라의 입꼬리가 아주 조금 움직였다.
+121 | narration | sp= | sc=meeting | 웃음인지 아닌지는 서인이 정하지 않았다.
+122 | narration | sp= | sc=meeting | 면담은 끝나지 않았다.
+123 | narration | sp= | sc=meeting | 윤세라가 새로운 화면을 열었다.
+124 | system | sp= | sc=meeting | 등급 6 임시 권한 검증.
+125 | system | sp= | sc=meeting | 상황: 야간 인지 콘텐츠 공급 노드 31-B 장애.
+126 | system | sp= | sc=meeting | 선택 A: 즉시 우회.
+127 | system | sp= | sc=meeting | 선택 B: 4.2초 중단 후 재동기화.
+128 | system | sp= | sc=meeting | 선택 C: 수동 판단.
+129 | dialogue | sp= | sc=meeting | “실제 상황입니까?”
+130 | dialogue | sp= | sc=meeting | “검증용 복제입니다.”
+131 | dialogue | sp= | sc=meeting | “정답은요?”
+132 | dialogue | sp= | sc=meeting | “있습니다.”
+133 | narration | sp= | sc=meeting | 서인은 어제처럼 거부 버튼부터 봤다.
+134 | narration | sp= | sc=meeting | 이번에는 정답이 있었다.
+135 | narration | sp= | sc=meeting | 거부는 어제만큼 통하는 답이 아니었다.
+136 | narration | sp= | sc=meeting | 서인은 자료를 봤다.
+137 | narration | sp= | sc=meeting | A는 서비스 중단이 없었다.
+138 | narration | sp= | sc=meeting | 대신 우회 노드의 과부하 확률이 3.8퍼센트 올라갔다.
+139 | narration | sp= | sc=meeting | B는 4.2초 동안 공급이 끊겼다.
+140 | narration | sp= | sc=meeting | 대신 시스템은 안정적이었다.
+141 | narration | sp= | sc=meeting | C는 현장 운영자가 직접 경로를 선택했다.
+142 | narration | sp= | sc=meeting | 운영자 정보는 없었다.
+143 | narration | sp= | sc=meeting | 서인이 물었다.
+144 | dialogue | sp=서인 | sc=meeting | “이용자한테 4.2초가 어떤 의미죠?”
+145 | dialogue | sp= | sc=meeting | “콘텐츠가 잠깐 끊깁니다.”
+146 | dialogue | sp= | sc=meeting | “사람은요?”
+147 | dialogue | sp= | sc=meeting | “깹니다.”
+148 | dialogue | sp= | sc=meeting | “위험해요?”
+149 | dialogue | sp= | sc=meeting | “아니요.”
+150 | dialogue | sp= | sc=meeting | “불쾌해요?”
+151 | dialogue | sp= | sc=meeting | “일부는.”
+152 | dialogue | sp= | sc=meeting | “우회 노드가 터지면?”
+153 | dialogue | sp= | sc=meeting | “최대 18분 중단.”
+154 | narration | sp= | sc=meeting | 서인은 화면을 봤다.
+155 | narration | sp= | sc=meeting | AI 추천은 A였다.
+156 | system | sp= | sc=meeting | 기대 불편 최소.
+157 | dialogue | sp= | sc=meeting | “B.”
+158 | narration | sp= | sc=meeting | 윤세라가 바로 물었다.
+159 | dialogue | sp= | sc=meeting | “왜.”
+160 | dialogue | sp= | sc=meeting | “4초 불편한 사람이 생겨도.”
+161 | narration | sp= | sc=meeting | 서인은 우회 확률을 가리켰다.
+162 | dialogue | sp= | sc=meeting | “18분짜리 가능성을 다른 구역에 넘기지 않는 게 나으니까.”
+163 | dialogue | sp= | sc=meeting | “3.8퍼센트입니다.”
+164 | dialogue | sp= | sc=meeting | “네.”
+165 | dialogue | sp= | sc=meeting | “몇 가구를 비교했습니까?”
+166 | narration | sp= | sc=meeting | 서인은 자료를 위로 올렸다. 두 경로의 길이와 중단 시간은 봤는데, 옆 칸은 열지 않았다.
+167 | dialogue | sp= | sc=meeting | “영향 가구 수 보여 주세요.”
+168 | narration | sp= | sc=meeting | B는 2,400가구가 함께 끊겼다.
+169 | narration | sp= | sc=meeting | A의 우회 구역은 36가구였다.
+170 | narration | sp= | sc=meeting | 서인은 2,400이라는 숫자를 눌렀다. 같은 길이의 작은 칸들이 화면을 채웠다. 옆의 서른여섯 칸은 길었지만, 아직 켜지지 않았다.
+171 | dialogue | sp= | sc=meeting | “B는 전부 깨고, A는 서른여섯 집에 3.8퍼센트 가능성.”
+172 | dialogue | sp= | sc=meeting | “최대 18분입니다.”
+173 | narration | sp= | sc=meeting | 서인은 다시 2,400개의 칸을 봤다. B를 누르면 모두가 깼다. A를 누르면 서른여섯 집에 위험이 남았다.
+174 | dialogue | sp= | sc=meeting | “제가 그 긴 시간만 봤네요.”
+175 | dialogue | sp= | sc=meeting | “그래도 B입니까?”
+176 | dialogue | sp= | sc=meeting | “아니요. A요.”
+177 | dialogue | sp= | sc=meeting | “방금 B라고 했는데.”
+178 | dialogue | sp= | sc=meeting | “제가 고른 건 B였죠.”
+179 | narration | sp= | sc=meeting | 서인은 서른여섯 칸을 지우지 않은 채 A를 선택했다.
+180 | dialogue | sp= | sc=meeting | “왜 바꿨죠?”
+181 | dialogue | sp= | sc=meeting | “제가 싫어하는 거랑 시스템이 틀린 건 다르니까.”
+182 | narration | sp= | sc=meeting | 윤세라는 선택된 A와 화면에 남은 서른여섯 칸을 번갈아 봤다.
+183 | narration | sp= | sc=meeting | 윤세라는 한동안 아무 말도 하지 않았다.
+184 | narration | sp= | sc=meeting | 결과가 떴다.
+185 | system | sp= | sc=meeting | 검증 정답: A.
+186 | narration | sp= | sc=meeting | 강연우가 서인을 봤다.
+187 | narration | sp= | sc=meeting | 서인은 화면 구석의 거부 버튼을 다시 한 번 봤다.
+188 | narration | sp= | sc=meeting | 윤세라는 두 번째 상황을 열었다.
+189 | narration | sp= | sc=meeting | 이번에는 숫자가 거의 없었다.
+190 | narration | sp= | sc=meeting | 동부 27번 하층 주거 구역에서 야간 인지 콘텐츠 중단 요청이 급증했다.
+191 | narration | sp= | sc=meeting | 서인이 자기 광고를 끌 때는 그날 수익을 포기하면 됐다. 목록의 가구들도 각자 중단을 선택한 상태였다. 그 뒤의 배정 처리만 대기 중이었다.
+192 | dialogue | sp= | sc=meeting | “이건 왜 운영위에서 보죠?”
+193 | dialogue | sp= | sc=meeting | “그 집들이 오늘 밤 하지 않을 일을 다른 공급처로 넘깁니다. 한 집씩 넘길지, 모두 묶어 두고 원인부터 조사할지 보는 겁니다.”
+194 | narration | sp= | sc=meeting | 같은 시간대.
+195 | narration | sp= | sc=meeting | 같은 동네.
+196 | narration | sp= | sc=meeting | 요청 문구는 대부분 비슷했다.
+197 | system | sp= | sc=meeting | 오늘만 중단.
+198 | system | sp= | sc=meeting | 가족 행사.
+199 | system | sp= | sc=meeting | 내일 재개.
+200 | system | sp= | sc=meeting | 최근 접수: 4분 전.
+201 | narration | sp= | sc=meeting | AI는 집단 행동 가능성을 62퍼센트로 계산했다.
+202 | system | sp= | sc=meeting | 권고: 배정 처리 일괄 보류 후 원인 조사.
+203 | narration | sp= | sc=meeting | 윤세라가 물었다.
+204 | dialogue | sp= | sc=meeting | “당신은요?”
+205 | narration | sp= | sc=meeting | 서인은 요청 목록을 봤다.
+206 | narration | sp= | sc=meeting | 가족 행사.
+207 | narration | sp= | sc=meeting | 가족 행사.
+208 | narration | sp= | sc=meeting | 가족 행사.
+209 | narration | sp= | sc=meeting | 같은 문장.
+210 | narration | sp= | sc=meeting | 너무 같았다.
+211 | narration | sp= | sc=meeting | 동부 27번.
+212 | narration | sp= | sc=meeting | 어머니와 사는 동네였다.
+213 | narration | sp= | sc=meeting | 윤세라가 서인의 눈이 한 줄에서 멈춘 것을 봤다.
+214 | dialogue | sp= | sc=meeting | “아는 동네입니까?”
+215 | narration | sp= | sc=meeting | 서인은 거짓말하지 않았다.
+216 | dialogue | sp= | sc=meeting | “제가 사는 곳이에요.”
+217 | dialogue | sp= | sc=meeting | “심사 제외 사유입니다.”
+218 | dialogue | sp= | sc=meeting | “알아요.”
+219 | narration | sp= | sc=meeting | 윤세라가 서인의 결정란을 닫았다.
+220 | dialogue | sp= | sc=meeting | “실제 처리는 제가 합니다. 심사용 의견만 말하세요.”
+221 | narration | sp= | sc=meeting | 서인은 닫힌 칸 옆에서 목록을 다시 열었다.
+222 | narration | sp= | sc=meeting | 서인은 지역 달력을 열었다. 공식 행사도 교통 통제도 없었다.
+223 | narration | sp= | sc=meeting | 요청 목록으로 돌아와 중단을 신청하지 않은 집들을 눌렀다. 같은 날 광고꿈 강도만 낮춘 가구가 여럿 있었다.
+224 | system | sp= | sc=meeting | 다음 날 오전 휴무.
+225 | narration | sp= | sc=meeting | 서인은 그 날짜를 학교 일정에 겹쳤다. 재량 휴업이었다.
+226 | narration | sp= | sc=meeting | 물류센터 두 곳도 정기 휴무. 세 일정의 비고에는 같은 말이 붙어 있었다.
+227 | system | sp= | sc=meeting | 지역 전력망 점검.
+228 | narration | sp= | sc=meeting | 서인은 그날 오전에 출근하는 사람들의 목록을 닫았다.
+229 | dialogue | sp= | sc=meeting | “내일 늦잠 잘 수 있는 집들이네요.”
+230 | narration | sp= | sc=meeting | 윤세라가 물었다.
+231 | dialogue | sp= | sc=meeting | “그래서 오늘은 가족 행사입니까?”
+232 | narration | sp= | sc=meeting | 서인은 요청 문구를 다시 봤다.
+233 | narration | sp= | sc=meeting | 가족 행사.
+234 | dialogue | sp= | sc=meeting | “그건 모릅니다.”
+235 | narration | sp= | sc=meeting | 윤세라가 기다렸다.
+236 | dialogue | sp= | sc=meeting | “그냥 가족끼리 놀 수도 있잖아요.”
+237 | dialogue | sp= | sc=meeting | “광고 수입을 포기하면서?”
+238 | dialogue | sp= | sc=meeting | “하루니까.”
+239 | dialogue | sp= | sc=meeting | “하층에게 하루 수입은 작지 않습니다.”
+240 | dialogue | sp= | sc=meeting | “네.”
+241 | narration | sp= | sc=meeting | 서인은 그 말을 부정하지 않았다.
+242 | dialogue | sp= | sc=meeting | “그래도 하루를 사는 사람이 있을 수 있죠.”
+243 | narration | sp= | sc=meeting | 윤세라가 물었다.
+244 | dialogue | sp= | sc=meeting | “배정을 보류합니까?”
+245 | narration | sp= | sc=meeting | 서인은 화면을 닫지 않았다.
+246 | dialogue | sp= | sc=meeting | “한꺼번에 묶어 두지는 않을 것 같아요.”
+247 | dialogue | sp= | sc=meeting | “그럼 전부 바로 재배정?”
+248 | dialogue | sp= | sc=meeting | “그것도 아니고.”
+249 | dialogue | sp= | sc=meeting | “결정을 하세요.”
+250 | dialogue | sp= | sc=meeting | “각자 비운 만큼 따로 처리하죠. 같은 문장 썼다고 조사 끝날 때까지 다 묶어 두지는 말고.”
+251 | narration | sp= | sc=meeting | 윤세라의 눈이 좁아졌다.
+252 | dialogue | sp= | sc=meeting | “비효율적입니다.”
+253 | dialogue | sp= | sc=meeting | “네.”
+254 | dialogue | sp= | sc=meeting | “등급 6은 수천만 명에게 적용되는 결정을 합니다.”
+255 | dialogue | sp= | sc=meeting | “그래서 한꺼번에 묶으면 안 되는 것도 있지 않아요?”
+256 | narration | sp= | sc=meeting | 윤세라는 대답하지 않았다.
+257 | narration | sp= | sc=meeting | 이번에는 결과가 바로 뜨지 않았다.
+258 | narration | sp= | sc=meeting | 손목의 띠가 다시 떨렸다.
+259 | system | sp= | sc=meeting | 남은 시간: 3분.
+260 | narration | sp= | sc=office | 십 분 뒤 강연우가 복도에서 말했다.
+261 | dialogue | sp= | sc=office | “두 번째는 채점이 안 됐대요.”
+262 | dialogue | sp= | sc=office | “그럴 줄 알았어요.”
+263 | dialogue | sp= | sc=office | “거짓말.”
+264 | dialogue | sp= | sc=office | “조금은.”
+265 | dialogue | sp= | sc=office | “뭘 본 거예요?”
+266 | narration | sp= | sc=office | 서인은 자판기 앞에서 물을 뽑았다.
+267 | dialogue | sp= | sc=office | “같은 문장.”
+268 | dialogue | sp= | sc=office | “그래서?”
+269 | dialogue | sp= | sc=office | “처음엔 저도 조직 행동인 줄 알았어요.”
+270 | dialogue | sp= | sc=office | “근데.”
+271 | dialogue | sp= | sc=office | “하루 쉬는 사람들이 그냥 하루 쉬고 싶을 수도 있잖아요.”
+272 | narration | sp= | sc=office | 강연우가 웃었다.
+273 | dialogue | sp= | sc=office | “혁명가가 하기엔 재미없는 말인데.”
+274 | narration | sp= | sc=office | 서인의 손이 멈췄다.
+275 | narration | sp= | sc=office | 강연우는 서인이 혁명가라는 뜻으로 말한 게 아닌 것 같았다.
+276 | narration | sp= | sc=office | 그냥 농담이겠지.
+277 | narration | sp= | sc=office | 서인은 물병 뚜껑을 열었다.
+278 | dialogue | sp= | sc=office | “재미없는 게 좋을 때도 있죠.”
+279 | dialogue | sp= | sc=office | “요즘 자주 그러네요.”
+280 | dialogue | sp= | sc=office | “뭐가요.”
+281 | dialogue | sp= | sc=office | “사람들한테 큰 이유 안 붙이는 거.”
+282 | narration | sp= | sc=office | 서인은 물을 한 모금 마셨다.
+283 | narration | sp= | sc=office | 승급 결과는 오후에 왔다.
+284 | system | sp= | sc=office | 기밀 접근 등급: 4 → 5.
+285 | narration | sp= | sc=office | 서인이 화면을 봤다.
+286 | dialogue | sp= | sc=office | “한 칸이네요.”
+287 | narration | sp= | sc=office | 강연우가 말했다.
+288 | dialogue | sp= | sc=office | “축하해요.”
+289 | dialogue | sp= | sc=office | “6 아니잖아요.”
+290 | dialogue | sp= | sc=office | “윤세라가 5를 직접 승인한 건 처음 봐요.”
+291 | dialogue | sp= | sc=office | “떨어진 건데.”
+292 | dialogue | sp= | sc=office | “반쯤 붙은 거죠.”
+293 | narration | sp= | sc=office | 강연우가 덧붙였다.
+294 | dialogue | sp= | sc=office | “거주 구역 건은 결정에서 빠진 걸로 남았어요. 심사용 의견은 따로 평가했고요.”
+295 | narration | sp= | sc=office | 추가 문장이 있었다.
+296 | system | sp= | sc=office | 등급 6 심사 조건: 공동 운영위원회 실무 참여 1회.
+297 | system | sp= | sc=office | 참여 범위: 중단 권한 감사.
+298 | narration | sp= | sc=office | 서인은 그 줄을 다시 읽었다.
+299 | dialogue | sp= | sc=office | “이 사람.”
+300 | narration | sp= | sc=office | 강연우가 물었다.
+301 | dialogue | sp= | sc=office | “왜요.”
+302 | dialogue | sp= | sc=office | “저를 믿은 게 아니네요.”
+303 | dialogue | sp= | sc=office | “그럼?”
+304 | dialogue | sp= | sc=office | “의심할 자격을 준 것 같아요.”
+305 | narration | sp= | sc=office | 강연우가 웃었다.
+306 | dialogue | sp= | sc=office | “그게 여기서는 더 비싸요.”
+307 | narration | sp= | sc=room | 밤에 도윤에게 결과를 보냈다.
+308 | system | sp= | sc=room | 5 됐어요.
+309 | system | sp= | sc=room | 게임 레벨 같네.
+310 | system | sp= | sc=room | 6이면 끌 수 있대요.
+311 | narration | sp= | sc=room | 답장이 늦었다.
+312 | narration | sp= | sc=room | 서인은 기다렸다.
+313 | narration | sp= | sc=room | 읽지 않았다.
+314 | narration | sp= | sc=room | 추측하지 않았다.
+315 | narration | sp= | sc=room | 잠시 뒤 도윤이 보냈다.
+316 | system | sp= | sc=room | 뭘.
+317 | narration | sp= | sc=room | 서인은 04-771을 떠올렸다. 아직 광고꿈이라고 확정할 수 없었다.
+318 | system | sp= | sc=room | 야간 콘텐츠 일부요.
+319 | system | sp= | sc=room | 끄고 싶어?
+320 | narration | sp= | sc=room | 서인은 바로 답하지 않았다.
+321 | narration | sp= | sc=room | 화면 위에 6이라는 숫자가 떠올랐다.
+322 | narration | sp= | sc=room | 오늘 본 답변 하나가 그 위에 겹쳤다.
+323 | system | sp= | sc=room | 오늘만 중단. 내일 재개.
+324 | narration | sp= | sc=room | 서인은 도윤에게 답했다.
+325 | system | sp= | sc=room | 아직은 누가 끌 수 있는지 알고 싶어요.
+326 | narration | sp= | sc=room | 잠시 뒤.
+327 | system | sp= | sc=room | 그렇구나.
+328 | narration | sp= | sc=room | 서인은 그 네 글자를 오래 보지 않았다.
+329 | narration | sp= | sc=room | 공동 운영위원회 일정이 도착했다.
+330 | system | sp= | sc=room | 중단 권한 감사.
+331 | system | sp= | sc=room | 참석 등급: 6 이상.
+332 | system | sp= | sc=room | 예외 참석자: 서인 / 등급 5.
+333 | system | sp= | sc=room | 감사 대상: 04-771 운영 기록.
+334 | narration | sp= | sc=room | 맨 아래에 비공개 참가자 정보가 하나 열렸다.
+335 | narration | sp= | sc=room | 서인의 열람 기록을 먼저 확인했던 바로 그 자리였다.
+336 | narration | sp= | sc=room | 이름은 없었다.
+337 | narration | sp= | sc=room | 회사도 없었다.
+338 | narration | sp= | sc=room | 역할만 있었다.
+339 | system | sp= | sc=room | 참여자 4.
+340 | system | sp= | sc=room | 권한: 중단 승인.
+341 | system | sp= | sc=room | 마지막 열람: 서인 기록 · 방금.
+342 | narration | sp= | sc=room | 서인은 화면을 닫지 않았다.
+343 | narration | sp= | sc=room | 등급은 아직 5였다.
+344 | narration | sp= | sc=room | 문은 아직 잠겨 있었다.
+345 | narration | sp= | sc=room | 그런데 처음으로,
+346 | narration | sp= | sc=room | 문 반대편에 누가 서 있는지 볼 수 있는 작은 구멍이 생겼다.

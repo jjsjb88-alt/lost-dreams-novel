@@ -1,0 +1,4 @@
+{"engine":"codex","role":"main","status":"running","runId":"vn-recovery-pr-20261020","source":"reported","stage":"verify","summary":"작가 승인 범위의 회수 VN 비교 Draft PR 준비. 최신 main과 별도, LF 소스와 HTML·manifest 정합성 확인.","at":"2026-10-19T23:13:44.549Z"}
+{"engine":"codex","role":"reviewer","status":"done","runId":"vn-recovery-pr-20261020","source":"reported","checkpoint":"before-plan","summary":"개인 자료를 제외한 이전 기준 Draft PR 승인. 최신 원고 통합·병합·배포 보류.","at":"2026-10-19T23:13:46.908Z"}
+{"engine":"codex","role":"reviewer","status":"done","runId":"vn-recovery-pr-20261020","source":"reported","checkpoint":"before-done","summary":"공개 LF source와HTML·manifest16SHA일치,실제공개소스73검사·2화·시퀀스·HTTP/file재검증,원본보존근거확인. 최종blocker없음.","at":"2026-10-19T23:18:36.519Z"}
+{"engine":"codex","role":"main","status":"done","runId":"vn-recovery-pr-20261020","source":"reported","stage":"verify","summary":"GitHub Draft PR#97생성·첨부완료. 53파일/1커밋. 원본·회수본유지,최신main과13충돌명시,병합·배포없음.","at":"2026-10-19T23:18:54.497Z"}

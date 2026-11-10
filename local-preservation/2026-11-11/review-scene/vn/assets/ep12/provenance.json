@@ -1,0 +1,235 @@
+{
+  "tool": "built-in image_gen",
+  "model": "tool did not expose a model identifier",
+  "date": "2026-10-19",
+  "baseline": "1b560a66b1a0784f1fc604c237f435952054f5f0",
+  "postprocess": "PNG to WebP format conversion only; native alpha preserved; no recolor, mask or raster editing outside image_gen",
+  "sharedPrompt": "Single finely painted semi-realistic Korean visual novel sprite. Preserve reference adult identity, gender, face, clothing and proportions. Whole head through thighs and hands. Actual alpha transparency; no text, scenery or borders.",
+  "assets": [
+    {
+      "file": "jiwoo-guarded.webp",
+      "sourcePngSha256": "5e4d5ffb0b9a7822b81b644f3214791fdc884eb7c2fdf6839dbe99230e09eb59",
+      "sha256": "1b4767b42129c42bbf262a3b42eb575355a71881b4b8f7fd6d848322ee64f44a",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "jiwoo-woman-body-tease.webp",
+      "promptSpec": "여성 지우 동일 인물·회색 작업 셔츠 유지. 왼쪽 아버지를 보며 서서 팔짱, 긴장한 입과 눈썹.",
+      "status": "active"
+    },
+    {
+      "file": "jiwoo-dream.webp",
+      "sourcePngSha256": "4780437350b5a38a1fb713bf27b6500aad236cced5bc6cd85d90f8dc4dcaa8c4",
+      "sha256": "ef1e0f9f5ec246e6edadabfda24819f37fd27366221425364e1c4e6281ff73d3",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "jiwoo-woman-body-tease.webp",
+      "promptSpec": "같은 여성 지우. 서서 왼쪽 상대에게 손을 내밀며 현실보다 매끄러운 평온한 미소, 바닷가 햇빛.",
+      "status": "reserve-not-used-in-current-runtime"
+    },
+    {
+      "file": "mother-care.webp",
+      "sourcePngSha256": "29696e208d0d22f9982dc6067576e3767c19a503dbf2079c50f786084e5077e8",
+      "sha256": "560a6fe898720abfd51dc7a8a8a6ad8181f0a16234c05a6b7ce0d38280d7f156",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "mother-warm.webp",
+      "promptSpec": "기존 어머니 얼굴·회색 카디건 유지. 젓가락 없이 무릎에 손을 모으고 아들 왼쪽으로 시선을 피하는 검진비 대화.",
+      "status": "active"
+    },
+    {
+      "file": "seoin-home.webp",
+      "sourcePngSha256": "e35f66a395e2c1a37c055180b9e81fa815a44a01c315e8c696417a1e4d4455f2",
+      "sha256": "0dfaab04fc447cfea24098b7eb77b5ec3baf32d65a1fecb4ec1ab531ca9442f5",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "seoin-waking.webp",
+      "promptSpec": "기존 남성 서인, 회색 홈웨어. 아침에 앉아 물컵을 쥐고 오른쪽 어머니를 걱정스럽게 본다.",
+      "status": "active"
+    },
+    {
+      "file": "father-appeal.webp",
+      "sourcePngSha256": "dac4418dfa7d59bc5e7057b2e80e260df87e81bd738b3391c00ab0a2bcc9056b",
+      "sha256": "ace25316c7f7c51e0b1cae47d222f61c61aabecdd30a386ef49ac8a0f339fa08",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": null,
+      "promptSpec": "마른 중년 한국인 아버지, 회청색 셔츠, 팔목 안쪽 투약 포트. 앉아 오른쪽 방문객에게 태블릿을 내밀며 부탁한다.",
+      "status": "active"
+    },
+    {
+      "file": "father-down.webp",
+      "sourcePngSha256": "50cd61c2858b2e310d41a0929d2173423ed14e6f6e08890920a6d4f89275e34b",
+      "sha256": "a8455cfac86244d55e00b57f84b634fe7169c034570b6f436f999f4abc64be02",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "father-appeal",
+      "promptSpec": "같은 아버지 얼굴·복장·투약 포트 유지. 태블릿을 무릎에 내리고 고개와 시선을 숙인 침묵.",
+      "status": "active"
+    },
+    {
+      "file": "seoin-standing.webp",
+      "sourcePngSha256": "019cf2aae2716bbf71be461458b2c288001f6e507810f8032b498feea445c856",
+      "sha256": "6a01e1329edd124b33b166cbdacfba6f88d31189e1b00fd3182ed2c8f37e96ae",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "seoin-question.webp",
+      "promptSpec": "기존 남성 서인, 같은 정장. 실제로 서서 한 손을 주머니에, 다른 손은 내리고 오른쪽 상대를 듣는 자세.",
+      "status": "active"
+    },
+    {
+      "file": "seoin-startled.webp",
+      "sourcePngSha256": "7525f720c3ff681c5f26874113693371e98151c636248a354addd28b69c61869",
+      "sha256": "19ba728a280a5f11d8b79f72b070ee0217fe476092bad802e8858814a78c0b73",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "seoin-waking.webp",
+      "promptSpec": "기존 남성 서인 홈웨어. 새벽에 몸을 일으켜 가슴에 손을 대고 숨을 몰아쉬는 놀람, 관자놀이의 땀.",
+      "status": "active"
+    },
+    {
+      "file": "jiwoo-clay.webp",
+      "sourcePngSha256": "c22d4d52cbd3a318fe11d54742070317d8b0b4498005026a116ad661f24779c5",
+      "sha256": "25860a24d02a7781cea220721a07692ee1dbd22d5d744ba7127926700c363c72",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "jiwoo-woman-body-tease.webp",
+      "promptSpec": "같은 여성 지우. 서서 손바닥의 아주 작고 찌그러진 회갈색 점토를 내려다본다. 최종 편집: 하트·꽃무늬를 지우고 낮고 울퉁불퉁한 실패한 점토로 변경.",
+      "status": "active"
+    },
+    {
+      "file": "jiwoo-unsteady.webp",
+      "sourcePngSha256": "224ef7c31e516fe53dd14d196bc95c26961e0f3af6db855c041a679cfab41947",
+      "sha256": "a919bda98e4581daa109c6a9dfad89b1717508119749f984ada4fa7d17360df0",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "jiwoo-woman-body-wounded.webp",
+      "promptSpec": "같은 여성 지우. 서서 양팔을 내리고 한 손으로 반대쪽 손목을 잡는다. 고개·시선 하강, 미소 없는 흔들림.",
+      "status": "active"
+    },
+    {
+      "file": "jiwoo-relaxed.webp",
+      "sourcePngSha256": "cd5399ec1e1fd212f445a559ba63e7c5278c2853923ff04ee82ce254c5467e0f",
+      "sha256": "ced14b49b6e2b72fe38ffecfbb66d8cc4d80a1eef5872d8aaaf683ccddc3f608",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "jiwoo-woman-body-tease.webp",
+      "promptSpec": "같은 여성 지우. 실제 서 있는 자세, 양손을 주머니에 걸치고 왼쪽 상대를 보며 긴장이 풀린 비뚤어진 작은 미소.",
+      "status": "active"
+    },
+    {
+      "file": "seoin-reclining-home.webp",
+      "sourcePngSha256": "1ed57bb460318a5b15671bf7e0d6dccdec4282aae84426e9aa99a371d07bacd5",
+      "sha256": "ba22839ce2ec70cdaa8bb7a66e70f718b51eab9743d4502585e997468ee9472f",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "seoin-waking.webp",
+      "promptSpec": "같은 남성 서인 얼굴과 회색 홈웨어. 밤에 상체를 기대 누워 오른쪽 천장을 보는 자세, 한 손은 쇄골 근처 다른 손은 복부. 투명 배경, 정장·단추 셔츠 금지.",
+      "status": "active"
+    },
+    {
+      "file": "cg-table-home.webp",
+      "sourcePngSha256": "0a871c2fc631e278b7b2e4f0f8ccb129b886ef1a258c1e1ec77e0033e4680dc7",
+      "sha256": "8ec7b6e6a507ee900fddf36ed1d3709ec9d8546a9682f12f1a9141f6bc4ee617",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "reference": "cg-table-small-home.webp",
+      "promptSpec": "기존 CG 편집. 서인의 복장만 회색 긴팔 홈웨어로 맞춘다. 인물 얼굴·자세·손·상대·좁은 집·식사·침구·카메라·빛·구도 유지. 기존 원본은 보존하고 새 변형 파일로 저장.",
+      "status": "active"
+    },
+    {
+      "file": "cg-night-home.webp",
+      "sourcePngSha256": "62cf56ec763d0bbcffb3cf40440e1d82b901985c1086d6cc995bc93e55d6780f",
+      "sha256": "bb92dbfb0cf0e2c6f0f95a32dc1c99698497b9c415fe039ef90bdc7d1267fd91",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "reference": "cg-night-small-home.webp",
+      "promptSpec": "기존 CG 편집. 서인의 복장만 회색 긴팔 홈웨어로 맞춘다. 인물 얼굴·자세·손·상대·좁은 집·식사·침구·카메라·빛·구도 유지. 기존 원본은 보존하고 새 변형 파일로 저장.",
+      "status": "active"
+    },
+    {
+      "file": "seoin-relief.webp",
+      "sourcePngSha256": "c8cda9c271600b33c9a655342580bae3004c2dcf9207b2964543d0d2edc173fe",
+      "sha256": "60a83ac347ae490e48eb262ba6a8d49ecde69d794ad2f8973037b4a4b587a0f4",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "reference": "seoin-waking.webp",
+      "promptSpec": "같은 남성 서인 회색 홈웨어. 새벽 잠에서 깬 뒤 땀을 닦고 어깨의 힘을 푼 작은 무의식적 미소. 시선은 오른쪽 아래, 광고의 활짝 웃음 금지. 머리·손·허벅지 포함 투명 배경.",
+      "status": "active"
+    }
+  ],
+  "integratedRemote": "a3fa28b",
+  "activePortraits": 12,
+  "activeWardrobeCgVariants": 2,
+  "preservedRemoteCg": {
+    "file": "../ep2/jiwoo-dream-beach.avif",
+    "source": "origin/main a3fa28b",
+    "operation": "Original bytes preserved. It already contains Jiwoo; no additional character sprite is drawn over it."
+  }
+}

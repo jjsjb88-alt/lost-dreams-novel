@@ -1,0 +1,16 @@
+{
+  "status": "OPEN",
+  "episodeTwo": {
+    "url": "http://127.0.0.1:4173/",
+    "chapter": "2화",
+    "title": "제2화. AI가 모르는 것",
+    "progress": "1–3 / 286"
+  },
+  "sequence": {
+    "url": "http://127.0.0.1:4173/?sequence=19-22&chapter=19&beat=0",
+    "chapter": "19화 · 시퀀스 01 / 06",
+    "title": "제19화. 문을 열어 주는 사람",
+    "progress": "1–3 / 347"
+  },
+  "isolatedReadingSaves": true
+}

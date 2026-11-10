@@ -1,0 +1,15 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: offline yoonsera must be embedded; got assets/yoonsera.webp
+    at file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_recovery/lost-dreams-novel-20261019/recovery/antigravity/scratch/verify_seq19_22_playwright.mjs:73:14 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.16.0

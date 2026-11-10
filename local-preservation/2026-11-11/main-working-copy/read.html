@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>꿈을 잃은 세계</title>
+<meta name="theme-color" content="#030509">
+<style>body{margin:0;background:#030509;color:#7f8998;font:14px system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}a{color:#72e8ff}</style>
+<script>
+// 읽기 페이지는 연출이 있는 pilot.html 하나로 합쳤다. read.html#3 → pilot.html#ep3
+(function () {
+  var m = location.hash.match(/^#(?:ep)?(\d+)$/);
+  location.replace('pilot.html' + (m ? '#ep' + m[1] : ''));
+})();
+</script>
+</head>
+<body><a href="pilot.html">소설 읽기로 이동</a></body>
+</html>

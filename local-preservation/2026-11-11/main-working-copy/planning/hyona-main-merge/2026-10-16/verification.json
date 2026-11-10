@@ -1,0 +1,104 @@
+{
+  "base_main": "d2419487d757886eae8a23781d3d1a80504a2553",
+  "reviewed_source": "3896ddfd0c73d3ab291964e5fc6d0f9789bd0d73",
+  "public_manuscript_versions": 18,
+  "public_screenshots": 21,
+  "source_hashes": [
+    {
+      "episode": "3",
+      "path": "manuscript/ep003.md",
+      "sha256": "6dd1ba9100aaea181dcfb760d7ad5ded318a3d41101fcd39d2a1df5fdd759de7"
+    },
+    {
+      "episode": "4-2",
+      "path": "manuscript/ep003-1.md",
+      "sha256": "1cbe69d146980b3f46b0516c495584f86da0058ffcf4651c5371ccd13c6faa50"
+    },
+    {
+      "episode": "9-1",
+      "path": "manuscript/ep009-1.md",
+      "sha256": "db317d2c28e1ab6fa46d1b99319048ef38bb264d286c7908f735a96c5fdddbf3"
+    },
+    {
+      "episode": "10",
+      "path": "manuscript/ep010.md",
+      "sha256": "a8140bec821242e30cc2aac47c9cde8edc31122185119507cddeee0cf70f7985"
+    },
+    {
+      "episode": "11",
+      "path": "manuscript/ep011.md",
+      "sha256": "0e6156e9732dece45d112014cc0ea8b6eac140ec126720d4d038edde83f3c1c4"
+    },
+    {
+      "episode": "12",
+      "path": "manuscript/ep012.md",
+      "sha256": "f5966aa7f8cd53b13c9b9b8109fb1b1512b945675ad028214bf03d148fbf601d"
+    },
+    {
+      "episode": "12-1",
+      "path": "manuscript/ep012-1.md",
+      "sha256": "00cab1e5353f0ffbe0c418511f5cef4e92e7b4b499d68357db024ba11ab6429c"
+    },
+    {
+      "episode": "14",
+      "path": "manuscript/ep014.md",
+      "sha256": "0fb898035ce56697a3a3065269db68cfe3b0a997f462e940780bd8029c4ff064"
+    },
+    {
+      "episode": "15",
+      "path": "manuscript/ep015.md",
+      "sha256": "0d6461a2eb7515f2c6605e252e09eb5aea4337f6e3a55adeb7b63332b70cda5d"
+    },
+    {
+      "episode": "19",
+      "path": "manuscript/ep019.md",
+      "sha256": "14f517a8c1143e2c3da3e6f812694d90917d388e3d28568c36b460ae118a0a84"
+    },
+    {
+      "episode": "20",
+      "path": "manuscript/ep020.md",
+      "sha256": "b07cca69077965b41b25650fa79c10c2592a5e96b3ccc8b52149d2a7f958b6fe"
+    },
+    {
+      "episode": "21",
+      "path": "manuscript/ep021.md",
+      "sha256": "330b1528dce270e4916c4e8e6477bb6580f18865db74a4ee814246f0cc7cd7bc"
+    },
+    {
+      "episode": "27",
+      "path": "manuscript/ep027.md",
+      "sha256": "a8f832986b657a1f1b167c3816a8a62d44f998443797c32306b76ed6ca38b049"
+    },
+    {
+      "episode": "28",
+      "path": "manuscript/ep028.md",
+      "sha256": "d4e34ec2979554782992151f4bebe94fe1fd7a5282260810ebf62d174daedcdf"
+    },
+    {
+      "episode": "31",
+      "path": "manuscript/ep031.md",
+      "sha256": "13ca94c65c027571240120c3469cdd3b524f18a883eaedcc65602a2aba170e22"
+    },
+    {
+      "episode": "32",
+      "path": "manuscript/ep032.md",
+      "sha256": "5d0b05bbc9ccd9e6782fe5e6fd75dcb096e9d12cb2bd09387c3e07b400f7436e"
+    },
+    {
+      "episode": "44",
+      "path": "manuscript/ep044.md",
+      "sha256": "e98e240872ac513bb8ddd438b3487cc174fbff7e186cb98a53ef97d2578aa587"
+    },
+    {
+      "episode": "66",
+      "path": "manuscript/ep066.md",
+      "sha256": "2e5a30f3a889cdfeda2336809b201976aeb7d26976205c6cd0da1551fdab2591"
+    }
+  ],
+  "default_reader": "MAX70 + 22 public bumpers; no private review script",
+  "mobile": "two representative public cases: FXoff NEXT19→20; FXon return/NEXT21→21-1; both passed; additional cases retained in local full audit",
+  "checks": "Reviewed source unchanged. Merge candidate agent-loop test and manifest build results are validated before push.",
+  "excluded": "unpublished manuscript/patches/screens, PR84 draft manuscript/scenes, local full audit archive",
+  "authorization": "user: 메인 병합해줘",
+  "history": "Prior local R3 and final refs retained; merger is a two-parent commit; no force push"
+}
