@@ -1,0 +1,11 @@
+{
+  "files": 215,
+  "bytes": 149300727,
+  "modified": 12,
+  "untracked": 26,
+  "seqCaptures": 12,
+  "ep2Captures": 35,
+  "sourceFilesHeadBranchIndexStatusUnchanged": true,
+  "copyHashesMatch": true,
+  "browserTests": "Not rerun; existing captures preserved without asserting UI correctness"
+}

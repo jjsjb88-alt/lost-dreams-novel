@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-19",
+  "mode": "image-generator subagent & generate_image tool; transparent RGBA alpha extraction for character cutouts via flood-fill white removal; WebP transcoding via Pillow",
+  "scope": "Episode 2 (AI가 모르는 것) dedicated stage assets and Sequence 19-22 (네 번째 안전) standing character portraits",
+  "assets": [
+    {
+      "name": "father-calm",
+      "key": "fatherCalm",
+      "runtime": "vn/assets/ep2/father-calm.webp",
+      "dimensions": "896x1200",
+      "transparent": true,
+      "refs": [
+        "vn/assets/ep1/jiwoo-firm.webp",
+        "vn/assets/ep1/mother-searching.webp"
+      ],
+      "description": "지우의 아버지 평정·체념 표정 컷아웃 (왼쪽 손목 안쪽 정기 투약 포트 노출, 태블릿을 내미는 손)",
+      "bytes": 106712,
+      "sha256": "8262b4cc89c041ca099df635db659e78a0f03c0b8f8305bdd55072e5ed9cbf76"
+    },
+    {
+      "name": "father-urgent",
+      "key": "fatherUrgent",
+      "runtime": "vn/assets/ep2/father-urgent.webp",
+      "dimensions": "896x1200",
+      "transparent": true,
+      "refs": [
+        "vn/assets/ep2/father-calm.webp"
+      ],
+      "description": "지우의 아버지 절박한 호소 표정 컷아웃 (“너 지금까지 잘 살았잖아.” / “뭐가 부족해?”)",
+      "bytes": 107194,
+      "sha256": "7a92cd4a08fcf405ddfbadc8f6e3feaa4b3f276ad547a5e4a27fb7b28a7056bd"
+    },
+    {
+      "name": "father-bowed",
+      "key": "fatherBowed",
+      "runtime": "vn/assets/ep2/father-bowed.webp",
+      "dimensions": "896x1200",
+      "transparent": true,
+      "refs": [
+        "vn/assets/ep2/father-calm.webp"
+      ],
+      "description": "꺼진 태블릿 위에 손을 얹고 끝내 고개를 들지 못하는 지우의 아버지 컷아웃 (“됐다.”)",
+      "bytes": 107526,
+      "sha256": "222b95a79d84853af93cf153e7770987c92148efd08b191de082328435583857"
+    },
+    {
+      "name": "office-empty-desk",
+      "key": "officeEmptyDesk",
+      "runtime": "vn/assets/ep2/office-empty-desk.webp",
+      "dimensions": "1376x768",
+      "transparent": false,
+      "refs": [
+        "vn/assets/office.webp"
+      ],
+      "description": "화분과 텀블러가 치워진 지우의 빈 책상 배경",
+      "bytes": 120848,
+      "sha256": "d9451611740d99583bcfb5ebacbdcd36a7569cd1c28926f5fa5b3ebf6cd6c200"
+    },
+    {
+      "name": "jiwoo-home",
+      "key": "jiwooHome",
+      "runtime": "vn/assets/ep2/jiwoo-home.webp",
+      "dimensions": "1376x768",
+      "transparent": false,
+      "refs": [
+        "vn/assets/room.webp"
+      ],
+      "description": "병원 약 냄새가 배어 있는 지우의 집 거실·식탁 배경",
+      "bytes": 104384,
+      "sha256": "6ceb6622c2f5f5fc3d855597ff02895b99fa15cb62f89ae3d5dd063e3958b879"
+    },
+    {
+      "name": "cg-father-tablet",
+      "key": "cgFatherTablet",
+      "runtime": "vn/assets/ep2/cg-father-tablet.webp",
+      "dimensions": "1376x768",
+      "transparent": false,
+      "refs": [
+        "vn/assets/ep2/father-calm.webp",
+        "vn/assets/ep1/jiwoo-wounded.webp",
+        "vn/assets/ep1/seoin-question.webp"
+      ],
+      "description": "투약 포트가 달린 아버지의 손목이 붉은 가계 시뮬레이션 태블릿을 식탁 위로 밀어 놓는 대면 CG",
+      "bytes": 148190,
+      "sha256": "309a3473f47ad4b3513a29f0d1f0d4862408a2d78571e3b02b921e20b256de39"
+    },
+    {
+      "name": "cg-clay-street",
+      "key": "cgClayStreet",
+      "runtime": "vn/assets/ep2/cg-clay-street.webp",
+      "dimensions": "1376x768",
+      "transparent": false,
+      "refs": [
+        "vn/assets/ep1/cg-clay.webp",
+        "vn/assets/ep1/jiwoo-firm.webp",
+        "vn/assets/streetday.webp"
+      ],
+      "description": "집 밖 골목에서 지우가 서인의 책상에서 다시 가져온 찌그러진 점토 컵을 손바닥에 올려 보이는 CG",
+      "bytes": 136110,
+      "sha256": "2e843e50c97322e16d51bf3fd445dba04ffd4f4c3ada4b43933fe606e5a9771a"
+    },
+    {
+      "name": "cg-dream-resort",
+      "key": "cgDreamResort",
+      "runtime": "vn/assets/ep2/cg-dream-resort.webp",
+      "dimensions": "1376x768",
+      "transparent": false,
+      "refs": [
+        "vn/assets/ep1/cg-sea.webp",
+        "vn/assets/ep1/jiwoo-firm.webp"
+      ],
+      "description": "수면 광고꿈 속 지나치게 맑은 휴양지 바다에서 걱정이 제거된 얼굴로 돌아보며 웃는 꿈속 지우 CG (“여기선 아무도 다치지 않아.”)",
+      "bytes": 237594,
+      "sha256": "eb5eee8d47e083ad65b963ca79842ceb6c75c53e540e4923dacb235ef5feab1a"
+    },
+    {
+      "name": "yoonsera",
+      "key": "yoonsera",
+      "runtime": "vn/assets/yoonsera.webp",
+      "dimensions": "1024x1536",
+      "transparent": true,
+      "refs": [
+        "vn/assets/yeonwoo.webp",
+        "vn/assets/yoonha.webp"
+      ],
+      "description": "19~21화 인간 승인 전용 위원 윤세라 스탠딩 초상화",
+      "bytes": 51400,
+      "sha256": "2a69d2a1b0efd42bad6ed91564a98565572acd6385f72893dc02af8d25a67dd9"
+    },
+    {
+      "name": "eunkyung",
+      "key": "eunkyung",
+      "runtime": "vn/assets/eunkyung.webp",
+      "dimensions": "1024x1536",
+      "transparent": true,
+      "refs": [
+        "vn/assets/yoonha.webp"
+      ],
+      "description": "20-1·21-1화 동부 27번 물류창고 야간 근무자 최은경 스탠딩 초상화",
+      "bytes": 55436,
+      "sha256": "be831d27c7919aaaa10d9331510bec6905f4a9df112082cb21bc549c34ffca9a"
+    },
+    {
+      "name": "haerin",
+      "key": "haerin",
+      "runtime": "vn/assets/haerin.webp",
+      "dimensions": "1024x1536",
+      "transparent": true,
+      "refs": [
+        "vn/assets/yoonha.webp"
+      ],
+      "description": "20-1·21화 희귀 면역 질환 아동 보호자 문해린 스탠딩 초상화",
+      "bytes": 50370,
+      "sha256": "8743673835c49cbcbcbd4873496a768c03b93667d51aad246d7bd07da1813f55"
+    }
+  ],
+  "audio": {
+    "episode2Runtime": "EP1_ASSETS connects existing vn/assets/ep1/*.mp3 and six procedurally synthesized vn/assets/ep2/*.mp3 files through vn/episode-one-audio.js and episode-two.js. Scene cues include livingroom, tabletSlide, tabletOff, streetWalk, musicSereneDream, and adCutoff; source, duration, decode and SHA-256 records are in audio-provenance.json. This metadata check does not claim human listening.",
+    "sequence19To22Runtime": "Uses procedural WebAudio ambience and communication cues via vn/audio.js (tension, warm, home, dream, silence) and vn/neural-cues.js."
+  },
+  "runtimeMetadataVerifiedAt": "2026-10-20"
+}

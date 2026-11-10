@@ -1,0 +1,198 @@
+
+> test
+> node --test state.test.js audio.test.mjs direction.test.mjs neural-ledger.test.mjs perception.test.mjs save-portability.test.mjs episode-one.test.mjs episode-one-audio.test.mjs episode-one-reading.test.mjs episode-one-teaser.test.mjs episode-two.test.mjs title-screen.test.mjs
+
+✔ muted cues and effects never enable sound or create an audio context (7.1177ms)
+✔ a suspended context cannot be unlocked or queued by a cue (2.9301ms)
+✔ restores stay quiet while all five communication channels have finite, tapered cues (46.6209ms)
+✔ disabling sound stops and disconnects ambient, noise and oscillator sources (3.2574ms)
+✔ scene changes remove old transients and rapid cues keep a bounded live graph (12.4357ms)
+✔ neural focus ducks only ambience and null restores it, including focus before graph creation (0.9651ms)
+✔ a pending browser resume cannot start stale ambience after stop or disabling sound (1.037ms)
+✔ hidden pages dispose active sound and do not emit communication cues (1.8444ms)
+✔ all 30 episodes and all 21 included side stories have restorable authored stages (10.3422ms)
+✔ normalization preserves every authored chart, CG, cast and quiet passage (61.9042ms)
+✔ revised public contracts never expose human compute or turn medical sharing into sleep relief (222.3365ms)
+✔ medical bid D never acquires a fabricated success probability (0.6766ms)
+✔ financial flow belongs to Doyun and never uses the full household amount twice (0.4593ms)
+✔ interview, recovery and message staging do not leave the wrong person in the room (0.6101ms)
+✔ old save position and chosen observation are retained while stage reconstructs from the beat (67.9957ms)
+✔ stop during delayed loading prevents stale music and effects (7.606ms)
+✔ same music fast navigation rejects a delayed previous effect (2.7233ms)
+✔ stop also stops retired and fading voices immediately (3.2133ms)
+✔ quiet resume preserves loop offset without effects or duplicate restart (8.7041ms)
+✔ an authored hard cut stops even fading sound while the following warning still plays (4.056ms)
+✔ identically numbered cues in different chapters do not suppress the second effect (1.188ms)
+✔ reading pages cover the unchanged source exactly once in order (43.3066ms)
+✔ old saves at every source index resume exactly there (16.3336ms)
+✔ scene starts, signals, acting changes and later sound cues are not skipped (30.9596ms)
+✔ multi-speaker exchanges name each voice and retirement warnings name the event (0.7666ms)
+✔ the observation exemption is limited to the unchanged episode-one review point (4.2665ms)
+✔ teaser respects saved volume including zero and clamps invalid ranges (10.898ms)
+✔ end, skip, Escape and error each finish exactly once and release media (2.3506ms)
+✔ late rejection from skipped session cannot finish a subsequent session (1.1497ms)
+✔ blocked playback and startup timeout fall through (48.611ms)
+✔ playing cancels startup timeout; tab hiding pauses and explicit resume works (36.5149ms)
+✔ the authored first episode covers every original beat and preserves each source speaker (42.3921ms)
+✔ changed scene anchors, wrong beat counts and invalid indices fail closed (78.1008ms)
+✔ the retirement document appears only at its title and escalates after both distinct approvals (2.3685ms)
+✔ Jiwoo faces Seoin before the family question removes his smile (0.6041ms)
+✔ mother closing the household display suppresses the prior finance visual through the meal (0.5291ms)
+✔ ad-free sleep ends in genuine silence and black rather than an immediate new signal (2.023ms)
+✔ episode one has no scene or music override in chapter two (8.3792ms)
+✔ bedroom questions and all scene jumps restore the actual source space (0.728ms)
+✔ all directed actors, CG, ambience, music and effects resolve to real packaged assets (96.7811ms)
+✔ character expressions and event CG are actual distinct WebP images, not repeated file copies (61.4585ms)
+✔ chapter two covers every original beat without altering the source or older chapters (152.1063ms)
+✔ all reading pages cover exactly the original text and every old save coordinate (36.4942ms)
+✔ scene entries, signals, effects and important admissions remain separate stops (3.9574ms)
+✔ reality, medical conversation and dream keep the appropriate people and clock (0.7503ms)
+✔ the newer remote beach CG stays visible for the entire dream without a duplicate actor (1.2673ms)
+✔ the family ledger is lossless and the interrupted dream has an authored hard silence (0.6615ms)
+✔ every new character and sound key resolves to a packaged file (80.2864ms)
+✔ structured neural ledger preserves actual decimals, signs, punctuation and whitespace (4.3872ms)
+✔ ambiguous narration and nonnumeric claims are not forced into a numeric interface (0.7822ms)
+✔ packet only accumulates visited earlier fragments; never a future fragment (4.3691ms)
+✔ new reader jumping into a scene receives no unvisited transcript (2.1654ms)
+✔ narration, long text and choice keep the full original at the normal reading surface (0.75ms)
+✔ a mismatched source body is rejected rather than silently replacing the story (0.387ms)
+✔ channel and sender boundaries prevent unrelated messages being merged (0.4968ms)
+✔ automatic reading leaves time for a complete packet and respects bounded pauses (0.6456ms)
+✔ successive sensory passages remain one contact rather than restarting the arrival cue (0.507ms)
+✔ sensory ambience survives narration but not waking up or merely recalling a dream (0.5527ms)
+✔ portable file preserves separate save choices, read history and settings without mutating the source (15.1786ms)
+✔ manual-only records are portable, but empty or settings-only files are rejected (4.164ms)
+✔ another work, unsupported envelope and unsupported versions are rejected explicitly (2.3947ms)
+✔ every imported save position is checked before migration instead of falling back to the first chapter (2.2778ms)
+✔ corrupt JSON and malformed save containers cannot become valid progress (2.833ms)
+✔ the 2MB import limit counts actual UTF-8 bytes, including Korean text (36.1922ms)
+✔ old save settings gain a safe automatic reading delay and imported values stay bounded (5.2498ms)
+✔ a rejected browser write reports failure and leaves the prior save intact (1.2404ms)
+✔ progress clamps invalid chapters and out-of-range beat indices (2.6503ms)
+✔ next and previous move through beats and chapter boundaries (3.4894ms)
+✔ choice selection records the selected option while story proceeds to its authored next beat (1.0053ms)
+✔ save round trip preserves progress and choice history (2.1082ms)
+✔ migration tolerates old save shape and corrupt storage falls back safely (1.6055ms)
+✔ seen-beat history stays unique and bounded (0.8956ms)
+✖ title uses the original teaser S19 artwork locally (6.453ms)
+✖ every visible title control has a real listener or link (2.1851ms)
+✖ portrait and compact landscape keep touch menu reachable (3.7109ms)
+✖ gallery assets exist and title stays available to screen readers (2.5289ms)
+✖ cinematic title integrates all options in the scene (1.9762ms)
+✖ animated layers cannot capture input and reduced-motion is respected (2.0737ms)
+ℹ tests 78
+ℹ suites 0
+ℹ pass 72
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9600.7111
+
+✖ failing tests:
+
+test at title-screen.test.mjs:7:1
+✖ title uses the original teaser S19 artwork locally (6.453ms)
+  Error: ENOENT: no such file or directory, open 'C:\C:\Users\jbseo\Desktop\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\_review\scene-mix-19-22-20261020\vn\title-screen.css'
+      at Object.readFileSync (node:fs:441:20)
+      at read (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:6:21)
+      at TestContext.<anonymous> (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:8:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.start (node:internal/test_runner/test:1177:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\C:\\Users\\jbseo\\Desktop\\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\\_review\\scene-mix-19-22-20261020\\vn\\title-screen.css'
+  }
+
+test at title-screen.test.mjs:14:1
+✖ every visible title control has a real listener or link (2.1851ms)
+  Error: ENOENT: no such file or directory, open 'C:\C:\Users\jbseo\Desktop\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\_review\scene-mix-19-22-20261020\vn\index.html'
+      at Object.readFileSync (node:fs:441:20)
+      at read (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:6:21)
+      at TestContext.<anonymous> (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:15:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\C:\\Users\\jbseo\\Desktop\\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\\_review\\scene-mix-19-22-20261020\\vn\\index.html'
+  }
+
+test at title-screen.test.mjs:25:1
+✖ portrait and compact landscape keep touch menu reachable (3.7109ms)
+  Error: ENOENT: no such file or directory, open 'C:\C:\Users\jbseo\Desktop\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\_review\scene-mix-19-22-20261020\vn\title-screen.css'
+      at Object.readFileSync (node:fs:441:20)
+      at read (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:6:21)
+      at TestContext.<anonymous> (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:26:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\C:\\Users\\jbseo\\Desktop\\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\\_review\\scene-mix-19-22-20261020\\vn\\title-screen.css'
+  }
+
+test at title-screen.test.mjs:33:1
+✖ gallery assets exist and title stays available to screen readers (2.5289ms)
+  Error: ENOENT: no such file or directory, open 'C:\C:\Users\jbseo\Desktop\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\_review\scene-mix-19-22-20261020\vn\index.html'
+      at Object.readFileSync (node:fs:441:20)
+      at read (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:6:21)
+      at TestContext.<anonymous> (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:34:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\C:\\Users\\jbseo\\Desktop\\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\\_review\\scene-mix-19-22-20261020\\vn\\index.html'
+  }
+
+test at title-screen.test.mjs:42:1
+✖ cinematic title integrates all options in the scene (1.9762ms)
+  Error: ENOENT: no such file or directory, open 'C:\C:\Users\jbseo\Desktop\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\_review\scene-mix-19-22-20261020\vn\index.html'
+      at Object.readFileSync (node:fs:441:20)
+      at read (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:6:21)
+      at TestContext.<anonymous> (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:43:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\C:\\Users\\jbseo\\Desktop\\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\\_review\\scene-mix-19-22-20261020\\vn\\index.html'
+  }
+
+test at title-screen.test.mjs:56:1
+✖ animated layers cannot capture input and reduced-motion is respected (2.0737ms)
+  Error: ENOENT: no such file or directory, open 'C:\C:\Users\jbseo\Desktop\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\_review\scene-mix-19-22-20261020\vn\title-atmosphere.js'
+      at Object.readFileSync (node:fs:441:20)
+      at read (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:6:21)
+      at TestContext.<anonymous> (file:///C:/Users/jbseo/Desktop/%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9/_review/scene-mix-19-22-20261020/vn/title-screen.test.mjs:57:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\C:\\Users\\jbseo\\Desktop\\%ED%95%A9%EA%B2%A9%EC%9E%90%20%EB%A1%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B7%A8%ED%95%A9\\_review\\scene-mix-19-22-20261020\\vn\\title-atmosphere.js'
+  }

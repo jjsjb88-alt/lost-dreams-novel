@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-19",
+  "mode": "Built-in image_gen tool; no CLI/API fallback",
+  "note": "Exact submitted prompts are preserved where available below. Seven earlier production briefs are explicitly marked as descriptive records, not a verbatim generation transcript. PNG masters remain in image-source; runtime WebP is format transcoding only, with alpha preserved.",
+  "assets": [
+    {
+      "name": "seoin-question",
+      "master": "image-source/seoin-question.png",
+      "runtime": "vn/assets/ep1/seoin-question.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same original Seoin, charcoal jacket and grey shirt, seated leaning toward viewer right, quiet questioning expression and wrist-hand gesture. Adult Korean male, same painterly identity, full head through upper thighs, genuine transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "seoin-worry",
+      "master": "image-source/seoin-worry.png",
+      "runtime": "vn/assets/ep1/seoin-worry.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same original Seoin in charcoal jacket and grey shirt, gaze lowered, brows held in worried restraint, seated hands folded at forearm. Same adult male identity, transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "mother-warm",
+      "master": "image-source/mother-warm.png",
+      "runtime": "vn/assets/ep1/mother-warm.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same middle-aged mother with grey bob, white blouse and grey cardigan, genuine warm enjoyment while talking with chopsticks in hand, looking viewer left. No sad or sick expression. Transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "jiwoo-tease",
+      "master": "image-source/jiwoo-tease.png",
+      "runtime": "vn/assets/ep1/jiwoo-tease.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same adult Jiwoo, brown hair, grey rolled overshirt over dark tee, relaxed teasing smile while eyes stay on his own work screen, seated relaxed posture. Transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "seoin-night",
+      "master": "image-source/seoin-night.png",
+      "runtime": "vn/assets/ep1/seoin-night.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same Seoin, jacket removed and grey sleep shirt, reclined against pillow, eyes directed toward ceiling, quiet vulnerable thought, cool night lighting, transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "mother-searching",
+      "master": "image-source/mother-searching.png",
+      "runtime": "vn/assets/ep1/mother-searching.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same mother, chopsticks paused near chest, eyes briefly look aside to search for a name, mouth maintains everyday soft smile, no tragedy. Transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "jiwoo-wounded",
+      "master": "image-source/jiwoo-wounded.png",
+      "runtime": "vn/assets/ep1/jiwoo-wounded.webp",
+      "promptRecord": "descriptive production brief",
+      "prompt": "Same adult Jiwoo, smile gone, eyes lowered, shoulders slightly released and hands loosely joined, restrained hurt after family treatment question, transparent cutout.",
+      "references": [
+        "original character reference"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "jiwoo-firm",
+      "master": "image-source/jiwoo-firm.png",
+      "runtime": "vn/assets/ep1/jiwoo-firm.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Use case identity-preserve. Same exact adult Korean MAN Jiwoo as reference, brown tousled hair, soft grey overshirt rolled sleeves and dark tee. One upper-thigh-up seated transparent character illustration. Now his head has turned from his desk to viewer's LEFT and he meets the eyes of his friend; a small stubborn, weary smile with dark under-eyes, calm determination without bravado, shoulders relaxed but hands still, right hand near unseen desk after approving resignation. Nuanced realistic painterly visual-novel acting. Crown near8% canvas, full arms/hands inside, crisp silhouette with generous transparent ALPHA all around; absolutely no painted background/vignette/halo/light rectangle, no props, text or extra figure. 1024x1536 portrait.",
+      "references": [
+        "jiwoo.webp"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "seoin-angry",
+      "master": "image-source/seoin-angry.png",
+      "runtime": "vn/assets/ep1/seoin-angry.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Use case identity-preserve. Same exact adult Korean MAN Seoin, black tousled hair, grey shirt, dark charcoal jacket. One upper-thigh-up seated transparent character illustration, leaning forward toward viewer's RIGHT, eyebrows drawn tight, lips parted in a quiet urgent angry question, eyes firmly on the friend offscreen right. This anger comes from worry for his friend and family; contained and human, no clenched cartoon teeth or melodrama. One hand braces lightly on his thigh, other hand half-open as if asking why. Fine realistic painterly game illustration, warm/cool light matching reference. Portrait1024x1536, whole head and hands contained. Transparent ALPHA with no background paint/halo/vignette/black wash/rectangle. No text or UI.",
+      "references": [
+        "seoin.webp"
+      ],
+      "transparent": true
+    },
+    {
+      "name": "cg-sea",
+      "master": "image-source/cg-sea.png",
+      "runtime": "vn/assets/ep1/cg-sea.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Use case illustration-story. Final panoramic cinematic event CG for original visual novel,1920x1080 landscape. Subjective memory of a flawlessly inviting seaside advertisement: low view at ankle height from the edge of very shallow warm turquoise water, clear ripples around the unseen viewer, creamy sand and one clear cold drinking glass on the sand, fine condensation beads catching sun. Ocean horizon intensely blue, luminous white clouds, beautifully calm with a subtle vacant emotional distance. The right third is an intimate empty space where someone may have stood, but there is NO identifiable person, face or silhouette. Premium semi-realistic painterly artwork with fine material texture and plausible light, elegant restrained composition, warm sun and cool sea, no futuristic tower or fantasy planet. No text, words, logo, UI, borders or watermark.",
+      "references": [],
+      "transparent": false
+    },
+    {
+      "name": "cg-table",
+      "master": "image-source/cg-table.png",
+      "runtime": "vn/assets/ep1/cg-table.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Create a polished cinematic visual-novel event illustration for Lost Dreams, original Korean near-future domestic SF. Match the adult character identities, wardrobe and muted painterly semi-realistic illustration of the supplied reference images, with believable anatomy, controlled cinematic lighting, subtle texture and grounded mundane architecture. Wide 16:9 composition, no letters, numbers, interface, watermark or logos; UI will be overlaid separately. A cramped small apartment breakfast table, folding partition and refrigerator door visible in the soft background. The middle-aged Korean mother with grey bob, white blouse and grey cardigan is placing a piece of cooked egg onto her adult son Seoin’s rice with her chopsticks. Close framing on the hands, ordinary bowls and the mother’s warm, matter-of-fact face, son at frame edge in charcoal jacket and grey shirt. This is genuine everyday tenderness without sentimental tears. Warm practical kitchen light; preserve ample dark quiet space across the bottom quarter for dialogue. Do not draw holograms or money.",
+      "references": [
+        "mother.webp",
+        "seoin.webp",
+        "kitchen.webp"
+      ],
+      "transparent": false
+    },
+    {
+      "name": "cg-clay",
+      "master": "image-source/cg-clay.png",
+      "runtime": "vn/assets/ep1/cg-clay.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Create a polished cinematic visual-novel event illustration for Lost Dreams, original Korean near-future domestic SF. Match the adult character identities, wardrobe and muted painterly semi-realistic illustration of the supplied reference images, with believable anatomy, controlled cinematic lighting, subtle texture and grounded mundane architecture. Wide 16:9 composition, no letters, numbers, interface, watermark or logos; UI will be overlaid separately. Office at late afternoon. Adult Korean man Jiwoo, brown hair, grey rolled overshirt and dark tee with faint clay stains, looks down into an open small worn cardboard box held between him and his adult male colleague. Inside is a single old misshapen fired clay object whose purpose is unclear: neither clearly a cup nor clearly a plant pot, lopsided and imperfect, no cute mascot. Focus tactile object and hands in foreground, Jiwoo’s three-quarter tired face in upper frame: mouth attempts a tiny empty smile, eyes do not smile. Seoin’s sleeve and receiving hand at edge. No dramatic villain lighting. Muted dusk and cool office light; bottom quarter relatively quiet.",
+      "references": [
+        "jiwoo.webp",
+        "seoin.webp"
+      ],
+      "transparent": false
+    },
+    {
+      "name": "cg-night",
+      "master": "image-source/cg-night.png",
+      "runtime": "vn/assets/ep1/cg-night.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Create a polished cinematic visual-novel event illustration for Lost Dreams, original Korean near-future domestic SF. Match the adult character identities, wardrobe and muted painterly semi-realistic illustration of the supplied reference images, with believable anatomy, controlled cinematic lighting, subtle texture and grounded mundane architecture. Wide 16:9 composition, no letters, numbers, interface, watermark or logos; UI will be overlaid separately. Same young adult Korean man Seoin with black hair and grey shirt, jacket removed, lying on his pillow in the same small apartment room at night. Close cinematic side angle shows his vulnerable thoughtful profile and one hand paused in midair, fingers almost about to approve something then stopping. The empty space in front of the fingers must remain empty: he uses a neural feed, NO physical phone, NO tablet, NO visible screen or drawn interface. Faint cool blue room light mixed with a small warm practical source, bed and wall cracks recognizable from room reference. Quiet anticipatory composition, enough empty space around hand for separately rendered neural UI. No magical particles.",
+      "references": [
+        "seoin.webp",
+        "room.webp"
+      ],
+      "transparent": false
+    },
+    {
+      "name": "seoin-waking",
+      "master": "image-source/seoin-waking.png",
+      "runtime": "vn/assets/ep1/seoin-waking.webp",
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Generate an original transparent-background visual novel character illustration matching this SAME adult Korean man Seoin from reference: black hair, grey crew-neck shirt, painterly semi-realistic muted Korean SF style. He has just woken in a small apartment: NO jacket, NO belt, NO formal clothes, only soft grey sleep shirt and dark lounge trousers. Seated on bed, upper thighs through full head visible, leaning up and slightly forward with sleepy questioning brows, lips almost speaking, eyes directed viewer RIGHT toward a disembodied personal AI. One hand supports his weight on mattress outside frame; other rests near wrist. Natural morning neutral illumination, subtle tiredness, no melodrama. Preserve adult masculine identity. Character cutout on genuine alpha transparent background, no floor, no room, no backdrop glow, no writing or UI.",
+      "references": [
+        "seoin.webp"
+      ],
+      "transparent": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/pilot.html"
+  status = 200
+  force = true

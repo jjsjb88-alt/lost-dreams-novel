@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-19",
+  "reason": "작가 재지적: 얼굴뿐 아니라 몸 전체가 남성처럼 보임. 어깨·흉곽·허리와 골반·팔과 손·의복 실루엣 재작화.",
+  "scope": "1화의 지우 세 표정과 점토 CG. 2화 실제 구현은 별도.",
+  "mode": "Built-in image_gen edits. PNG originals retained in generated_images; WebP conversion only.",
+  "assets": [
+    {
+      "key": "tease",
+      "source": "exec-92c75471-edaf-4e5d-bd4d-0a01d54b2e0b.png",
+      "name": "jiwoo-woman-body-tease",
+      "transparent": true,
+      "prompt": "Rebuild the WHOLE BODY of Jiwoo in this seated visual novel sprite. The previous correction failed: it left a broad masculine torso and shoulders and merely changed the face. Treat the supplied picture as a reference ONLY for facial identity, brown short bob, muted painterly game-art style and teasing acting, NOT for anatomy or the oversized male clothing silhouette. Jiwoo is an adult Korean WOMAN in her late twenties. Draw her from crown through upper thighs with the complete head, elbows and hands in frame. Give her a coherent naturally feminine adult build throughout: shoulders distinctly narrower than the reference with a gentle slope, modest ribcage, balanced chest/waist/hip proportions under ordinary opaque clothes, softly tapered waist, naturally proportioned hips, slim relaxed upper arms, finer wrists, smaller proportionate hands and fingers. Do not exaggerate breasts or hips; no cleavage, pin-up or sexualization. The grey rolled-sleeve work shirt should be appropriately sized for her frame, loose enough for work yet draping close enough that the smaller torso and waist are visible; NO huge squared shoulder seams, bulky sleeves, wide barrel torso, thick veiny forearms or huge hands. A soft dark crewneck tee and plain charcoal work trousers, natural seated weight with knees calmly near each other. Preserve the warm chestnut-brown short slightly tousled bob and recognizable adult face, reduce glossy makeup. Left cheek resting on one small hand, a wry playful smile toward her male colleague off-frame to viewer LEFT; other hand resting on her thigh. Everyday colleague, practical and self-possessed. This is a fresh full-body casting redraw, not face retouching. SINGLE character only. Portrait 1024x1536. Real transparent alpha outside character, clean isolated cutout, generous clear margins above head and beside elbows. No chair, desk, floor, background, haze, halo, gradients, checkerboard, words or watermark.",
+      "runtime": "vn/assets/ep1/jiwoo-woman-body-tease.webp",
+      "references": [
+        "vn/assets/ep1/jiwoo-woman-tease.webp"
+      ]
+    },
+    {
+      "key": "firm",
+      "source": "exec-0b7b0342-9ee0-4929-941e-d2462d3f6b8a.png",
+      "name": "jiwoo-woman-body-firm",
+      "transparent": true,
+      "prompt": "Produce the second expression sprite for the EXACT SAME adult Korean WOMAN Jiwoo as this newly corrected body reference. Keep her entire new female anatomy IDENTICAL: narrower gently sloping shoulders, smaller ribcage, subtle naturally tapered waist, slim upper arms and forearms, fine wrists and proportionately small adult hands, normally proportioned hips and thighs. Keep the same grey work overshirt fitted loosely to HER frame, dark soft crewneck tee and charcoal trousers, same short tousled chestnut-brown bob and adult face. Absolutely do not widen the shoulders or inflate the shirt into the old male silhouette. Only change the acting: seated upright but relaxed, turn head gently toward viewer LEFT and look directly at her colleague with a small stubborn weary half-smile, tired under-eyes; one hand rests lightly on her thigh and the other lower near an unseen desk. Both hands clearly visible with natural fingers. No cheek resting on hand this time. She has just approved her resignation, quiet determination. Ordinary adult colleague, not glamour, no sexualized proportions or childlike body. Same muted painterly semi-realistic game art, same scale framing from crown through upper thighs with complete head and elbows in frame. SINGLE isolated character, portrait1024x1536. True transparent alpha everywhere outside her silhouette; remove any background, haze, brown glow or gradient from reference. No chair, floor, scenery, phone, text or watermark.",
+      "runtime": "vn/assets/ep1/jiwoo-woman-body-firm.webp",
+      "references": [
+        "generated_images/exec-92c75471-edaf-4e5d-bd4d-0a01d54b2e0b.png"
+      ]
+    },
+    {
+      "key": "wounded",
+      "source": "exec-f4df23ed-6946-427a-af0f-9118fb5935ab.png",
+      "name": "jiwoo-woman-body-wounded",
+      "transparent": true,
+      "prompt": "Create the restrained hurt expression of the SAME adult Korean WOMAN Jiwoo from the supplied newly body-corrected reference. Preserve exactly her narrow gently sloping female shoulder line, modest ribcage, natural subtle waist and hip balance, slim relaxed arms, finer wrists and proportionately small adult hands. Do NOT revert to a broad male torso, barrel chest, massive rolled sleeves or large knuckled hands. Practical grey rolled-sleeve work overshirt drapes on her actual narrower frame, dark crewneck tee and charcoal work trousers; same warm chestnut short bob and recognizable adult face, late twenties. Acting change: the playful smile has vanished after a question about her father's treatment and sister's exams. Eyes lowered, lips closed, quiet hurt and stubborn resolve, no crying or glamour. Both hands loosely joined in her lap, adult natural fingers, shoulders slightly released. Seated with knees calmly near each other; no hand on cheek. Keep normal adult body and female silhouette WITHOUT exaggerating breasts, cleavage or hips. Painterly semi-realistic visual novel character art, same framing and scale from entire head through upper thighs, complete elbows and hands visible. Portrait1024x1536. SINGLE isolated character with GENUINE TRANSPARENT ALPHA outside every part of her body, no background glow/gradient/haze/floor/chair/checkerboard/rectangle, no phone, text or watermark.",
+      "runtime": "vn/assets/ep1/jiwoo-woman-body-wounded.webp",
+      "references": [
+        "generated_images/exec-92c75471-edaf-4e5d-bd4d-0a01d54b2e0b.png"
+      ]
+    },
+    {
+      "key": "clay",
+      "source": "exec-cdf5c6b6-3006-4a53-add5-85954cd672cc.png",
+      "name": "cg-clay-woman-body",
+      "transparent": false,
+      "prompt": "Edit the office event image (first reference). The woman at viewer LEFT, Jiwoo, must be redrawn from the NECK DOWN as well as her face, using the second supplied newly corrected seated female sprite as the WHOLE BODY identity reference. The current left person has an incorrectly broad male ribcage, wide square shoulders, bulky upper arms and large masculine hands; do not preserve that anatomy. Reconstruct her as the SAME clearly adult Korean WOMAN in the second reference: short tousled chestnut bob, recognizable face, naturally narrower sloping shoulders, smaller torso, gentle waist taper beneath practical opaque clothes, slim upper arms and wrists and proportionately smaller softer hands without prominent male tendons. Retain normal adult anatomy, not a tiny child or sexualized pin-up. Resize her grey rolled-sleeve shirt to fit this smaller female frame with soft drape, no huge broad shoulder padding and no barrel-shaped dark tee torso. The silhouette must visibly change at both shoulders, outer upper arms, forearms, neck and waist. Preserve the quiet attempted smile with sad eyes as she looks down at her odd childhood clay object. Viewer RIGHT, Seoin, remains the SAME ADULT MAN, same black hair, charcoal suit profile, male shoulders and receiving hands. Preserve the warm dusk office, worn cardboard box, ONE lopsided imperfect ceramic object, the single box handoff and original wide composition. Jiwoo's smaller left-side hand gently rests against the clay; Seoin's two receiving hands belong only to him at the right and bottom. No extra hands or fingers. Keep Jiwoo's complete head, both shoulder contours and her hand inside the central portion so mobile cropping still shows them. Painterly semi-realistic game art,16:9, no text/UI/watermark. Do not merely alter lipstick, eyelashes or face; redraw the entire left character with a coherent woman’s anatomy and clothing.",
+      "runtime": "vn/assets/ep1/cg-clay-woman-body.webp",
+      "references": [
+        "generated_images/exec-7565bf0d-2625-48c6-ba85-ed0eb5f7f41f.png",
+        "generated_images/exec-92c75471-edaf-4e5d-bd4d-0a01d54b2e0b.png"
+      ]
+    }
+  ]
+}

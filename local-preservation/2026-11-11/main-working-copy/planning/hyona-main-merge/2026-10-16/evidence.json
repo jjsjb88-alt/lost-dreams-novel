@@ -1,0 +1,212 @@
+[
+  {
+    "image": "evidence/main-19-familyday-final.png",
+    "sha256": "fc922483c6489e17c92e43304312bb7e521b230a7f1b66b5798e919d36d5efb3",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-19-familyday-mid.png",
+    "sha256": "5cd8730b4d4a3fd68deeb271dffd8c5e0fd655d63e74a5d767db0ee07ce9a3be",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-19-node31b-final.png",
+    "sha256": "e879df10825cb6563ee23ba65b8af54733d579bc05238c4d06903ed74d3c1687",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-19-node31b-mid.png",
+    "sha256": "1abec408f5d7b32c74bab5b7d74f3503a3bea415636e2428fe4c1bd35f399a03",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-20-graybutton-final.png",
+    "sha256": "e134fe4026d523b232a546974d1413b3227aeb5809467a07910a5f6d1efd5d56",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "corrected"
+  },
+  {
+    "image": "evidence/main-20-netbundle-final.png",
+    "sha256": "fd1009f4909749dfe26c781f9f80de9db5a5ab9c1d5bc170f987a885b7732e66",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "corrected"
+  },
+  {
+    "image": "evidence/main-20-netbundle-mid.png",
+    "sha256": "fd1009f4909749dfe26c781f9f80de9db5a5ab9c1d5bc170f987a885b7732e66",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "corrected"
+  },
+  {
+    "image": "evidence/main-21-nightload-final.png",
+    "sha256": "5be3de786fb8be765cf76b6c4810d6f4923968bddd27c6d7c5a70dc4bcf6c515",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-21-nightload-mid.png",
+    "sha256": "023cf5f95a1224b85a25b0354e187f1dc29280b7932c74ec7c0a56766e6a9277",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-21-restore-corrected-final.png",
+    "sha256": "6394754f02ddc6b9cfc4f52c376df6e01bd8699c3d029a43b4d9d3165c7a8713",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "corrected"
+  },
+  {
+    "image": "evidence/main-21-restore-corrected-mid.png",
+    "sha256": "e392c40ffab96000ad7ec978a4e53603cd520c1c9fd304df2a27c012f9306c1a",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "corrected"
+  },
+  {
+    "image": "evidence/main-27-onenight-final.png",
+    "sha256": "1cc434597af5343c899da939ceb27716a72cf4a5530407e3dba434f821ffc6c2",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-27-onenight-mid.png",
+    "sha256": "4e512710fa3e5854aac73c93599b9c8e1d04f813914f779dc8ddb6adc1a274f5",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-32-practicesheet-final.png",
+    "sha256": "5a02526c3bfef299006738c85185de4d0a231a8032c7a58d8c7d39f6cbcc8af1",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-32-practicesheet-mid.png",
+    "sha256": "8e718341a2a030f4889faabc4f22a65bc3aa9c6852983429da2c5fe26979afc4",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-44-hundredcut-final.png",
+    "sha256": "41f6afd119004d0efc710acb0b9db282f74b41581511268f497c35c350ebb63f",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-44-hundredcut-mid.png",
+    "sha256": "67990eb60e9157ef5a0b080a7a89a8651f34929b546e09653e9c76987fb9bf4d",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-66-twopaper-final.png",
+    "sha256": "01ce984d48f4c88663d4fcec374a6630c5d0c3251b5897b75a23dbd7ad30bdf9",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-66-twopaper-mid.png",
+    "sha256": "f4d40293a512ebd8b5784c2fe4355852fd8a0743e954b19d0925a26bba8d77de",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-9-1-ldx-claymark-final.png",
+    "sha256": "ccb55d08b223657d26cd58620bccc862b1f14048373c9e8fe10df407eb6aae96",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front",
+    "phase": "new implementation"
+  },
+  {
+    "image": "evidence/main-9-1-ldx-claymark-mid.png",
+    "sha256": "a866159ca94d25141e10fbf10aa5407aadbe4e0415afe0d2dbbee64d1fcd0cca",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front",
+    "phase": "new implementation"
+  }
+]

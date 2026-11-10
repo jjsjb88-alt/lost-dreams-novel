@@ -1,0 +1,552 @@
+{
+  "generatedAt": "2026-10-19T23:39:58.292Z",
+  "settings": [
+    {
+      "path": "settings/01-overview.md",
+      "title": "작품 개요",
+      "chars": 1246
+    },
+    {
+      "path": "settings/02-world.md",
+      "title": "세계관",
+      "chars": 7656
+    },
+    {
+      "path": "settings/03-dreams.md",
+      "title": "꿈의 계급화",
+      "chars": 3346
+    },
+    {
+      "path": "settings/04-protagonist-and-plot.md",
+      "title": "주인공과 줄거리",
+      "chars": 3225
+    },
+    {
+      "path": "settings/05-open-questions.md",
+      "title": "미정 사항",
+      "chars": 53112
+    },
+    {
+      "path": "settings/06-story-seeds.md",
+      "title": "이야기 씨앗",
+      "chars": 261
+    },
+    {
+      "path": "settings/07-antagonist.md",
+      "title": "혁명군 메인 빌런",
+      "chars": 1688
+    },
+    {
+      "path": "settings/08-protagonist-cognition.md",
+      "title": "주인공의 통찰과 회복",
+      "chars": 4803
+    },
+    {
+      "path": "settings/09-narrative-arc.md",
+      "title": "전체 서사 및 최종 혁명 설계",
+      "chars": 10480
+    },
+    {
+      "path": "settings/10-heirs-and-epilogue.md",
+      "title": "도윤의 친자녀와 클론의 암시",
+      "chars": 2506
+    },
+    {
+      "path": "settings/11-writing-direction.md",
+      "title": "작품 완성도와 집필 방향",
+      "chars": 11586
+    },
+    {
+      "path": "settings/12-characters.md",
+      "title": "인물 시트",
+      "chars": 11138
+    },
+    {
+      "path": "settings/12-token-anchor-and-revolution-lineage.md",
+      "title": "TOKEN·앵커·혁명 계보",
+      "chars": 6670
+    },
+    {
+      "path": "settings/13-revolution-endgame-and-token-war.md",
+      "title": "혁명 조직·TOKEN 전쟁·최종 분리 — 작가 확정",
+      "chars": 5257
+    },
+    {
+      "path": "settings/14-canon-sync-2026-10-07.md",
+      "title": "2026-10-07 설정 동기화 맵",
+      "chars": 2569
+    },
+    {
+      "path": "settings/14-canon-sync-index.md",
+      "title": "2026-10-07 설정 동기화 인덱스",
+      "chars": 2341
+    }
+  ],
+  "manuscript": [
+    {
+      "path": "manuscript/ep001.md",
+      "title": "제1화. 오늘 밤의 행복은 12토큰입니다",
+      "chars": 4016
+    },
+    {
+      "path": "manuscript/ep002.md",
+      "title": "제2화. AI가 모르는 것",
+      "chars": 3939
+    },
+    {
+      "path": "manuscript/ep003.md",
+      "title": "제3화. 꿈꾸는 사람의 가격",
+      "chars": 3499
+    },
+    {
+      "path": "manuscript/ep004.md",
+      "title": "제4화. 7초",
+      "chars": 4879
+    },
+    {
+      "path": "manuscript/ep004-1.md",
+      "title": "제4-1화. 4만 토큰짜리 눈치",
+      "chars": 3043
+    },
+    {
+      "path": "manuscript/ep005.md",
+      "title": "제5화. 가장 친절한 혁명가",
+      "chars": 5479
+    },
+    {
+      "path": "manuscript/ep006.md",
+      "title": "제6화. 무료로 자유를 드립니다",
+      "chars": 5315
+    },
+    {
+      "path": "manuscript/ep006-1.md",
+      "title": "제6-1화. 주말에 구우면 되죠",
+      "chars": 1332
+    },
+    {
+      "path": "manuscript/ep007.md",
+      "title": "제7화. 행복할 권리",
+      "chars": 4282
+    },
+    {
+      "path": "manuscript/ep007-2.md",
+      "title": "제7-2화. 다음엔 내가 살게",
+      "chars": 3565
+    },
+    {
+      "path": "manuscript/ep008.md",
+      "title": "제8화. 신이 없는 상류층",
+      "chars": 2741
+    },
+    {
+      "path": "manuscript/ep007-3.md",
+      "title": "제8-1화. 의결권 없음",
+      "chars": 2642
+    },
+    {
+      "path": "manuscript/ep008-3.md",
+      "title": "제8-2화. 측정 상한",
+      "chars": 2758
+    },
+    {
+      "path": "manuscript/ep008-4.md",
+      "title": "제8-3화. 환자 이름",
+      "chars": 1793
+    },
+    {
+      "path": "manuscript/ep009.md",
+      "title": "제9화. 인간이라는 비밀 병기",
+      "chars": 3438
+    },
+    {
+      "path": "manuscript/ep009-1.md",
+      "title": "제9-1화. 그냥 내일도",
+      "chars": 3530
+    },
+    {
+      "path": "manuscript/ep010.md",
+      "title": "제10화. 아무도 구해 달라고 하지 않았다",
+      "chars": 4584
+    },
+    {
+      "path": "manuscript/ep011.md",
+      "title": "제11화. 0.8초를 지우는 일",
+      "chars": 3488
+    },
+    {
+      "path": "manuscript/ep012.md",
+      "title": "제12화. 모르는 것을 아는 사람",
+      "chars": 3781
+    },
+    {
+      "path": "manuscript/ep012-1.md",
+      "title": "제12-1화. 확인 전",
+      "chars": 3940
+    },
+    {
+      "path": "manuscript/ep013.md",
+      "title": "제13화. 떠나지 않을 이유",
+      "chars": 3317
+    },
+    {
+      "path": "manuscript/ep013-1.md",
+      "title": "제13-1화. 수요일 네 칸",
+      "chars": 1638
+    },
+    {
+      "path": "manuscript/ep013-2.md",
+      "title": "제13-2화. 확인하지 않음",
+      "chars": 3695
+    },
+    {
+      "path": "manuscript/ep014.md",
+      "title": "제14화. 두 번째로 보지 않은 사람",
+      "chars": 4219
+    },
+    {
+      "path": "manuscript/ep015.md",
+      "title": "제15화. 업데이트된 사람",
+      "chars": 3750
+    },
+    {
+      "path": "manuscript/ep015-1.md",
+      "title": "제15-1화. 일곱 번째 죽",
+      "chars": 1096
+    },
+    {
+      "path": "manuscript/ep016.md",
+      "title": "제16화. 지는 쪽의 이유",
+      "chars": 3812
+    },
+    {
+      "path": "manuscript/ep016-1.md",
+      "title": "제16-1화. 남겨 둔 차",
+      "chars": 3593
+    },
+    {
+      "path": "manuscript/ep017.md",
+      "title": "제17화. 없는 것을 빌려드립니다",
+      "chars": 4097
+    },
+    {
+      "path": "manuscript/ep018.md",
+      "title": "제18화. 고장 난 날의 버전 번호",
+      "chars": 3503
+    },
+    {
+      "path": "manuscript/ep019.md",
+      "title": "제19화. 문 앞에 선 사람",
+      "chars": 4298
+    },
+    {
+      "path": "manuscript/ep019-1.md",
+      "title": "제19-1화. 권한이 없는 현장",
+      "chars": 3780
+    },
+    {
+      "path": "manuscript/ep019-2.md",
+      "title": "제19-2화. 저녁값",
+      "chars": 3486
+    },
+    {
+      "path": "manuscript/ep020.md",
+      "title": "제20화. 문 안에서 내리는 판단",
+      "chars": 5020
+    },
+    {
+      "path": "manuscript/ep020-1.md",
+      "title": "제20-1화. 두 집의 밤",
+      "chars": 1159
+    },
+    {
+      "path": "manuscript/ep021.md",
+      "title": "제21화. 좋아진 밤의 가격",
+      "chars": 4588
+    },
+    {
+      "path": "manuscript/ep021-1.md",
+      "title": "제21-1화. 마지막 한 사람",
+      "chars": 2324
+    },
+    {
+      "path": "manuscript/ep022.md",
+      "title": "제22화. 네 번째 안전",
+      "chars": 4014
+    },
+    {
+      "path": "manuscript/ep022-1.md",
+      "title": "제22-1화. 57분",
+      "chars": 2747
+    },
+    {
+      "path": "manuscript/ep023.md",
+      "title": "제23화. 당신이 말했으니까",
+      "chars": 3622
+    },
+    {
+      "path": "manuscript/ep024.md",
+      "title": "제24화. 이름을 빌리는 법",
+      "chars": 3947
+    },
+    {
+      "path": "manuscript/ep024-1.md",
+      "title": "제24-1화. SEO-IN 인증서 팝니다",
+      "chars": 4075
+    },
+    {
+      "path": "manuscript/ep025.md",
+      "title": "제25화. 같은 선택",
+      "chars": 3675
+    },
+    {
+      "path": "manuscript/ep025-1.md",
+      "title": "제25-1화. 위층 사람",
+      "chars": 3616
+    },
+    {
+      "path": "manuscript/ep026.md",
+      "title": "제26화. 먼저 되는 사람",
+      "chars": 4427
+    },
+    {
+      "path": "manuscript/ep027.md",
+      "title": "제27화. 한 가지만 묻는 법",
+      "chars": 3811
+    },
+    {
+      "path": "manuscript/ep028.md",
+      "title": "제28화. 이사 가지 않는 이유",
+      "chars": 3605
+    },
+    {
+      "path": "manuscript/ep029.md",
+      "title": "제29화. 지우의 값",
+      "chars": 3766
+    },
+    {
+      "path": "manuscript/ep030.md",
+      "title": "제30화. 밀린 것",
+      "chars": 3852
+    },
+    {
+      "path": "manuscript/ep030-1.md",
+      "title": "제30-1화. 소금빵 수거팀",
+      "chars": 2589
+    },
+    {
+      "path": "manuscript/ep030-2.md",
+      "title": "제30-2화. 같은 혁명",
+      "chars": 3074
+    },
+    {
+      "path": "manuscript/ep031.md",
+      "title": "제31화. 네 번째 답",
+      "chars": 3517
+    },
+    {
+      "path": "manuscript/ep032.md",
+      "title": "제32화. 빌린 안전",
+      "chars": 3798
+    },
+    {
+      "path": "manuscript/ep033.md",
+      "title": "제33화. 사람다움의 값",
+      "chars": 3565
+    },
+    {
+      "path": "manuscript/ep034.md",
+      "title": "제34화. 이름을 놓는 값",
+      "chars": 3837
+    },
+    {
+      "path": "manuscript/ep035.md",
+      "title": "제35화. 먼저 아는 사람",
+      "chars": 3965
+    },
+    {
+      "path": "manuscript/ep036.md",
+      "title": "제36화. 변하지 않는 사람",
+      "chars": 4199
+    },
+    {
+      "path": "manuscript/ep037.md",
+      "title": "제37화. 바뀌지 않는 값",
+      "chars": 3820
+    },
+    {
+      "path": "manuscript/ep038.md",
+      "title": "제38화. 대신 남는 사람",
+      "chars": 4524
+    },
+    {
+      "path": "manuscript/ep039.md",
+      "title": "제39화. 줄 밖의 사람",
+      "chars": 3811
+    },
+    {
+      "path": "manuscript/ep040.md",
+      "title": "제40화. 담요 밖의 패",
+      "chars": 4649
+    },
+    {
+      "path": "manuscript/ep041.md",
+      "title": "제41화. 아무 일도 없는 날",
+      "chars": 4246
+    },
+    {
+      "path": "manuscript/ep042.md",
+      "title": "제42화. 두 번째 답",
+      "chars": 4207
+    },
+    {
+      "path": "manuscript/ep043.md",
+      "title": "제43화. 세 번 더",
+      "chars": 3670
+    },
+    {
+      "path": "manuscript/ep044.md",
+      "title": "제44화. 지금 제일 잘 보여요",
+      "chars": 4064
+    },
+    {
+      "path": "manuscript/ep045.md",
+      "title": "제45화. 버린 미래",
+      "chars": 3846
+    },
+    {
+      "path": "manuscript/ep046.md",
+      "title": "제46화. 일요일은 쉽니다",
+      "chars": 3935
+    },
+    {
+      "path": "manuscript/ep047.md",
+      "title": "제47화. 다 알고도",
+      "chars": 4071
+    },
+    {
+      "path": "manuscript/ep048.md",
+      "title": "제48화. 남겠습니다",
+      "chars": 3814
+    },
+    {
+      "path": "manuscript/ep049.md",
+      "title": "제49화. 아니",
+      "chars": 3498
+    },
+    {
+      "path": "manuscript/ep049-1.md",
+      "title": "제49-1화. 뜯지 않은 봉투",
+      "chars": 2193
+    },
+    {
+      "path": "manuscript/ep050.md",
+      "title": "제50화. 한 번만",
+      "chars": 3738
+    },
+    {
+      "path": "manuscript/ep050-1.md",
+      "title": "제50-1화. 국수 한 그릇 값",
+      "chars": 2820
+    },
+    {
+      "path": "manuscript/ep051.md",
+      "title": "제51화. 표준안 1호",
+      "chars": 3708
+    },
+    {
+      "path": "manuscript/ep052.md",
+      "title": "제52화. 모래가 붙는다",
+      "chars": 3629
+    },
+    {
+      "path": "manuscript/ep053.md",
+      "title": "제53화. 1번",
+      "chars": 3501
+    },
+    {
+      "path": "manuscript/ep054.md",
+      "title": "제54화. 본인",
+      "chars": 3547
+    },
+    {
+      "path": "manuscript/ep055.md",
+      "title": "제55화. 다시 연결하는 사람",
+      "chars": 3550
+    },
+    {
+      "path": "manuscript/ep056.md",
+      "title": "제56화. 아직 안 정했습니다",
+      "chars": 3534
+    },
+    {
+      "path": "manuscript/ep057.md",
+      "title": "제57화. 이상 없음",
+      "chars": 3552
+    },
+    {
+      "path": "manuscript/ep058.md",
+      "title": "제58화. 기다린 시간",
+      "chars": 3497
+    },
+    {
+      "path": "manuscript/ep059.md",
+      "title": "제59화. 누구의 몫",
+      "chars": 3520
+    },
+    {
+      "path": "manuscript/ep060.md",
+      "title": "제60화. 돌아오지 않는 사람",
+      "chars": 3542
+    },
+    {
+      "path": "manuscript/ep061.md",
+      "title": "제61화. 강제한 적 없습니다",
+      "chars": 3542
+    },
+    {
+      "path": "manuscript/ep062.md",
+      "title": "제62화. 거부한 사람",
+      "chars": 3548
+    },
+    {
+      "path": "manuscript/ep063.md",
+      "title": "제63화. 알아",
+      "chars": 3508
+    },
+    {
+      "path": "manuscript/ep064.md",
+      "title": "제64화. 고르는 방법",
+      "chars": 3523
+    },
+    {
+      "path": "manuscript/ep065.md",
+      "title": "제65화. 열린 문",
+      "chars": 3528
+    },
+    {
+      "path": "manuscript/ep066.md",
+      "title": "제66화. 한꺼번에",
+      "chars": 3555
+    },
+    {
+      "path": "manuscript/ep067.md",
+      "title": "제67화. 좋아진 것들",
+      "chars": 3595
+    },
+    {
+      "path": "manuscript/ep068.md",
+      "title": "제68화. 좋아서요",
+      "chars": 3523
+    },
+    {
+      "path": "manuscript/ep069.md",
+      "title": "제69화. 누구의 성공",
+      "chars": 3607
+    },
+    {
+      "path": "manuscript/ep070.md",
+      "title": "제70화. 내 건데",
+      "chars": 3589
+    }
+  ]
+}

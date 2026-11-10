@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=process.cwd(),dir=path.join(root,'loop/.runtime/publication-build');
+const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'));
+const ep2=read('ep2-browser.txt'),sequence=read('sequence-browser.txt'),file=read('file-offline.json');
+const manifest=JSON.parse(fs.readFileSync('vn/play-offline.html.manifest.json','utf8'));
+const qaPath='vn/notes/ep2-sequence-qa.json',qa=JSON.parse(fs.readFileSync(qaPath,'utf8'));
+qa.recordScope='Recovered playback snapshot, reverified on the public LF source tree on 2026-10-20';
+qa.branch='codex/vn-ep2-sequence-review-20261020';
+qa.recoveryOfflineBeforeLF={...qa.offline};
+qa.offline={...qa.offline,bytes:manifest.offlineBytes,sha256:manifest.sha256};
+qa.publicationVerification={node:{files:12,tests:73,pass:73,fail:0,skipped:0},episodeTwo:ep2,sequence,fileOffline:file,sourceModuleHashesChecked:16,sourceModuleHashMismatches:[],imageAndAudioBytesUnchanged:true,runtimeTextChanges:'CRLF to LF only; offline HTML and manifest rebuilt from the LF tree',originalFilesRechecked:215,originalFilesChanged:0,originalHeadBranchIndexStatusUnchanged:true,privatePathsOrCredentialsDetected:0,mergeOrDeploymentPerformed:false};
+fs.writeFileSync(qaPath,JSON.stringify(qa,null,2)+'\n');
+let doc=fs.readFileSync('planning/vn-ep2-sequence-20261020.md','utf8').replace('## 확인한 결과','## 회수본에서 확인한 결과 (공개 LF 정규화 전)');
+doc+='\n공개 소스의 줄바꿈을 LF로 맞춘 뒤 단일 HTML·manifest를 함께 재생성했다. 결과는37,681,896바이트, SHA256 `'+manifest.sha256+'`, 자산84개·모듈16개·인라인 구문검사2개다. 기존 회수본과 비교한175개 VN파일 중159개는 바이트가 같고13개는 줄바꿈만 다르며3개는 README·QA·생성manifest다. 그림·음향 바이트와 원고·설정은 유지했다. 모든 모듈의 실제 공개 소스 SHA256과 manifest16개 항목의 일치를 확인했다.\n\n이 공개 소스에서 Node73개,2화134화면/286단위,6편638회 진행,PC·모바일 HTTP 및file:// 세 인물 총12경우를 다시 실행하여 모두 종료코드0·오류0을 확인했다. 브라우저 의존성은 공개 검증 폴더의1.64.1 패키지를 설치해 사용했다. 위 화면6장은 회수본 검증 당시의 보존 증거이며 새 재검증 캡처는 Git에서 제외한 런타임 폴더에 있다. 원본215개 파일·HEAD·현재 브랜치·인덱스·dirty상태 및 회수 복제본clean을 다시 확인했다.\n';
+fs.writeFileSync('planning/vn-ep2-sequence-20261020.md',doc);
+fs.writeFileSync('HANDOFF.md',`# 회수 VN 비교 브랜치 — 2026-10-20\n\n상태: 회수2화·19~22화의 공개용 코드·그림·음향·오프라인HTML·검증 자료를 준비하고 실제 게시할 LF 소스에서 검증 완료. 비교 Draft PR 검토용 스냅샷이다.\n브랜치: \`codex/vn-ep2-sequence-review-20261020\`, 기준 \`22fb6bd4ad2e7392b2d098355a933b7474466eca\`. 비교한 최신 main은 \`84d2445ef07c1175d7d59f1fb70c864098eed1ad\`. 최신 원고·타이틀·원화 통합판이 아니다.\n\n재현: \`npm test --prefix vn\` → 실측73 pass/0fail/0skip. \`npm install --prefix tools/verification/antigravity --package-lock=false\` 후 \`node tools/verification/antigravity/verify_ep2_playwright.mjs\` → PASS/134화면/286단위/오류0. \`node tools/verification/antigravity/verify_seq19_22_playwright.mjs\` →19,20,20-1,21,21-1,22/638회 진행/오류0. Windows 기본 경로 Chrome과Node20이상 필요.\n\n단일 HTML37,681,896B·자산84개·모듈16개, source SHA16개 불일치0. PC·모바일 HTTP/file:// 인물 검증12경우 통과. 이미지·음향은 회수본 바이트와 같다. 전체 검증 수치와 SHA·그림6장은 [검증 기록](planning/vn-ep2-sequence-20261020.md), [QA](vn/notes/ep2-sequence-qa.json) 참조.\n\n다음: 이 브랜치의 Draft PR에서 작가가 버전·통합 방향을 결정한다. 병합·배포 금지. 본편 인과는 최신19→19-1→19-2→20을 우선하는 방향을 추천하되 이 브랜치는 회수판6편 목록을 보존한다.\n\n위험: 최신19-1·19-2의 환불 지연/재고/28TOKEN이20화의 필수 원인이므로6편 목록에 최신 원고만 덮어쓰지 말 것. 회수21화의14%→8%와 의료 예약 직접 연결은 최신본에서 삭제한 구조다. 원래 회수본·미반영 원본·실행중 미리보기는 별도 보존. 원본215개 및HEAD·branch·index·dirty 불변을 재측정했고 회수54e5834도clean이다.\n\n확인한 함정: CRLF를그대로복사하면전행diff가생김. index만정규화하면source-manifest SHA가달라져공개working소스를LF로맞추고HTML·manifest도함께재생성했다. 기존HTML덮어쓰기1회UNKNOWN open으로실패해ignored별도출력에빌드하고검증후복사했다. 이전37,689,200B SHA는정규화전회수본수치다. 개인정보·brain원자료·캐시는공개하지않는다.\n`);
+console.log(JSON.stringify({status:'verified',ep2:ep2.totalBeatsCovered,sequence:sequence.totalPagesStepped,fileCases:file.cases.length,offlineSha:manifest.sha256}));

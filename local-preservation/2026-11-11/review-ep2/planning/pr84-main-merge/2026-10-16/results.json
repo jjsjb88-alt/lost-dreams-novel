@@ -1,0 +1,102 @@
+{
+  "source_commit": "37a8133842bbd5a8fe2154b7bdb91ad6c4f1f604",
+  "versions": 3,
+  "pass": 3,
+  "hold": 0,
+  "criteria": [
+    "장면 필연성",
+    "인물 진실성",
+    "문장",
+    "대사",
+    "주제 깊이",
+    "긴장·여운",
+    "연출"
+  ],
+  "thresholds": {
+    "each_min": 8,
+    "average_min": 9,
+    "nonspace_min": 3500,
+    "nonspace_max": 5500
+  },
+  "results": [
+    {
+      "episode": "16-1",
+      "scope": "pr-84",
+      "reviewer": "masterpiece_front",
+      "source_path": "manuscript/ep016-1.md",
+      "source_sha256": "7cc460166b7ad890ae893498e81c19f5d5be7602c46c89cd174d43244141fc18",
+      "scores": [
+        9.5,
+        9.5,
+        9,
+        9.5,
+        9.5,
+        9,
+        8.5
+      ],
+      "average": 9.2143,
+      "nonspace_including_title_markdown": 3605,
+      "status": "PASS",
+      "reasons": [],
+      "weakest": "냉장차의 열린 문과 온도 기록·자정 열쇠 인계; 대기 길이와 추상 선화가 8.5점 근거.",
+      "previous_source_commit": "49a82e4016e3ccbb6edd717deaab5505b19e51db",
+      "source_commit": "37a8133842bbd5a8fe2154b7bdb91ad6c4f1f604",
+      "mandatory": "PASS",
+      "format": "PASS",
+      "review_mode": "same reviewer; changed text, relevant context and actual visuals; unchanged judgments retained"
+    },
+    {
+      "episode": "19-1",
+      "scope": "pr-84",
+      "reviewer": "masterpiece_back",
+      "source_path": "manuscript/ep019-1.md",
+      "source_sha256": "80576a952355136eabbe228db86666c9b45bd5c35f7946c03ec6019a7febb02f",
+      "scores": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "average": 9.0,
+      "nonspace_including_title_markdown": 3590,
+      "status": "PASS",
+      "reasons": [],
+      "weakest": "취소된 출하 라벨과 그대로 남은 물건.",
+      "previous_source_commit": "49a82e4016e3ccbb6edd717deaab5505b19e51db",
+      "source_commit": "37a8133842bbd5a8fe2154b7bdb91ad6c4f1f604",
+      "mandatory": "PASS",
+      "format": "PASS",
+      "review_mode": "same reviewer; changed text, relevant context and actual visuals; unchanged judgments retained"
+    },
+    {
+      "episode": "19-2",
+      "scope": "pr-84",
+      "reviewer": "masterpiece_back",
+      "source_path": "manuscript/ep019-2.md",
+      "source_sha256": "20eb78d9d992b2f9c00847126bbbe0be2e6824fc4f89a9907bf6a4725e7478fd",
+      "scores": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "average": 9.0,
+      "nonspace_including_title_markdown": 3510,
+      "status": "PASS",
+      "reasons": [],
+      "weakest": "오늘 먹는 두부와 자르는 노동·자비로 먹는 온기.",
+      "previous_source_commit": "49a82e4016e3ccbb6edd717deaab5505b19e51db",
+      "source_commit": "37a8133842bbd5a8fe2154b7bdb91ad6c4f1f604",
+      "mandatory": "PASS",
+      "format": "PASS",
+      "review_mode": "same reviewer; changed text, relevant context and actual visuals; unchanged judgments retained"
+    }
+  ],
+  "review_note": "same reviewers, reviewed bodies and scene markup unchanged; publication wiring and rendered frames rechecked"
+}

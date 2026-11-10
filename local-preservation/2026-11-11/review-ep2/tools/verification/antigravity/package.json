@@ -1,0 +1,8 @@
+{
+  "name": "lost-dreams-recovered-vn-verification",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "playwright-core": "1.64.1"
+  }
+}

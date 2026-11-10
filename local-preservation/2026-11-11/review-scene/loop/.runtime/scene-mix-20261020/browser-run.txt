@@ -1,0 +1,9 @@
+{"chapter":"19","steps":178}
+{"chapter":"19-1","steps":341}
+{"chapter":"19-2","steps":523}
+{"chapter":"20","steps":731}
+{"chapter":"20-1","steps":822}
+{"chapter":"21","steps":1012}
+{"chapter":"21-1","steps":1139}
+{"chapter":"22","steps":1317}
+{"status":"PASS","totalBeatsStepped":1317,"offlinePortraitCases":12,"screenshots":14,"errors":0}

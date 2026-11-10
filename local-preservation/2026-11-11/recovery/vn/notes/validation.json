@@ -1,0 +1,501 @@
+{
+  "scope": {
+    "mainEpisodes": 30,
+    "includedSideStories": 21,
+    "chapters": 51,
+    "beats": 11765
+  },
+  "counts": {
+    "assistant": 130,
+    "system": 624,
+    "broadcast": 19,
+    "message": 243,
+    "neural": 50
+  },
+  "cues": 1066,
+  "primaryPackets": 1015,
+  "contiguousContactGroups": 715,
+  "structuredLedgers": 10,
+  "ordinaryBeats": 10699,
+  "sourceFilesUnchanged": 139,
+  "offline": {
+    "bytes": 20280521,
+    "scriptBlocksParsed": 2,
+    "externalScripts": false,
+    "externalStylesheets": false
+  },
+  "examples": {
+    "assistant": [
+      {
+        "chapterId": "1",
+        "beatIndex": 2,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 7,
+        "title": "개인 AI",
+        "sender": "모노",
+        "body": "〈좋은 아침입니다, 서인 님.〉",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 7,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 21,
+        "title": "개인 AI",
+        "sender": "모노",
+        "body": "〈최근 30일 중 세 번째로 만족도가 높은 수면이었습니다.〉",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 19,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 45,
+        "title": "모노에게",
+        "sender": "서인",
+        "body": "“모노.”",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 20,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 47,
+        "title": "개인 AI",
+        "sender": "모노",
+        "body": "〈네.〉",
+        "primary": true
+      }
+    ],
+    "system": [
+      {
+        "chapterId": "1",
+        "beatIndex": 6,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 15,
+        "title": "수면 정산",
+        "sender": "수면 인터페이스",
+        "body": "수면 7시간 11분.  \n신체 회복률 98.2%.  \n광고 적합도 94.8%.  \n감정 만족도 91.6%.  \n정산 예정 +12.4 TOKEN.",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 60,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 127,
+        "title": "정산 기록",
+        "sender": "정산 화면",
+        "body": "현재 잔여 143.8 TOKEN.",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 76,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 159,
+        "title": "정산 기록",
+        "sender": "정산 화면",
+        "body": "기본 광고 +8.1. 감정 몰입 보너스 +3.4. 육아 타깃 보너스 +2.0.",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 91,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 189,
+        "title": "진행 기록",
+        "sender": "업무 화면",
+        "body": "쇼핑 88%. 영화 81%. 게임 76%.",
+        "primary": true
+      }
+    ],
+    "broadcast": [
+      {
+        "chapterId": "1",
+        "beatIndex": 35,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 77,
+        "title": "수면 광고",
+        "sender": "벽면 패널",
+        "body": "오늘도 좋은 꿈 꾸셨나요?",
+        "primary": true
+      },
+      {
+        "chapterId": "1",
+        "beatIndex": 37,
+        "sourcePath": "manuscript/ep001.md",
+        "sourceLine": 81,
+        "title": "수면 광고",
+        "sender": "벽면 패널",
+        "body": "당신의 수면이 당신의 내일을 만듭니다.",
+        "primary": true
+      },
+      {
+        "chapterId": "3",
+        "beatIndex": 240,
+        "sourcePath": "manuscript/ep003.md",
+        "sourceLine": 489,
+        "title": "행복의 문장",
+        "sender": "길가 광고",
+        "body": "오늘의 피로를 꿈에서 보상받으세요.",
+        "primary": true
+      },
+      {
+        "chapterId": "3",
+        "beatIndex": 241,
+        "sourcePath": "manuscript/ep003.md",
+        "sourceLine": 491,
+        "title": "행복의 문장",
+        "sender": "길가 광고",
+        "body": "실패 없는 여행. 후회 없는 사랑.",
+        "primary": true
+      }
+    ],
+    "message": [
+      {
+        "chapterId": "2",
+        "beatIndex": 83,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 172,
+        "title": "도착한 메시지",
+        "sender": "",
+        "body": "오늘 시간 돼?",
+        "primary": true
+      },
+      {
+        "chapterId": "2",
+        "beatIndex": 280,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 577,
+        "title": "지우와의 대화",
+        "sender": "지우",
+        "body": "나 꿈꿨어.",
+        "primary": true
+      },
+      {
+        "chapterId": "2",
+        "beatIndex": 283,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 583,
+        "title": "지우와의 대화",
+        "sender": "지우",
+        "body": "근데 하나도 안 행복해.",
+        "primary": true
+      },
+      {
+        "chapterId": "2",
+        "beatIndex": 285,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 587,
+        "title": "지우와의 대화",
+        "sender": "지우",
+        "body": "이상하게 좋다.",
+        "primary": true
+      }
+    ],
+    "neural": [
+      {
+        "chapterId": "2",
+        "beatIndex": 232,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 479,
+        "title": "소중한 사람과 떠나는 휴양지",
+        "sender": "광고꿈",
+        "body": "바다가 펼쳐졌다.",
+        "primary": false
+      },
+      {
+        "chapterId": "2",
+        "beatIndex": 233,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 481,
+        "title": "소중한 사람과 떠나는 휴양지",
+        "sender": "광고꿈",
+        "body": "이번에는 지우가 옆에 있었다.",
+        "primary": false
+      },
+      {
+        "chapterId": "2",
+        "beatIndex": 235,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 485,
+        "title": "소중한 사람과 떠나는 휴양지",
+        "sender": "광고꿈",
+        "body": "꿈속 지우는 현실의 지우보다 밝았다.",
+        "primary": false
+      },
+      {
+        "chapterId": "2",
+        "beatIndex": 238,
+        "sourcePath": "manuscript/ep002.md",
+        "sourceLine": 491,
+        "title": "소중한 사람과 떠나는 휴양지",
+        "sender": "광고꿈",
+        "body": "지우가 바닷물에 발을 담그며 말했다.",
+        "primary": false
+      }
+    ]
+  },
+  "coverage": [
+    {
+      "chapterId": "1",
+      "cues": 42,
+      "beats": 263
+    },
+    {
+      "chapterId": "2",
+      "cues": 33,
+      "beats": 286
+    },
+    {
+      "chapterId": "3",
+      "cues": 8,
+      "beats": 276
+    },
+    {
+      "chapterId": "4",
+      "cues": 46,
+      "beats": 380
+    },
+    {
+      "chapterId": "4-1",
+      "cues": 22,
+      "beats": 140
+    },
+    {
+      "chapterId": "5",
+      "cues": 18,
+      "beats": 374
+    },
+    {
+      "chapterId": "6",
+      "cues": 16,
+      "beats": 357
+    },
+    {
+      "chapterId": "6-1",
+      "cues": 1,
+      "beats": 99
+    },
+    {
+      "chapterId": "7",
+      "cues": 17,
+      "beats": 267
+    },
+    {
+      "chapterId": "7-2",
+      "cues": 8,
+      "beats": 202
+    },
+    {
+      "chapterId": "8",
+      "cues": 18,
+      "beats": 97
+    },
+    {
+      "chapterId": "8-1",
+      "cues": 9,
+      "beats": 91
+    },
+    {
+      "chapterId": "8-2",
+      "cues": 18,
+      "beats": 116
+    },
+    {
+      "chapterId": "8-3",
+      "cues": 9,
+      "beats": 88
+    },
+    {
+      "chapterId": "9",
+      "cues": 1,
+      "beats": 300
+    },
+    {
+      "chapterId": "9-1",
+      "cues": 5,
+      "beats": 295
+    },
+    {
+      "chapterId": "10",
+      "cues": 21,
+      "beats": 357
+    },
+    {
+      "chapterId": "11",
+      "cues": 44,
+      "beats": 254
+    },
+    {
+      "chapterId": "12",
+      "cues": 19,
+      "beats": 278
+    },
+    {
+      "chapterId": "12-1",
+      "cues": 28,
+      "beats": 178
+    },
+    {
+      "chapterId": "13",
+      "cues": 27,
+      "beats": 294
+    },
+    {
+      "chapterId": "13-1",
+      "cues": 13,
+      "beats": 120
+    },
+    {
+      "chapterId": "13-2",
+      "cues": 16,
+      "beats": 133
+    },
+    {
+      "chapterId": "14",
+      "cues": 39,
+      "beats": 375
+    },
+    {
+      "chapterId": "15",
+      "cues": 28,
+      "beats": 315
+    },
+    {
+      "chapterId": "15-1",
+      "cues": 0,
+      "beats": 84
+    },
+    {
+      "chapterId": "16",
+      "cues": 40,
+      "beats": 302
+    },
+    {
+      "chapterId": "16-1",
+      "cues": 6,
+      "beats": 207
+    },
+    {
+      "chapterId": "17",
+      "cues": 39,
+      "beats": 312
+    },
+    {
+      "chapterId": "18",
+      "cues": 42,
+      "beats": 253
+    },
+    {
+      "chapterId": "19",
+      "cues": 44,
+      "beats": 347
+    },
+    {
+      "chapterId": "19-1",
+      "cues": 2,
+      "beats": 174
+    },
+    {
+      "chapterId": "19-2",
+      "cues": 0,
+      "beats": 183
+    },
+    {
+      "chapterId": "20",
+      "cues": 51,
+      "beats": 284
+    },
+    {
+      "chapterId": "20-1",
+      "cues": 5,
+      "beats": 91
+    },
+    {
+      "chapterId": "21",
+      "cues": 26,
+      "beats": 186
+    },
+    {
+      "chapterId": "21-1",
+      "cues": 23,
+      "beats": 127
+    },
+    {
+      "chapterId": "22",
+      "cues": 27,
+      "beats": 170
+    },
+    {
+      "chapterId": "22-1",
+      "cues": 9,
+      "beats": 128
+    },
+    {
+      "chapterId": "23",
+      "cues": 46,
+      "beats": 267
+    },
+    {
+      "chapterId": "24",
+      "cues": 28,
+      "beats": 283
+    },
+    {
+      "chapterId": "24-1",
+      "cues": 7,
+      "beats": 194
+    },
+    {
+      "chapterId": "25",
+      "cues": 31,
+      "beats": 280
+    },
+    {
+      "chapterId": "25-1",
+      "cues": 21,
+      "beats": 281
+    },
+    {
+      "chapterId": "26",
+      "cues": 45,
+      "beats": 317
+    },
+    {
+      "chapterId": "27",
+      "cues": 20,
+      "beats": 256
+    },
+    {
+      "chapterId": "28",
+      "cues": 5,
+      "beats": 247
+    },
+    {
+      "chapterId": "29",
+      "cues": 20,
+      "beats": 256
+    },
+    {
+      "chapterId": "30",
+      "cues": 13,
+      "beats": 254
+    },
+    {
+      "chapterId": "30-1",
+      "cues": 2,
+      "beats": 117
+    },
+    {
+      "chapterId": "30-2",
+      "cues": 8,
+      "beats": 230
+    }
+  ],
+  "limits": [
+    "No claim of masterpiece status or commercial validation.",
+    "No new voice recordings. Synthesized communication cues have graph/lifecycle verification, not human listening approval.",
+    "Browser proof covers representative channels and selected layouts, not a continuous human playthrough of all30episodes."
+  ]
+}

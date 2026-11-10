@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1822">
+  <meta name="description" content="천천히 읽고 오래 머무는 이야기">
+  <title>꿈을 잃은 세계</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="neural-stage.css">
+  <link rel="stylesheet" href="perception.css">
+  <link rel="stylesheet" href="comfort.css">
+  <link rel="stylesheet" href="episode-one.css">
+  <script src="story-data.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="app-shell">
+    <section class="title-screen" id="titleScreen" aria-label="타이틀 화면">
+      <div class="title-grain"></div>
+      <div class="title-content">
+        <p class="eyebrow">EPISODE 01 · DEMO</p>
+        <h1 id="storyTitle">꿈을 잃은 세계</h1>
+        <p class="title-subtitle">오늘 밤, 당신의 꿈은 얼마입니까.</p>
+        <div class="menu-actions">
+          <button class="menu-primary" id="demoButton">1화 체험판</button>
+          <button class="menu-primary menu-sequence" id="sequence1922Button">19~22화 시퀀스 재생</button>
+          <button id="startButton">전체 이야기 처음부터</button>
+          <button id="continueButton">이어 읽기</button>
+          <button id="chaptersButton">장 선택</button>
+          <button id="titleSaveButton">저장과 백업</button>
+          <button id="settingsButton">설정</button>
+          <button id="creditsButton">기록과 만든 이</button>
+        </div>
+        <p class="title-footnote" id="continueInfo">클릭 · Enter · Space로 읽기</p>
+      </div>
+      <footer class="title-footer"><span>꿈을 잃은 세계 · VISUAL NOVEL</span><span>1화 체험판 · 19~22화 시퀀스 · 전체 이야기 수록</span></footer>
+    </section>
+
+    <section class="game-screen" id="gameScreen" aria-label="이야기 화면" hidden>
+      <div class="stage" id="stage">
+        <div class="stage-image" id="stageImage"><div class="scene-layer active" id="sceneLayerA"></div><div class="scene-layer" id="sceneLayerB"></div></div>
+        <div class="stage-vignette"></div>
+        <div class="sensory-periphery" aria-hidden="true"><span>뉴럴피드</span></div>
+        <header class="hud">
+          <button class="icon-button home-button" id="homeButton" aria-label="타이틀 메뉴로">⌂</button>
+          <div class="chapter-heading"><span id="chapterLabel">제1장</span><strong id="chapterTitle">제목</strong></div>
+          <div class="progress-wrap" aria-label="읽기 진행"><span id="progressText">0 / 0</span><div class="progress-track"><i id="progressBar"></i></div></div>
+          <button class="icon-button" id="backlogButton" aria-label="지난 이야기">☰</button>
+          <button class="icon-button" id="saveButton" aria-label="저장 및 불러오기">▤</button>
+          <button class="icon-button" id="gameSettingsButton" aria-label="설정">⚙</button>
+          <button class="icon-button sound-toggle" id="soundToggle" aria-label="공간음 켜기" aria-pressed="false">♫</button>
+          <button class="icon-button" id="hideUiButton" aria-label="화면 정보 숨기기" aria-pressed="false">◉</button>
+        </header>
+
+        <div class="place-ribbon" id="placeRibbon" hidden aria-live="polite"></div>
+        <div class="motif-stage" id="motifStage" hidden aria-hidden="true"></div>
+        <div class="cast-rail" id="castRail" hidden aria-label="장면 속 인물"></div>
+        <button class="direction-card" id="directionCard" type="button" hidden></button>
+        <button class="ui-reveal" id="uiReveal" type="button" aria-label="화면 인터페이스 다시 표시" hidden>정보 보기</button>
+
+        <div class="ep1-stage" id="episodeOneStage" hidden></div>
+        <div id="neuralStage" hidden></div>
+        <div class="portrait-wrap" id="portraitWrap" aria-hidden="true"><img id="portraitImage" alt=""></div>
+        <div class="portrait-wrap secondary" id="secondaryPortraitWrap" aria-hidden="true"><img id="secondaryPortraitImage" alt=""></div>
+        <button class="advance-zone" id="advanceZone" aria-label="다음 문장"></button>
+
+        <nav class="nav-tools" id="readingTools" aria-label="읽기 도구">
+          <button id="previousButton" type="button" title="이전 문장 · ←">← 이전</button>
+          <button id="autoToggle" type="button" aria-pressed="false" title="자동 진행 · A">자동</button>
+          <button id="skipToggle" type="button" aria-pressed="false" title="읽은 문장만 넘기기 · K">읽은 곳 넘김</button>
+          <button id="fullscreenButton" type="button" title="전체 화면 · F">전체 화면</button>
+          <button id="helpButton" type="button" title="조작 도움말 · ?">도움말</button>
+          <span class="tools-status" id="readingStatus" role="status" aria-live="polite">직접 읽기</span>
+        </nav>
+        <div class="story-box" id="storyBox" tabindex="0" aria-label="대화 영역. 다음 문장으로 진행">
+          <div class="speaker" id="speaker"></div>
+          <p class="story-text" id="storyText"></p>
+          <div class="choice-area" id="choiceArea"></div>
+          <span class="perception-advance" id="perceptionAdvance" hidden>계속 읽기</span>
+          <span class="advance-indicator" id="advanceIndicator" aria-hidden="true">⌄</span>
+        </div>
+        <div class="keyboard-hint">← 이전　　→ 다음　　Space 진행</div>
+        <div class="reading-announcement" id="readingAnnouncement" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </section>
+  </main>
+  <dialog id="modal" class="modal"><div class="modal-panel"><button class="modal-close" id="modalClose" aria-label="닫기">×</button><div id="modalContent"></div></div></dialog>
+</body>
+</html>

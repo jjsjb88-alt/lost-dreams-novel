@@ -1,0 +1,140 @@
+[
+  {
+    "episode": "16-1",
+    "viewport": [
+      400,
+      900
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      "https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap&text=%20.01245679%C2%B7%EB%93%B1%EB%B0%98%EB%B0%A4%EB%B2%88%EB%B6%84%EC%82%B0%EC%86%8C%EC%8B%9C%EC%8B%A0%EC%9A%94%EC%A1%B0%EC%B0%B8%EC%B2%AD%ED%92%80%ED%95%84"
+    ],
+    "title": "남겨 둔 차",
+    "noPopupOnLoad": true,
+    "reader": {
+      "max": 70,
+      "orderCount": 95,
+      "sequence16": [
+        16,
+        "16-1",
+        17
+      ],
+      "sequence19": [
+        19,
+        "19-1",
+        "19-2",
+        20
+      ],
+      "ghost": "사진에서 실물로",
+      "anchorFound": true
+    },
+    "naturalEndTrigger": true,
+    "popupText": "사진에서 실물로낮 2시 사진온도 기록 확인자정 · 현장 인계차가 움직이지 않아도, 예비차의 밤은 비어 있지 않았다.머물러 보기본문으로",
+    "returnClicked": true,
+    "menuOpened": true,
+    "menuHasBumper": true,
+    "menuClosed": true,
+    "effectsOff": true,
+    "nextClicked": true,
+    "nextActual": 17,
+    "noHorizontalOverflow": true,
+    "hiddenBlocking": [],
+    "pass": false
+  },
+  {
+    "episode": "19-1",
+    "viewport": [
+      400,
+      900
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      "https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap&text=%20.01245679%C2%B7%EB%93%B1%EB%B0%98%EB%B0%A4%EB%B2%88%EB%B6%84%EC%82%B0%EC%86%8C%EC%8B%9C%EC%8B%A0%EC%9A%94%EC%A1%B0%EC%B0%B8%EC%B2%AD%ED%92%80%ED%95%84"
+    ],
+    "title": "출발하지 않은 저녁",
+    "noPopupOnLoad": true,
+    "reader": {
+      "max": 70,
+      "orderCount": 95,
+      "sequence16": [
+        16,
+        "16-1",
+        17
+      ],
+      "sequence19": [
+        19,
+        "19-1",
+        "19-2",
+        20
+      ],
+      "ghost": "출발하지 않은 저녁",
+      "anchorFound": true
+    },
+    "naturalEndTrigger": true,
+    "popupText": "출발하지 않은 저녁오전 6시이전 납품취소주문서는 바뀌었고 상자는 그대로 남았다.출발 뒤에 다시 꺼낼 수 없는 물건을, 출발 전에 고쳤다.머물러 보기본문으로",
+    "returnClicked": true,
+    "menuOpened": true,
+    "menuHasBumper": true,
+    "menuClosed": true,
+    "effectsOff": true,
+    "nextClicked": true,
+    "nextActual": "19-2",
+    "noHorizontalOverflow": true,
+    "hiddenBlocking": [],
+    "pass": false
+  },
+  {
+    "episode": "19-2",
+    "viewport": [
+      400,
+      900
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      "https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap&text=%20.01245679%C2%B7%EB%93%B1%EB%B0%98%EB%B0%A4%EB%B2%88%EB%B6%84%EC%82%B0%EC%86%8C%EC%8B%9C%EC%8B%A0%EC%9A%94%EC%A1%B0%EC%B0%B8%EC%B2%AD%ED%92%80%ED%95%84"
+    ],
+    "title": "저녁값",
+    "noPopupOnLoad": true,
+    "reader": {
+      "max": 70,
+      "orderCount": 95,
+      "sequence16": [
+        16,
+        "16-1",
+        17
+      ],
+      "sequence19": [
+        19,
+        "19-1",
+        "19-2",
+        20
+      ],
+      "ghost": "저녁값",
+      "anchorFound": true
+    },
+    "naturalEndTrigger": true,
+    "popupText": "저녁값소비 기한 · 오늘까지남은 두부작업비 28서인은 자기 몫을 결제했다.작업대에서 잘라 낸 크기 그대로. 두부가 아직 따뜻했다.머물러 보기본문으로",
+    "returnClicked": true,
+    "menuOpened": true,
+    "menuHasBumper": true,
+    "menuClosed": true,
+    "effectsOff": true,
+    "nextClicked": true,
+    "nextActual": 20,
+    "noHorizontalOverflow": true,
+    "hiddenBlocking": [],
+    "pass": false
+  },
+  {
+    "predecessor": 16,
+    "nextExpected": "16-1",
+    "nextActual": "16-1",
+    "pass": true
+  },
+  {
+    "predecessor": 19,
+    "nextExpected": "19-1",
+    "nextActual": "19-1",
+    "pass": true
+  }
+]

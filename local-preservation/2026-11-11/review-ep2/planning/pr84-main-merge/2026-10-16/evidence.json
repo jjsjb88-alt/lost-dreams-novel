@@ -1,0 +1,56 @@
+[
+  {
+    "image": "evidence/16-1-final.png",
+    "sha256": "7f76f6f5d891ca2c3f241e5530567d629f6a353526d89003b382d329aeeedf61",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front"
+  },
+  {
+    "image": "evidence/16-1-mid.png",
+    "sha256": "b47eb81a89b68e3cb3714078e882a6cd17a2be1cac7931bd84edaae142bbf997",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_front"
+  },
+  {
+    "image": "evidence/19-1-final.png",
+    "sha256": "9e0b13cb62ea89365f9bb383dbe871e318b9458058ac72aab91107f59e851724",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back"
+  },
+  {
+    "image": "evidence/19-1-mid.png",
+    "sha256": "c8c62f5064fa8350fddec76f2456cf1935c8bf2b35fd3e43f9d5fae465e4a20a",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back"
+  },
+  {
+    "image": "evidence/19-2-final.png",
+    "sha256": "69d999f00325f5d342be31f06d6bb903ad788247d593edd9630adccc59ee561a",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back"
+  },
+  {
+    "image": "evidence/19-2-mid.png",
+    "sha256": "0ef138588f278d875218e3ceea82a6d769de1fd1655891894109ceb3ad8a6ead",
+    "viewport": [
+      400,
+      900
+    ],
+    "reviewer": "masterpiece_back"
+  }
+]

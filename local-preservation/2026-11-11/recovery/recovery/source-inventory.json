@@ -1,0 +1,1526 @@
+{
+  "createdAt": "2026-10-19T05:12:00.083Z",
+  "sourceRepository": "C:/Users/jbseo/Desktop/lost-dreams-novel",
+  "brain": "C:/Users/jbseo/.gemini/antigravity-cli/brain/e2d8e107-51da-4d48-ac0c-d7e6ea1487ac",
+  "clone": "C:\\Users\\jbseo\\Desktop\\합격자 로데이터 취합\\_recovery\\lost-dreams-novel-20261019",
+  "branch": "codex/recover-antigravity-20261019",
+  "before": {
+    "head": "22fb6bd4ad2e7392b2d098355a933b7474466eca",
+    "branch": "feat/vn-ep2-what-ai-does-not-know",
+    "indexSha256": "873ddae572af1269458ff187a4d05849534f340066462d064cdfa170a3663b76",
+    "status": " M vn/app.js\u0000 M vn/ep1-assets.js\u0000 M vn/episode-one-audio.js\u0000 M vn/episode-one-stage.js\u0000 M vn/episode-one.css\u0000 M vn/index.html\u0000 M vn/neural-cues.js\u0000 M vn/package.json\u0000 M vn/play-offline.html\u0000 M vn/play-offline.html.manifest.json\u0000 M vn/state.js\u0000 M vn/styles.css\u0000?? vn/assets/ep2/ad-cutoff.mp3\u0000?? vn/assets/ep2/audio-provenance.json\u0000?? vn/assets/ep2/cg-clay-street.webp\u0000?? vn/assets/ep2/cg-dream-resort.webp\u0000?? vn/assets/ep2/cg-father-tablet.webp\u0000?? vn/assets/ep2/father-bowed.webp\u0000?? vn/assets/ep2/father-calm.webp\u0000?? vn/assets/ep2/father-urgent.webp\u0000?? vn/assets/ep2/image-provenance.json\u0000?? vn/assets/ep2/jiwoo-home.webp\u0000?? vn/assets/ep2/livingroom-air.mp3\u0000?? vn/assets/ep2/office-empty-desk.webp\u0000?? vn/assets/ep2/provenance.json\u0000?? vn/assets/ep2/serene-dream.mp3\u0000?? vn/assets/ep2/street-walk.mp3\u0000?? vn/assets/ep2/tablet-off.mp3\u0000?? vn/assets/ep2/tablet-slide.mp3\u0000?? vn/assets/eunkyung.webp\u0000?? vn/assets/haerin.webp\u0000?? vn/assets/yoonsera.webp\u0000?? vn/episode-two-reading.js\u0000?? vn/episode-two-reading.test.mjs\u0000?? vn/episode-two.js\u0000?? vn/episode-two.test.mjs\u0000?? vn/sequence-19-22.js\u0000?? vn/sequence-19-22.test.mjs\u0000"
+  },
+  "modifiedCount": 12,
+  "untrackedCount": 26,
+  "excluded": [
+    "scratch/node_modules",
+    ".system_generated (session telemetry, left in original location)"
+  ],
+  "entries": [
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\app.js",
+      "destination": "vn/app.js",
+      "kind": "modified",
+      "bytes": 74689,
+      "sha256": "99c53fafb7e91bf6475e67d6c85460c29562a0ee559d85ce3c9242d470616165"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\ep1-assets.js",
+      "destination": "vn/ep1-assets.js",
+      "kind": "modified",
+      "bytes": 1960,
+      "sha256": "0b1af99398724cdd45fd4c3025d84f52b1e53b808f3f2af1711f3d42027a7186"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-one-audio.js",
+      "destination": "vn/episode-one-audio.js",
+      "kind": "modified",
+      "bytes": 4493,
+      "sha256": "bf7ed2d5fcf0c9d2bd3a75519cb8e6b92639ed869ce3b3c9a7ecd20744732fee"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-one-stage.js",
+      "destination": "vn/episode-one-stage.js",
+      "kind": "modified",
+      "bytes": 4933,
+      "sha256": "a7bd62a7d1caf67a690e7e29cd89f5e12a769204e823fdd5d02b7e5cac2eab16"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-one.css",
+      "destination": "vn/episode-one.css",
+      "kind": "modified",
+      "bytes": 10495,
+      "sha256": "d7a71c8a4be7fbdf426d0176ca013a7b4d6a845f541de511fbfa8eb9a265da59"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\index.html",
+      "destination": "vn/index.html",
+      "kind": "modified",
+      "bytes": 6053,
+      "sha256": "a8ad731eded774f42360b29309658f7b3b9c9a72f25b812050af655ef77f9784"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\neural-cues.js",
+      "destination": "vn/neural-cues.js",
+      "kind": "modified",
+      "bytes": 115037,
+      "sha256": "93b0ceca9e9b8d89a3fa31d5ae75c4b023a295a7e4962435ea5c39bebb25af0f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\package.json",
+      "destination": "vn/package.json",
+      "kind": "modified",
+      "bytes": 402,
+      "sha256": "e2296e8e53f0efb3f2e7cfce3e3f35d5750d3f57052b990dca7ac5cd69494b2c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\play-offline.html",
+      "destination": "vn/play-offline.html",
+      "kind": "modified",
+      "bytes": 37480897,
+      "sha256": "b4692ae0a6b03ad2172dca28493fe041bee53f5b08aae4def19fae74200c267e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\play-offline.html.manifest.json",
+      "destination": "vn/play-offline.html.manifest.json",
+      "kind": "modified",
+      "bytes": 25572,
+      "sha256": "f3afeda0b7431e251ca9e3ce24042afaab05c036e0b94eb1a88d71e91125ef9e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\state.js",
+      "destination": "vn/state.js",
+      "kind": "modified",
+      "bytes": 10613,
+      "sha256": "d8a04d31abfd701b50aa3d019431236f1ab0e5f81ba8441d864300ced68d7b23"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\styles.css",
+      "destination": "vn/styles.css",
+      "kind": "modified",
+      "bytes": 34994,
+      "sha256": "51a6b11fb8bb700473549b19eeab9a4b3149fed01e6c1e4b24790a8324c97bee"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\ad-cutoff.mp3",
+      "destination": "vn/assets/ep2/ad-cutoff.mp3",
+      "kind": "untracked",
+      "bytes": 11956,
+      "sha256": "976f45e88fda2bfc6010a15964659df5952493761cc56ab1f3f161fe708d0dbb"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\audio-provenance.json",
+      "destination": "vn/assets/ep2/audio-provenance.json",
+      "kind": "untracked",
+      "bytes": 2680,
+      "sha256": "7d1ccf24cb177c98ebef8248c40eaeea934a49dc3b78871077fe42ef07b968d9"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\cg-clay-street.webp",
+      "destination": "vn/assets/ep2/cg-clay-street.webp",
+      "kind": "untracked",
+      "bytes": 136110,
+      "sha256": "2e843e50c97322e16d51bf3fd445dba04ffd4f4c3ada4b43933fe606e5a9771a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\cg-dream-resort.webp",
+      "destination": "vn/assets/ep2/cg-dream-resort.webp",
+      "kind": "untracked",
+      "bytes": 237594,
+      "sha256": "eb5eee8d47e083ad65b963ca79842ceb6c75c53e540e4923dacb235ef5feab1a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\cg-father-tablet.webp",
+      "destination": "vn/assets/ep2/cg-father-tablet.webp",
+      "kind": "untracked",
+      "bytes": 148190,
+      "sha256": "309a3473f47ad4b3513a29f0d1f0d4862408a2d78571e3b02b921e20b256de39"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\father-bowed.webp",
+      "destination": "vn/assets/ep2/father-bowed.webp",
+      "kind": "untracked",
+      "bytes": 107526,
+      "sha256": "222b95a79d84853af93cf153e7770987c92148efd08b191de082328435583857"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\father-calm.webp",
+      "destination": "vn/assets/ep2/father-calm.webp",
+      "kind": "untracked",
+      "bytes": 106712,
+      "sha256": "8262b4cc89c041ca099df635db659e78a0f03c0b8f8305bdd55072e5ed9cbf76"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\father-urgent.webp",
+      "destination": "vn/assets/ep2/father-urgent.webp",
+      "kind": "untracked",
+      "bytes": 107194,
+      "sha256": "7a92cd4a08fcf405ddfbadc8f6e3feaa4b3f276ad547a5e4a27fb7b28a7056bd"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\image-provenance.json",
+      "destination": "vn/assets/ep2/image-provenance.json",
+      "kind": "untracked",
+      "bytes": 4565,
+      "sha256": "4e171e9a7f8bf146f20588242dcfb730003b60a7aa54b05a1a55ffd299426f5b"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\jiwoo-home.webp",
+      "destination": "vn/assets/ep2/jiwoo-home.webp",
+      "kind": "untracked",
+      "bytes": 104384,
+      "sha256": "6ceb6622c2f5f5fc3d855597ff02895b99fa15cb62f89ae3d5dd063e3958b879"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\livingroom-air.mp3",
+      "destination": "vn/assets/ep2/livingroom-air.mp3",
+      "kind": "untracked",
+      "bytes": 144867,
+      "sha256": "5c630066a2e168885866118cd4144f966f827660bb09e9f66250e074dc435252"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\office-empty-desk.webp",
+      "destination": "vn/assets/ep2/office-empty-desk.webp",
+      "kind": "untracked",
+      "bytes": 120848,
+      "sha256": "d9451611740d99583bcfb5ebacbdcd36a7569cd1c28926f5fa5b3ebf6cd6c200"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\provenance.json",
+      "destination": "vn/assets/ep2/provenance.json",
+      "kind": "untracked",
+      "bytes": 5355,
+      "sha256": "a33931b252b3948fca9d5e5db4454423836a1759bf3c15c4298997e203e91705"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\serene-dream.mp3",
+      "destination": "vn/assets/ep2/serene-dream.mp3",
+      "kind": "untracked",
+      "bytes": 192828,
+      "sha256": "bc194454404ff36f6b0916ec1a916a7f4c44341a5d4334d325760714f4c3f714"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\street-walk.mp3",
+      "destination": "vn/assets/ep2/street-walk.mp3",
+      "kind": "untracked",
+      "bytes": 144867,
+      "sha256": "14db1862c038f218f0bc23535ae011723238ae34a075a6651102fe0451f37382"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\tablet-off.mp3",
+      "destination": "vn/assets/ep2/tablet-off.mp3",
+      "kind": "untracked",
+      "bytes": 8195,
+      "sha256": "b6a1f0859129c71db7d4c2d184a6ad96a598c146eb504630ded95fd0a1af0ccb"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\ep2\\tablet-slide.mp3",
+      "destination": "vn/assets/ep2/tablet-slide.mp3",
+      "kind": "untracked",
+      "bytes": 10076,
+      "sha256": "c0cc69f0fdd815a5402c997e7d643b6264fd28f40a49569ab50f492b8beedce4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\eunkyung.webp",
+      "destination": "vn/assets/eunkyung.webp",
+      "kind": "untracked",
+      "bytes": 55436,
+      "sha256": "be831d27c7919aaaa10d9331510bec6905f4a9df112082cb21bc549c34ffca9a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\haerin.webp",
+      "destination": "vn/assets/haerin.webp",
+      "kind": "untracked",
+      "bytes": 50370,
+      "sha256": "8743673835c49cbcbcbd4873496a768c03b93667d51aad246d7bd07da1813f55"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\assets\\yoonsera.webp",
+      "destination": "vn/assets/yoonsera.webp",
+      "kind": "untracked",
+      "bytes": 51400,
+      "sha256": "2a69d2a1b0efd42bad6ed91564a98565572acd6385f72893dc02af8d25a67dd9"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-two-reading.js",
+      "destination": "vn/episode-two-reading.js",
+      "kind": "untracked",
+      "bytes": 4156,
+      "sha256": "f69b7743f45a9ed12708b6918dc1b55f03c37d9d7e504d66d427c2d87d30fd61"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-two-reading.test.mjs",
+      "destination": "vn/episode-two-reading.test.mjs",
+      "kind": "untracked",
+      "bytes": 4253,
+      "sha256": "e3e6dceb3ee26e1c66e0de092ead36ba85ef2617a175dc271527f935941ce1dc"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-two.js",
+      "destination": "vn/episode-two.js",
+      "kind": "untracked",
+      "bytes": 15969,
+      "sha256": "e973857abb31d2b1ee72ca4506a5c187496f8557092eea15132ce8895daf4a4f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\episode-two.test.mjs",
+      "destination": "vn/episode-two.test.mjs",
+      "kind": "untracked",
+      "bytes": 8688,
+      "sha256": "6667cb4a8c78621703985251bbb2b3e9ee006c27b19c066f42cb7dc771297e1a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\sequence-19-22.js",
+      "destination": "vn/sequence-19-22.js",
+      "kind": "untracked",
+      "bytes": 30886,
+      "sha256": "1ab257e17ee4069ea5e8a159eb59b8e1d8349b6a4454699e4e973fbb0831fd6b"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\Desktop\\lost-dreams-novel\\vn\\sequence-19-22.test.mjs",
+      "destination": "vn/sequence-19-22.test.mjs",
+      "kind": "untracked",
+      "bytes": 9485,
+      "sha256": "c67110685f364d2787328f0d7c74d2ff701c934496af20b029c6357f02b06402"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\cg_clay_street_1792368572338.jpg",
+      "destination": "recovery/antigravity/cg_clay_street_1792368572338.jpg",
+      "kind": "brain-original-image",
+      "bytes": 657682,
+      "sha256": "c1c61efe27d0fb01faff847c0379c36840da436ed06ca25dc114b37fe99ebbc3"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\cg_dream_resort_1792368602804.jpg",
+      "destination": "recovery/antigravity/cg_dream_resort_1792368602804.jpg",
+      "kind": "brain-original-image",
+      "bytes": 807217,
+      "sha256": "722ef1913e82c1189211675fbfffa93217e9ad54685a1e1a045d977cc75a8e3f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\cg_father_tablet_1792368548014.jpg",
+      "destination": "recovery/antigravity/cg_father_tablet_1792368548014.jpg",
+      "kind": "brain-original-image",
+      "bytes": 671860,
+      "sha256": "e3b34e08754b02162ddd816b4c4b91b64ff543dcf6810f289a7c03fa9067e9d6"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\eunkyung_1792373178657.jpg",
+      "destination": "recovery/antigravity/eunkyung_1792373178657.jpg",
+      "kind": "brain-original-image",
+      "bytes": 281896,
+      "sha256": "f1ee251c5fc9ff24d098d35d02d96e63a94cf69bcbe78ed006ec095a6368edfb"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\father_bowed_1792368462271.jpg",
+      "destination": "recovery/antigravity/father_bowed_1792368462271.jpg",
+      "kind": "brain-original-image",
+      "bytes": 477305,
+      "sha256": "6758c4a961a5cedc2c6d24083655285c3747fedcb50a0d2fead3f60e33517436"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\father_calm_png_1792368420910.jpg",
+      "destination": "recovery/antigravity/father_calm_png_1792368420910.jpg",
+      "kind": "brain-original-image",
+      "bytes": 453690,
+      "sha256": "29bf4d4df23097668b1e080d477b55d2719206f30ade1faa78faae647b75f11f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\father_urgent_1792368443185.jpg",
+      "destination": "recovery/antigravity/father_urgent_1792368443185.jpg",
+      "kind": "brain-original-image",
+      "bytes": 473896,
+      "sha256": "a31c95bda2eb1a5c7b5975c9b51f270777c277b97ef3ae8f18800375112e999d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\haerin_1792373224978.jpg",
+      "destination": "recovery/antigravity/haerin_1792373224978.jpg",
+      "kind": "brain-original-image",
+      "bytes": 270301,
+      "sha256": "b10e3c8ce223051eb168dcde8d1d24b4df32fae4501f28d975a8a60f62b85a1d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\jiwoo_home_1792368509667.jpg",
+      "destination": "recovery/antigravity/jiwoo_home_1792368509667.jpg",
+      "kind": "brain-original-image",
+      "bytes": 589778,
+      "sha256": "33c4241e9840f306117e83a69a28eb170cf0418a51d722b8c3fa8450d8c78541"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\office_empty_desk_1792368486515.jpg",
+      "destination": "recovery/antigravity/office_empty_desk_1792368486515.jpg",
+      "kind": "brain-original-image",
+      "bytes": 647152,
+      "sha256": "09f5ee9415bf187516edc05142091ec42d668217b06ba1e4372274755cc8b30c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\yoonsera_1792373150916.jpg",
+      "destination": "recovery/antigravity/yoonsera_1792373150916.jpg",
+      "kind": "brain-original-image",
+      "bytes": 248515,
+      "sha256": "926912a9925cc34ef97cdeb97af7414b43b0c3df796a5105a2185b489d0fa47f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\beats_19.txt",
+      "destination": "recovery/antigravity/scratch/beats_19.txt",
+      "kind": "brain-artifact",
+      "bytes": 25897,
+      "sha256": "c29e68cd1a6eaa09aa995a06ff62ebbca4dd875e3d5d1833f1276fa9b0b0fdd9"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\beats_20-1.txt",
+      "destination": "recovery/antigravity/scratch/beats_20-1.txt",
+      "kind": "brain-artifact",
+      "bytes": 6549,
+      "sha256": "82bf502e937de92ead8893b30726e5a3ed1de65a8d9d0448c7364e032a4b6747"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\beats_20.txt",
+      "destination": "recovery/antigravity/scratch/beats_20.txt",
+      "kind": "brain-artifact",
+      "bytes": 21135,
+      "sha256": "a4ddbc564f48255d82706c2cbd2a8ed42cf8a7861c3e04221e59dd5d5eebcf44"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\beats_21-1.txt",
+      "destination": "recovery/antigravity/scratch/beats_21-1.txt",
+      "kind": "brain-artifact",
+      "bytes": 11806,
+      "sha256": "d99a153878dc9fca241a1d0903a6d4bbc25f99af7a9e664851e43b7cb9a85f4b"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\beats_21.txt",
+      "destination": "recovery/antigravity/scratch/beats_21.txt",
+      "kind": "brain-artifact",
+      "bytes": 17823,
+      "sha256": "ef1a7f5204a4fb5f2431614598eda830b4c446662cd55496b5664c8bd0cd0681"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\beats_22.txt",
+      "destination": "recovery/antigravity/scratch/beats_22.txt",
+      "kind": "brain-artifact",
+      "bytes": 16821,
+      "sha256": "afcc1c71baecaf48d19aeab898c11ddedbf6a2c655431fcd007c2358ada00fba"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\check_missing_speakers.mjs",
+      "destination": "recovery/antigravity/scratch/check_missing_speakers.mjs",
+      "kind": "brain-artifact",
+      "bytes": 1068,
+      "sha256": "cdc19276b05581f89c1bd183ebe2a09527e0fef0c5cb11770453e6c3a64e5676"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\check_seq_speakers_and_cues.mjs",
+      "destination": "recovery/antigravity/scratch/check_seq_speakers_and_cues.mjs",
+      "kind": "brain-artifact",
+      "bytes": 1492,
+      "sha256": "81fb42905a749331259ddca3a7e32663679d09639009623c254f51bcc9cc627c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\convert_ep2_images.py",
+      "destination": "recovery/antigravity/scratch/convert_ep2_images.py",
+      "kind": "brain-artifact",
+      "bytes": 6682,
+      "sha256": "2268345a25214d24992b75152a7d3fe4edd5367e405fadd3150e2cf51b880e14"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\convert_seq19_22_assets.mjs",
+      "destination": "recovery/antigravity/scratch/convert_seq19_22_assets.mjs",
+      "kind": "brain-artifact",
+      "bytes": 3169,
+      "sha256": "3e3d99dc851ad6c513d11ce9712aa650929855c968d36123fa7d7fac5754fdf7"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\convert_seq19_22_assets.py",
+      "destination": "recovery/antigravity/scratch/convert_seq19_22_assets.py",
+      "kind": "brain-artifact",
+      "bytes": 2537,
+      "sha256": "f225582f813836c7b8568871929b5aaf4f0aa57f3c9a498e7256413aed587ac3"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\dump_ep19_22.mjs",
+      "destination": "recovery/antigravity/scratch/dump_ep19_22.mjs",
+      "kind": "brain-artifact",
+      "bytes": 1269,
+      "sha256": "d07842db2248992730a6506702aeebc8389035f41875deb1ad6f5f2088c32005"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\dump_seq_beats.mjs",
+      "destination": "recovery/antigravity/scratch/dump_seq_beats.mjs",
+      "kind": "brain-artifact",
+      "bytes": 929,
+      "sha256": "9662a4460a5d9adde683f181dc13fc509771fd1b9d1a09c0447ba3cf9cc25873"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep19_22_beats.txt",
+      "destination": "recovery/antigravity/scratch/ep19_22_beats.txt",
+      "kind": "brain-artifact",
+      "bytes": 206305,
+      "sha256": "96e80740dcd02d5c2a37f0bdcf714db1af3963733469dc4a44f1d2f994eb450b"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_beats.jsonl",
+      "destination": "recovery/antigravity/scratch/ep2_beats.jsonl",
+      "kind": "brain-artifact",
+      "bytes": 107886,
+      "sha256": "d5217e0fddf1c61cb21ad8b5fd9bfe48c30bf6ae4a2c47499d1c4964208e561a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\desktop-01-mother-morning.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/desktop-01-mother-morning.png",
+      "kind": "brain-artifact",
+      "bytes": 1405715,
+      "sha256": "876b35113e386c554edba1dae40ea7e26b459fbed46d836d7d9cb1e490c260f9"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\desktop-02-father-tablet-cg.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/desktop-02-father-tablet-cg.png",
+      "kind": "brain-artifact",
+      "bytes": 1317228,
+      "sha256": "81b0ea82ac0e58801c94ea9e91e4cbad7db1fc4a1a079676dc815aba37dd641f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\desktop-03-father-simulation-stage.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/desktop-03-father-simulation-stage.png",
+      "kind": "brain-artifact",
+      "bytes": 1148820,
+      "sha256": "bf634f4e0f8db3de235fcacffb8fa9b2fedd9ea9d2f3434965efff9f143f094e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\desktop-04-clay-street-cg.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/desktop-04-clay-street-cg.png",
+      "kind": "brain-artifact",
+      "bytes": 1307064,
+      "sha256": "d40eb9cbc2ed94d81bdc5092d18ebb97b674f972faacad568f57979ef1dbe767"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\desktop-05-dream-resort.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/desktop-05-dream-resort.png",
+      "kind": "brain-artifact",
+      "bytes": 1581140,
+      "sha256": "9e9ffc4b81b831ba4892714df6ee451f30881f4f4c69414c681ffebef8e99af0"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\desktop-06-dawn-final-msg.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/desktop-06-dawn-final-msg.png",
+      "kind": "brain-artifact",
+      "bytes": 1194897,
+      "sha256": "38a326e73abad3980348c24cdd0a5be1eb99f02086780a53dcedb66255d25991"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-00-ep2-opening.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-00-ep2-opening.png",
+      "kind": "brain-artifact",
+      "bytes": 96059,
+      "sha256": "65a02d15db10d46e1b268b3562edb5c022aa017bc243d027d2343adc4fea1862"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-01-zero-token.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-01-zero-token.png",
+      "kind": "brain-artifact",
+      "bytes": 980475,
+      "sha256": "a7c875e7b1e2ea11633ecc2ae273e3ee03eb18e8986801c171bc739c3186bcdf"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-02-mother-morning.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-02-mother-morning.png",
+      "kind": "brain-artifact",
+      "bytes": 1339335,
+      "sha256": "0c09c04824f7ab5598aa52e87fa89fb061ec932aa18e59a45e3926a22d92d45c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-03-mother-calculation.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-03-mother-calculation.png",
+      "kind": "brain-artifact",
+      "bytes": 885857,
+      "sha256": "a74643107fe0deb2b992cba57bf6045494f8b2073e4d421b8af257bbeb885d2c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-04-commute-train.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-04-commute-train.png",
+      "kind": "brain-artifact",
+      "bytes": 1386280,
+      "sha256": "ed0eef465bb9112bc337c314c16ddbc1ae7ba2a215277a708c6334e596fa872a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-04-mother-table-cg.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-04-mother-table-cg.png",
+      "kind": "brain-artifact",
+      "bytes": 878362,
+      "sha256": "a8f137e699c61667cb44abc8c4778229cd665b6df625314cd5fa61c67ed69750"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-05-empty-desk.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-05-empty-desk.png",
+      "kind": "brain-artifact",
+      "bytes": 1031714,
+      "sha256": "dd0ea6ffe95b44bafff69e93a840b28e84cab7aa9fd3b6c0af19a837be56aaf0"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-06-jiwoo-invite.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-06-jiwoo-invite.png",
+      "kind": "brain-artifact",
+      "bytes": 1083178,
+      "sha256": "a16f1c2ee07225de5a056771ebc9c43c1c54ca0351a45a734dda58f51199020a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-07-father-tablet-cg.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-07-father-tablet-cg.png",
+      "kind": "brain-artifact",
+      "bytes": 886450,
+      "sha256": "4757f66abd2f6d0c41d470a04f49403819c6f53c8f9bc01cf543e3c874cb9a6f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-08-father-simulation-card.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-08-father-simulation-card.png",
+      "kind": "brain-artifact",
+      "bytes": 560937,
+      "sha256": "e5da909ebdf1e5da626b09586e3d788441819e01827aedea912a514fc6127c92"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-09-father-urgent.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-09-father-urgent.png",
+      "kind": "brain-artifact",
+      "bytes": 953059,
+      "sha256": "485eddfc2e4f1a24514e54220666518989f52629765de0a3a50a6ea4505bbe5f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-09b-father-port-realization.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-09b-father-port-realization.png",
+      "kind": "brain-artifact",
+      "bytes": 304043,
+      "sha256": "548fc6486c92be2e5169e57a933b587ce66d1464fa8814bf2f247021e0251bfe"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-09c-father-port-part2.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-09c-father-port-part2.png",
+      "kind": "brain-artifact",
+      "bytes": 295312,
+      "sha256": "0546d4f39ff54a4fca084ae571386ad37aeace4d1ca28aaa76274491f00cb976"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-10-i-am-not-there.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-10-i-am-not-there.png",
+      "kind": "brain-artifact",
+      "bytes": 939082,
+      "sha256": "2f4ebaf447b701bafc922a84fc1be27ad02ca7f135a62df204cca181e1cedd70"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-11-tablet-turned-off.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-11-tablet-turned-off.png",
+      "kind": "brain-artifact",
+      "bytes": 1150472,
+      "sha256": "fd59c4530acf48ebdaa4904a61a48798d07eb689ec531ad91727dc5a6e617bc3"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-12-father-never-lifted-head.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-12-father-never-lifted-head.png",
+      "kind": "brain-artifact",
+      "bytes": 1158056,
+      "sha256": "9417febe8cfd1ebe191b0d4671f8cfb1c3885784065cd5ac2ebaa2838f539e59"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-13-clay-street-cg.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-13-clay-street-cg.png",
+      "kind": "brain-artifact",
+      "bytes": 925470,
+      "sha256": "48a2a5fcc2518853e77298aa5f1fc378f556333a331b113a0fd8021f0300d277"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-14-street-one-month.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-14-street-one-month.png",
+      "kind": "brain-artifact",
+      "bytes": 1526615,
+      "sha256": "bfb33fc6f442593253938c98236e8c02a32b20459aeab7a276dfd4cfd89ea730"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-15-night-reasons.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-15-night-reasons.png",
+      "kind": "brain-artifact",
+      "bytes": 1178775,
+      "sha256": "72a8b8d24bc605e04930c2f087df749da3718412e1ebbebf2eff8ca2090c323f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-16-turn-ad-back-on.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-16-turn-ad-back-on.png",
+      "kind": "brain-artifact",
+      "bytes": 711495,
+      "sha256": "647eddaf55cd4755f3fc62ac68175001e92da0ed747c011bc5440ee2bef7c5cc"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-17-dream-jiwoo.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-17-dream-jiwoo.png",
+      "kind": "brain-artifact",
+      "bytes": 1226726,
+      "sha256": "292f6210e5136e8e9ebee006b1450fadc6300c494bd4135a056c784487e15e4d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-18-dream-mono-no-response.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-18-dream-mono-no-response.png",
+      "kind": "brain-artifact",
+      "bytes": 1294352,
+      "sha256": "e02bfc39b24ca1cc24442deaf775157830079f90a7a7daf00db3f04da0252cd2"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-19-dream-termination-confirm.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-19-dream-termination-confirm.png",
+      "kind": "brain-artifact",
+      "bytes": 1106271,
+      "sha256": "7ce42df93151d20eca210735501b3e352783fcabe96d8c9d1e01994d123ffde2"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-20-penalty-settlement.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-20-penalty-settlement.png",
+      "kind": "brain-artifact",
+      "bytes": 929665,
+      "sha256": "dc249a75087ab23dae700c992928bad35029819b2bf6c6922d40dd6e1461f5a5"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-21-blackout.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-21-blackout.png",
+      "kind": "brain-artifact",
+      "bytes": 14128,
+      "sha256": "c470556c7279d3baf987d31aa5f74d8f18037943e9d9febdfe4d3d374ac232ed"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-22-msg-1.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-22-msg-1.png",
+      "kind": "brain-artifact",
+      "bytes": 1051383,
+      "sha256": "0b45303b4d9beaad957938dad5cfefc6d40c90437f8397e20ab1cd1191bc2322"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-23-msg-2.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-23-msg-2.png",
+      "kind": "brain-artifact",
+      "bytes": 1027268,
+      "sha256": "751b817df04b0461184a7427075a9df47cfffb1ef8181d55c0194707e9e7097a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-24-msg-3.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-24-msg-3.png",
+      "kind": "brain-artifact",
+      "bytes": 1014708,
+      "sha256": "d035d4e7c9264914c7640fe0e298ead5fdda0aade781f1229dc44134520983a4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_screenshots\\mobile-25-chapter-complete.png",
+      "destination": "recovery/antigravity/scratch/ep2_screenshots/mobile-25-chapter-complete.png",
+      "kind": "brain-artifact",
+      "bytes": 90233,
+      "sha256": "471c63909c2f5200115a9aa4ca50cd1daadf0af4f6ea838416e9ab877f897d1d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_wav\\ad-cutoff.wav",
+      "destination": "recovery/antigravity/scratch/ep2_wav/ad-cutoff.wav",
+      "kind": "brain-artifact",
+      "bytes": 162332,
+      "sha256": "4f5df88cd8ef2cd57220c3384793ef305e2b6d0eb2e3befb2b08fa659f98482a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_wav\\livingroom-air.wav",
+      "destination": "recovery/antigravity/scratch/ep2_wav/livingroom-air.wav",
+      "kind": "brain-artifact",
+      "bytes": 2116844,
+      "sha256": "f34f9f2b2ed57a0402ad6e47c5d48a77025ec05a2df5dd0500652b2d5be52a8a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_wav\\serene-dream.wav",
+      "destination": "recovery/antigravity/scratch/ep2_wav/serene-dream.wav",
+      "kind": "brain-artifact",
+      "bytes": 2822444,
+      "sha256": "8b326c0414092cc78f649bba94f0afc3f892b14f97d81519e1d892d21ba018be"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_wav\\street-walk.wav",
+      "destination": "recovery/antigravity/scratch/ep2_wav/street-walk.wav",
+      "kind": "brain-artifact",
+      "bytes": 2116844,
+      "sha256": "a9b73e2f38e9d3492ff9f6e46f5d5433e285ea5dc8b12df193bc509038a89a47"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_wav\\tablet-off.wav",
+      "destination": "recovery/antigravity/scratch/ep2_wav/tablet-off.wav",
+      "kind": "brain-artifact",
+      "bytes": 109412,
+      "sha256": "aaeb71e40e2f6674796f7c8c20a0ca091217e378bedd01ec479e432a73da3502"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\ep2_wav\\tablet-slide.wav",
+      "destination": "recovery/antigravity/scratch/ep2_wav/tablet-slide.wav",
+      "kind": "brain-artifact",
+      "bytes": 137636,
+      "sha256": "3500504123e4379f94c6f6cd7a9c1bf3bc7fa442d43a90c381c5a8d9a3673595"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\find_repo.py",
+      "destination": "recovery/antigravity/scratch/find_repo.py",
+      "kind": "brain-artifact",
+      "bytes": 1120,
+      "sha256": "fe9059f9856bc68c47557546a420da25861e6b6a1180cc719e8a48ba7a191cdf"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\inspect_ep2.mjs",
+      "destination": "recovery/antigravity/scratch/inspect_ep2.mjs",
+      "kind": "brain-artifact",
+      "bytes": 1420,
+      "sha256": "bb6ae272f6b5722da747200618a523af7c68eff6809c14841971ca1b034bef3c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\01-title-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/01-title-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 485265,
+      "sha256": "10609e7f6a0e69cc64f21830e27dccb812ab4ae53b82be9886e329881890c72e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\02-seq-modal-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/02-seq-modal-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 49351,
+      "sha256": "2f61ac6bf2dc69d7dc69dcc598bc0ba4c99f0bc83a2d8c5561724d8d5f5fcff7"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\03-ep19-yoonsera-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/03-ep19-yoonsera-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 375732,
+      "sha256": "9761028ea3d753edc225e20450293ad828d404968ab2dde9d7d1a8e5c021b1f3"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\04-ep20-1-eunkyung-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/04-ep20-1-eunkyung-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 369190,
+      "sha256": "221d7dc9ce07a9eb530545f402ebe57f1ba325e93de1354da51471ddaf128457"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\05-ep20-1-haerin-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/05-ep20-1-haerin-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 379818,
+      "sha256": "3c5c688fe6a684ed23cfcfd39f74ce7defeed9d70fc12e978961cb013c88d9f6"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\06-ep21-haerin-call-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/06-ep21-haerin-call-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 371664,
+      "sha256": "4e717527879f3ce38eb06db83a611f37646fbd53f28968d60e7dd9594720f727"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\07-ep21-1-rescue12-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/07-ep21-1-rescue12-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 431869,
+      "sha256": "45d6fe5da920b8c482b9edf870bcfd767b816ae228395649a6ab1c6173c3516b"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\08-ep22-yoonha-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/08-ep22-yoonha-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 370113,
+      "sha256": "a2ce4c5b261e7f707dae1b2983f66c8a017125a1f0e1d86e229ee2fabc0e631c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\09-ep22-complete-mobile.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/09-ep22-complete-mobile.png",
+      "kind": "brain-artifact",
+      "bytes": 72775,
+      "sha256": "099c9a560478fa1fe0a1ec7c42b3b99c8dff47031ddf76da5cf5fa6cf2f4ac0f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\10-seq-modal-desktop.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/10-seq-modal-desktop.png",
+      "kind": "brain-artifact",
+      "bytes": 241108,
+      "sha256": "404a75deca5c215a6f68241918155392d8333dcc732c4a834edee858550082d0"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\11-ep19-yoonsera-desktop.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/11-ep19-yoonsera-desktop.png",
+      "kind": "brain-artifact",
+      "bytes": 1458601,
+      "sha256": "9856ec85a7ea2ef9435855482ab4ccd82cab6d0b97ec2ab4f97ac336143d680d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\seq_screenshots\\12-ep20-1-haerin-desktop.png",
+      "destination": "recovery/antigravity/scratch/seq_screenshots/12-ep20-1-haerin-desktop.png",
+      "kind": "brain-artifact",
+      "bytes": 1414725,
+      "sha256": "6811fcd041d54152439002b55977b4a4fb67b89372f1d0240e02ca04fe535d01"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\synth_ep2_audio.py",
+      "destination": "recovery/antigravity/scratch/synth_ep2_audio.py",
+      "kind": "brain-artifact",
+      "bytes": 10827,
+      "sha256": "66830f7be1558145fb86943febd6239215773a5f003f50dcac83c6006ec12086"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\trim_seq_portraits.py",
+      "destination": "recovery/antigravity/scratch/trim_seq_portraits.py",
+      "kind": "brain-artifact",
+      "bytes": 374,
+      "sha256": "d73faa9fe103f25af5bf646c7df9d0b1b13e8d3cdc645771ddb45cfa2975fdf5"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\verify_ep2_playwright.mjs",
+      "destination": "recovery/antigravity/scratch/verify_ep2_playwright.mjs",
+      "kind": "brain-artifact",
+      "bytes": 18494,
+      "sha256": "a8d09b8a60cdf3cc788854b31437dab9775f190d80e0946e59e7f0c87217d02a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\scratch\\verify_seq19_22_playwright.mjs",
+      "destination": "recovery/antigravity/scratch/verify_seq19_22_playwright.mjs",
+      "kind": "brain-artifact",
+      "bytes": 11320,
+      "sha256": "bb13cb2eba077033c325f553cb809e35a87153a29ae3af05db1349ea8da0db3e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368249437_2050d3d0.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368249437_2050d3d0.webp",
+      "kind": "brain-artifact",
+      "bytes": 245390,
+      "sha256": "02416edb4c85853651d2176cc61f3b3494e97560b411f5071cf7c5b99071d06f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368249466_51da848d.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368249466_51da848d.webp",
+      "kind": "brain-artifact",
+      "bytes": 299358,
+      "sha256": "cfbb1c803e6c739a19eff599166363b45a30db5c9e667c0273aebe9f0e92878e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368249495_c7958d7b.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368249495_c7958d7b.webp",
+      "kind": "brain-artifact",
+      "bytes": 258310,
+      "sha256": "589ffffeb40f58c5ea028148eea01ee9c286ae6d7347c277a447f52d29938487"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368249529_45566885.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368249529_45566885.webp",
+      "kind": "brain-artifact",
+      "bytes": 221198,
+      "sha256": "359b68e8ef256dee8cd70ac49c16bfbb6a89b0470228d21cef3e1f2f60e18095"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368249561_6ebf3103.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368249561_6ebf3103.webp",
+      "kind": "brain-artifact",
+      "bytes": 189152,
+      "sha256": "357fa56d9cb6b4a3de6402a7fc073a939f52362759971fd6effa6bff805c8f84"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368260844_1fb80683.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368260844_1fb80683.webp",
+      "kind": "brain-artifact",
+      "bytes": 339472,
+      "sha256": "b038c976d5390cc3ac45bfba8a9671fbde6da5b913155a02e2dd5fb7f31e02f4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368260880_6b92f115.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368260880_6b92f115.webp",
+      "kind": "brain-artifact",
+      "bytes": 210568,
+      "sha256": "f00236b6d65aea74dbf133a808717fe1188be9ea41c440909133768fb5c09054"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368260913_0f8847f7.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368260913_0f8847f7.webp",
+      "kind": "brain-artifact",
+      "bytes": 117944,
+      "sha256": "dce6b2bab75924e4d808519a59de8f6a6680d06218a4251f375b1f45268ce9cd"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368260949_4306e4bb.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368260949_4306e4bb.webp",
+      "kind": "brain-artifact",
+      "bytes": 287940,
+      "sha256": "065f800c8d0ca68d309027edd7e416b3bcc817439da6e176f8abf77ac196d9c8"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368260983_1559f144.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368260983_1559f144.webp",
+      "kind": "brain-artifact",
+      "bytes": 543018,
+      "sha256": "9bb79a69c4e28aeabad5d677318b16191798c33d60b89d10f34dbe18d5a96943"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368276236_25b54026.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368276236_25b54026.webp",
+      "kind": "brain-artifact",
+      "bytes": 206420,
+      "sha256": "a061ba48d63b968ba0ff480e6e11d9dd66ad08c6c482a2702be95d973ac36596"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368276258_4ca21833.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368276258_4ca21833.webp",
+      "kind": "brain-artifact",
+      "bytes": 307018,
+      "sha256": "cc233ca8656996d263ae9c3d52bcb2ec70f1527e1bef7c127c7870cb0e3a920f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368276293_ab2c3cf1.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368276293_ab2c3cf1.webp",
+      "kind": "brain-artifact",
+      "bytes": 301918,
+      "sha256": "dcb4bc47ef5e8a0d303abf6ecac7a334adb82bcc1be832b770dd21f01f748248"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368711249_12f14020.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368711249_12f14020.jpg",
+      "kind": "brain-artifact",
+      "bytes": 453690,
+      "sha256": "29bf4d4df23097668b1e080d477b55d2719206f30ade1faa78faae647b75f11f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368711315_0251fdbd.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368711315_0251fdbd.jpg",
+      "kind": "brain-artifact",
+      "bytes": 473896,
+      "sha256": "a31c95bda2eb1a5c7b5975c9b51f270777c277b97ef3ae8f18800375112e999d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368711368_9044a4bc.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368711368_9044a4bc.jpg",
+      "kind": "brain-artifact",
+      "bytes": 477305,
+      "sha256": "6758c4a961a5cedc2c6d24083655285c3747fedcb50a0d2fead3f60e33517436"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368711439_c0896cbe.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368711439_c0896cbe.jpg",
+      "kind": "brain-artifact",
+      "bytes": 671860,
+      "sha256": "e3b34e08754b02162ddd816b4c4b91b64ff543dcf6810f289a7c03fa9067e9d6"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368729489_00820871.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368729489_00820871.jpg",
+      "kind": "brain-artifact",
+      "bytes": 647152,
+      "sha256": "09f5ee9415bf187516edc05142091ec42d668217b06ba1e4372274755cc8b30c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368729510_0f7fefbc.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368729510_0f7fefbc.jpg",
+      "kind": "brain-artifact",
+      "bytes": 589778,
+      "sha256": "33c4241e9840f306117e83a69a28eb170cf0418a51d722b8c3fa8450d8c78541"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368729534_9ca9d51b.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368729534_9ca9d51b.jpg",
+      "kind": "brain-artifact",
+      "bytes": 657682,
+      "sha256": "c1c61efe27d0fb01faff847c0379c36840da436ed06ca25dc114b37fe99ebbc3"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792368729563_020deed4.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792368729563_020deed4.jpg",
+      "kind": "brain-artifact",
+      "bytes": 807217,
+      "sha256": "722ef1913e82c1189211675fbfffa93217e9ad54685a1e1a045d977cc75a8e3f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370650225_46e6fe4f.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370650225_46e6fe4f.png",
+      "kind": "brain-artifact",
+      "bytes": 958491,
+      "sha256": "4b0467888ce21e195e2f94e4709d8b3847fb6852ee873bdeb1d412bd625f4a69"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370650306_e715b87b.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370650306_e715b87b.png",
+      "kind": "brain-artifact",
+      "bytes": 1339502,
+      "sha256": "71238857a31615fdea7e4f31871f173013e04f0e229ec24d166a31064e692d0d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370650367_3d1c1575.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370650367_3d1c1575.png",
+      "kind": "brain-artifact",
+      "bytes": 878362,
+      "sha256": "a8f137e699c61667cb44abc8c4778229cd665b6df625314cd5fa61c67ed69750"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370650440_6e531221.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370650440_6e531221.png",
+      "kind": "brain-artifact",
+      "bytes": 934401,
+      "sha256": "cb0dae8ce6003a1427a8849239b36551c695b654d562839081080070d4f86c2c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370727566_48372b2a.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370727566_48372b2a.png",
+      "kind": "brain-artifact",
+      "bytes": 1079297,
+      "sha256": "45fc1bb45cadec652291e984e182876b86327b98847a43975b4c90321cb8ea93"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370727622_49a4bec4.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370727622_49a4bec4.png",
+      "kind": "brain-artifact",
+      "bytes": 885589,
+      "sha256": "07dd168ea46ce9781649356d4c624c9c894e8843b596022af26c6bcc9beadf4d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370727662_a0086b9e.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370727662_a0086b9e.png",
+      "kind": "brain-artifact",
+      "bytes": 560073,
+      "sha256": "131461cfbc5b5ebd69fc40c91d6da2da169c85cebba36bdf6aa1979bc80dd1c4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370727701_5c05a94c.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370727701_5c05a94c.png",
+      "kind": "brain-artifact",
+      "bytes": 944039,
+      "sha256": "e92d165a497f4f6c90f8d61bf5df3403afe6ffe46659bf1f4571dd54d85d6ea0"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370744240_d74972b8.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370744240_d74972b8.png",
+      "kind": "brain-artifact",
+      "bytes": 921831,
+      "sha256": "eb32bcdaafd5badc7ca3f4216488883b833de60b8593491f1e21b345400ce097"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370744294_c549382b.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370744294_c549382b.png",
+      "kind": "brain-artifact",
+      "bytes": 1136264,
+      "sha256": "91ad7e70f46e25452576238e425cfa0909c28cf685da54af9140b0112415b11a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370744338_1300700c.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370744338_1300700c.png",
+      "kind": "brain-artifact",
+      "bytes": 924262,
+      "sha256": "571746d3429e3b551cf060d203ba64ad17706c84309e8a5709fff52c21291b01"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370744376_89903661.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370744376_89903661.png",
+      "kind": "brain-artifact",
+      "bytes": 1488684,
+      "sha256": "9ec723c17ad30f2cf18e471e88c52d2c28dd9ee405dbc67a0a7e10304c132c46"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370860589_b8e2fe0d.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370860589_b8e2fe0d.png",
+      "kind": "brain-artifact",
+      "bytes": 1175851,
+      "sha256": "303cb6fd1feb0d881cef63aef8f11f86fcbcb8e75e50217ceb853046175007a4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370860680_e935d941.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370860680_e935d941.png",
+      "kind": "brain-artifact",
+      "bytes": 709610,
+      "sha256": "c69ddbbcdaf0d68b5e24491c605c199857a2b7a5d75e7ab59eb2e41c0bc1d1f6"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370860772_bfb83810.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370860772_bfb83810.png",
+      "kind": "brain-artifact",
+      "bytes": 1323790,
+      "sha256": "cfc197b4032a5f9ec230135f77740b6888d3a0d86d22b6633be90125f42bc390"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370862625_7c2544d2.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370862625_7c2544d2.png",
+      "kind": "brain-artifact",
+      "bytes": 1293616,
+      "sha256": "3f06dc6cd878d02384045ec86a5aaeafedfc683bfe976114a4b82cc5ccd3681e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370862785_7ddded4c.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370862785_7ddded4c.png",
+      "kind": "brain-artifact",
+      "bytes": 1105488,
+      "sha256": "9cac24c8b50c24bd1ed6a28899c6a83ee22ecae193ceb74bf12cb9cd274693c0"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370862940_ffa7e633.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370862940_ffa7e633.png",
+      "kind": "brain-artifact",
+      "bytes": 941142,
+      "sha256": "870663782b4ddf65987ef28d48dc619c73f2dad79900a5de217aeae5ceaab679"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370863056_5d66fb2e.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370863056_5d66fb2e.png",
+      "kind": "brain-artifact",
+      "bytes": 14147,
+      "sha256": "668153609f9e05aa897030626fc6f87beb6e053ccc1537587c9a672811a69018"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370863242_9dc2d00a.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370863242_9dc2d00a.png",
+      "kind": "brain-artifact",
+      "bytes": 1045120,
+      "sha256": "29a765b2a2726f3e04303da6644169fee3561c77e5b5600e70e63ca88dd30656"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370863444_695b93a8.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370863444_695b93a8.png",
+      "kind": "brain-artifact",
+      "bytes": 1024400,
+      "sha256": "f50e31a19ee3d755f5bf7551e0882900eb9777ba3228cd99575d87205ec01b52"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370863603_118a1771.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370863603_118a1771.png",
+      "kind": "brain-artifact",
+      "bytes": 1014973,
+      "sha256": "cbc4b4d675aae20471f4df1f87d315e1c5207e77dca3ff7c9f5fc1baa262b2b9"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888341_a3402ac7.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888341_a3402ac7.png",
+      "kind": "brain-artifact",
+      "bytes": 91350,
+      "sha256": "bfad2edb4c1c0982b31a693254eca523a92c3ea86d394c4cc821f910d0915ada"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888424_42f2accd.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888424_42f2accd.png",
+      "kind": "brain-artifact",
+      "bytes": 1353145,
+      "sha256": "4dce16cb631bfc8aeb8cb126c450789be7272f809049671f56eb8947bebb82b1"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888491_c305e9f8.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888491_c305e9f8.png",
+      "kind": "brain-artifact",
+      "bytes": 1317098,
+      "sha256": "69a5f64ed68cc7f722fa143b574e9a3b5139b85be8f78a43fb334444bfe1758a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888588_add5164c.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888588_add5164c.png",
+      "kind": "brain-artifact",
+      "bytes": 1139703,
+      "sha256": "1d92d7e4cca1adee0a7130ed94a562b5fa66b45fb1e7f4dc2213d12ec4e30f28"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888693_012949af.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888693_012949af.png",
+      "kind": "brain-artifact",
+      "bytes": 1307030,
+      "sha256": "6bf9269e95c4107a0f97ae7458c38ac7455863130579d0115bb542966778ee07"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888822_6ab0e7be.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888822_6ab0e7be.png",
+      "kind": "brain-artifact",
+      "bytes": 1652989,
+      "sha256": "cf4ade9897d4ac2c5fddd73ed1382d241a4d09fd187aee33922eabeae33452ee"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370888928_48b30ae4.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370888928_48b30ae4.png",
+      "kind": "brain-artifact",
+      "bytes": 1125289,
+      "sha256": "eb9bb1ab9e63ea747ecec1bb17ef5dafe7d1c12e9bdde68de5e3239e5d980832"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370938667_0cc418b5.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370938667_0cc418b5.webp",
+      "kind": "brain-artifact",
+      "bytes": 339472,
+      "sha256": "b038c976d5390cc3ac45bfba8a9671fbde6da5b913155a02e2dd5fb7f31e02f4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792370952768_f94e5e26.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792370952768_f94e5e26.webp",
+      "kind": "brain-artifact",
+      "bytes": 237594,
+      "sha256": "eb5eee8d47e083ad65b963ca79842ceb6c75c53e540e4923dacb235ef5feab1a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792371914793_ef1e185e.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792371914793_ef1e185e.png",
+      "kind": "brain-artifact",
+      "bytes": 885857,
+      "sha256": "a74643107fe0deb2b992cba57bf6045494f8b2073e4d421b8af257bbeb885d2c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792371914907_735f7607.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792371914907_735f7607.png",
+      "kind": "brain-artifact",
+      "bytes": 1150472,
+      "sha256": "fd59c4530acf48ebdaa4904a61a48798d07eb689ec531ad91727dc5a6e617bc3"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792371915033_f8a742fd.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792371915033_f8a742fd.png",
+      "kind": "brain-artifact",
+      "bytes": 1526615,
+      "sha256": "bfb33fc6f442593253938c98236e8c02a32b20459aeab7a276dfd4cfd89ea730"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792371915300_4e4cae93.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792371915300_4e4cae93.png",
+      "kind": "brain-artifact",
+      "bytes": 1226726,
+      "sha256": "292f6210e5136e8e9ebee006b1450fadc6300c494bd4135a056c784487e15e4d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792371915500_8df88033.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792371915500_8df88033.png",
+      "kind": "brain-artifact",
+      "bytes": 1581140,
+      "sha256": "9e9ffc4b81b831ba4892714df6ee451f30881f4f4c69414c681ffebef8e99af0"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373047833_1e66c59a.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373047833_1e66c59a.webp",
+      "kind": "brain-artifact",
+      "bytes": 151464,
+      "sha256": "87f693c3e858b790067550ae4522fe17170137a645142eabf4d92a8155ad19f5"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373047922_41cd337a.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373047922_41cd337a.webp",
+      "kind": "brain-artifact",
+      "bytes": 99692,
+      "sha256": "b9e9c220dc7cdb0658d9c1e331e8fc2b1a0b965c2f6f9e81c635495463688852"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373048050_04e69b4f.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373048050_04e69b4f.webp",
+      "kind": "brain-artifact",
+      "bytes": 116814,
+      "sha256": "51b953aa40dc66ba5afa9c103a630e3dfa472e652e21cc78d02e5abfa1d0d899"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373048133_4cb40062.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373048133_4cb40062.webp",
+      "kind": "brain-artifact",
+      "bytes": 170634,
+      "sha256": "df23ccbc8f017fd4c6e75e20dd884d7f74a18d374e2af362fc34851c564a475e"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373327087_f19df371.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373327087_f19df371.jpg",
+      "kind": "brain-artifact",
+      "bytes": 248515,
+      "sha256": "926912a9925cc34ef97cdeb97af7414b43b0c3df796a5105a2185b489d0fa47f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373327126_cbf3cfae.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373327126_cbf3cfae.jpg",
+      "kind": "brain-artifact",
+      "bytes": 281896,
+      "sha256": "f1ee251c5fc9ff24d098d35d02d96e63a94cf69bcbe78ed006ec095a6368edfb"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792373327163_b217c4dd.jpg",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792373327163_b217c4dd.jpg",
+      "kind": "brain-artifact",
+      "bytes": 270301,
+      "sha256": "b10e3c8ce223051eb168dcde8d1d24b4df32fae4501f28d975a8a60f62b85a1d"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375873662_21006e07.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375873662_21006e07.png",
+      "kind": "brain-artifact",
+      "bytes": 487935,
+      "sha256": "61645246a255e01886b227bfe4e9dc0ab4a1a05be03f1ae83e3a08ee3446e1b1"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375873732_d4d1ec78.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375873732_d4d1ec78.png",
+      "kind": "brain-artifact",
+      "bytes": 48646,
+      "sha256": "3731e1b42f8643ef7a3c7110b923f754c1abfe9cad246edce05c4741ad061eeb"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375873801_7aece070.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375873801_7aece070.png",
+      "kind": "brain-artifact",
+      "bytes": 374112,
+      "sha256": "6258a965caa11339a7bde3c7b904acc6fc2d7c9a7c80e833dc6ba9aa9ae5cf52"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375873875_856f9b1b.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375873875_856f9b1b.png",
+      "kind": "brain-artifact",
+      "bytes": 375431,
+      "sha256": "2a7d39cfe232a7525722ccaf6a50a9a9ae8ab2c08823497fa10309aeb48f3514"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375897891_5e5580ac.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375897891_5e5580ac.png",
+      "kind": "brain-artifact",
+      "bytes": 392993,
+      "sha256": "5c917f207032749e243db4cc9379c2aff3d7e9ce58dcc8ac49a53405f769a9f4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375898011_e7046e65.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375898011_e7046e65.png",
+      "kind": "brain-artifact",
+      "bytes": 371048,
+      "sha256": "e38d8e778fe7f24869ba87af20c95f27809137e956d738632dce868e52affc30"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375898172_8f7d0602.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375898172_8f7d0602.png",
+      "kind": "brain-artifact",
+      "bytes": 428889,
+      "sha256": "f6e12ad31e1eb69ad06ac7ceadb790eff5313923f3f773b32da86a90a78ac3d7"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375898493_340b0c92.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375898493_340b0c92.png",
+      "kind": "brain-artifact",
+      "bytes": 367872,
+      "sha256": "94b829291647126fa32f5c056a5d719898aabfad1b262845a4185d142da3a43c"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375915573_3564bfec.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375915573_3564bfec.png",
+      "kind": "brain-artifact",
+      "bytes": 72676,
+      "sha256": "98536efe2a5945a45679a13501ad5f6656c180ebb554b4e082345d65e31bebbc"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375915678_521bdb37.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375915678_521bdb37.png",
+      "kind": "brain-artifact",
+      "bytes": 228498,
+      "sha256": "8f3791e2edf23f900ae932dbae5979ac88120ee0b0a6b06f1d600200de084bb2"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375915784_5eff39e5.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375915784_5eff39e5.png",
+      "kind": "brain-artifact",
+      "bytes": 1440113,
+      "sha256": "3c31f1ae6fcbf27b98e09f215e281dc4d06eb01f2d5fea294e391de357b79233"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792375915871_3a433092.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792375915871_3a433092.png",
+      "kind": "brain-artifact",
+      "bytes": 1401180,
+      "sha256": "02d2499da37518038545ac3fa3d1097f799dc95f42ef1d84be3e165cbf0678ae"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376092657_91e06c1f.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376092657_91e06c1f.webp",
+      "kind": "brain-artifact",
+      "bytes": 151464,
+      "sha256": "87f693c3e858b790067550ae4522fe17170137a645142eabf4d92a8155ad19f5"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376229549_117702c3.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376229549_117702c3.webp",
+      "kind": "brain-artifact",
+      "bytes": 357866,
+      "sha256": "fd00cce5e331aa464b5efaf6d2bde4b7b3b98ce07ec529b2825eeb792090cac4"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376229689_c25f6884.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376229689_c25f6884.webp",
+      "kind": "brain-artifact",
+      "bytes": 99692,
+      "sha256": "b9e9c220dc7cdb0658d9c1e331e8fc2b1a0b965c2f6f9e81c635495463688852"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376312141_3d9a561f.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376312141_3d9a561f.webp",
+      "kind": "brain-artifact",
+      "bytes": 51400,
+      "sha256": "2a69d2a1b0efd42bad6ed91564a98565572acd6385f72893dc02af8d25a67dd9"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376312511_8a42dd4a.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376312511_8a42dd4a.webp",
+      "kind": "brain-artifact",
+      "bytes": 55436,
+      "sha256": "be831d27c7919aaaa10d9331510bec6905f4a9df112082cb21bc549c34ffca9a"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376312771_de6f9c0e.webp",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376312771_de6f9c0e.webp",
+      "kind": "brain-artifact",
+      "bytes": 50370,
+      "sha256": "8743673835c49cbcbcbd4873496a768c03b93667d51aad246d7bd07da1813f55"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376590501_8f7a7224.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376590501_8f7a7224.png",
+      "kind": "brain-artifact",
+      "bytes": 49333,
+      "sha256": "9f7e6e337f71d4da46680c89426e44d2719d69991a5ee3e31aa34b319adc8247"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376590549_8fcbebb8.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376590549_8fcbebb8.png",
+      "kind": "brain-artifact",
+      "bytes": 375753,
+      "sha256": "cf84028c42533ce556d4aae0d37599f88d0c31ff40527ee6a42f6ad3f105356b"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376590620_059a5473.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376590620_059a5473.png",
+      "kind": "brain-artifact",
+      "bytes": 369862,
+      "sha256": "cc69be816acbe1ac4d0c130dc156b8b203edb851af06fe25cda5674bbd22599f"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376590678_6e3a89f1.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376590678_6e3a89f1.png",
+      "kind": "brain-artifact",
+      "bytes": 240650,
+      "sha256": "8b6fd178092a7a6f8e20b5a59be021a7f935a81ce475b5316488d6a0527fae74"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376612837_5013e213.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376612837_5013e213.png",
+      "kind": "brain-artifact",
+      "bytes": 376402,
+      "sha256": "35ae44ca966fb3baaabf7bb337f7e4180204133c384154d14a6b56710b7315ea"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792376612891_887f50fd.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792376612891_887f50fd.png",
+      "kind": "brain-artifact",
+      "bytes": 390439,
+      "sha256": "40188960a96aa7568ce362481c85c5278224b5c16d6abaa68bb7c3a7340eabfe"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792377633986_a16c0fbb.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792377633986_a16c0fbb.png",
+      "kind": "brain-artifact",
+      "bytes": 304043,
+      "sha256": "548fc6486c92be2e5169e57a933b587ce66d1464fa8814bf2f247021e0251bfe"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792377634118_21abeef1.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792377634118_21abeef1.png",
+      "kind": "brain-artifact",
+      "bytes": 295312,
+      "sha256": "0546d4f39ff54a4fca084ae571386ad37aeace4d1ca28aaa76274491f00cb976"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792377634254_28c038bd.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792377634254_28c038bd.png",
+      "kind": "brain-artifact",
+      "bytes": 369190,
+      "sha256": "221d7dc9ce07a9eb530545f402ebe57f1ba325e93de1354da51471ddaf128457"
+    },
+    {
+      "source": "C:\\Users\\jbseo\\.gemini\\antigravity-cli\\brain\\e2d8e107-51da-4d48-ac0c-d7e6ea1487ac\\.tempmediaStorage\\media_1792377634402_b83c5fe9.png",
+      "destination": "recovery/antigravity/.tempmediaStorage/media_1792377634402_b83c5fe9.png",
+      "kind": "brain-artifact",
+      "bytes": 379818,
+      "sha256": "3c5c688fe6a684ed23cfcfd39f74ce7defeed9d70fc12e978961cb013c88d9f6"
+    }
+  ]
+}

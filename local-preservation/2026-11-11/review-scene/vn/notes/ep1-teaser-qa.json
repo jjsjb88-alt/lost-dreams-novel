@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "desktop: real playback, unchanged old save111, no body audio, pause/resume, skip, body input, continue bypass",
+    "400px touch: real playback, unchanged old save111, no body audio, pause/resume, skip, body input, continue bypass",
+    "silent entry and Escape preserve silent body",
+    "media reaches actual ended event then starts body",
+    "fail: playback failure falls through to body",
+    "reject: playback failure falls through to body",
+    "standalone HTML: embedded mp4 actually plays, touch skip and body work with all external assets blocked"
+  ],
+  "errors": []
+}

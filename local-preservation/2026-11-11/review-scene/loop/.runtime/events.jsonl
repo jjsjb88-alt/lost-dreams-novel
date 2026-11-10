@@ -1,0 +1,4 @@
+{"engine":"codex","role":"main","status":"running","runId":"scene-mix-19-22-20261020","source":"reported","stage":"verify","summary":"19~22 네 본문14곳 혼합초고와독립검수완료,국소3곳2차수정. 원고-VN스냅샷·연출동기화중.","at":"2026-10-19T23:33:15.987Z"}
+{"engine":"codex","role":"reviewer","status":"done","runId":"scene-mix-19-22-20261020","source":"reported","checkpoint":"before-done","summary":"원고 독립 편집·사실 검수 PASS; Node81/1317재생/12인물경우/14화면 완료; Draft PR98 미병합","at":"2026-10-19T23:57:29.797Z"}
+{"engine":"codex","role":"main","status":"done","runId":"scene-mix-19-22-20261020","source":"reported","stage":"verify","summary":"장면 혼합 개고와 VN 원문 동기화 완료, Draft PR98 생성 및 첨부, 원본·PR97 보존","at":"2026-10-19T23:57:30.248Z"}
+{"engine":"codex","role":"main","status":"done","runId":"scene-mix-19-22-20261020","source":"reported","stage":"verify","summary":"작가 승인 후 PR98 main 병합00025cb 완료; 원고·VN 동일성 확인, 웹 자동배포 성공","at":"2026-10-20T01:37:05.923Z"}

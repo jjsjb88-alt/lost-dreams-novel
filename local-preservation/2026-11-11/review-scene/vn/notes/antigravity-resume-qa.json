@@ -1,0 +1,489 @@
+{
+  "results": [
+    {
+      "id": "2",
+      "i": 91,
+      "name": "2-father-port",
+      "font": 20,
+      "height": 844,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "서인은 지우의 아버지를 사진으로만 본 적이 있었다. 실제로 보니 생각보다 말라 있었다. 팔목 안쪽에는 정기 투약 포트가 붙어 있었다.\n\n⌄",
+        "rect": {
+          "x": 12,
+          "y": 606.625,
+          "w": 376,
+          "h": 175.375
+        },
+        "scroll": {
+          "w": 374,
+          "h": 173,
+          "cw": 374,
+          "ch": 173
+        }
+      },
+      "card": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "primary": false,
+      "neural": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "portraits": [
+        "assets/jiwoo.webp",
+        "assets/seoin.webp"
+      ]
+    },
+    {
+      "id": "2",
+      "i": 97,
+      "name": "2-document",
+      "font": 20,
+      "height": 844,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "계속 읽기\n⌄",
+        "rect": {
+          "x": 18,
+          "y": 730,
+          "w": 364,
+          "h": 52
+        },
+        "scroll": {
+          "w": 362,
+          "h": 50,
+          "cw": 362,
+          "ch": 50
+        }
+      },
+      "card": {
+        "visible": false,
+        "text": "IN VIEW지우 가족의 가계 시뮬레이션지우 광고꿈 중단월 -327 TOKEN.퇴직 후 예상 소득-43%.가족 의료 플랜 갱신 비용+16%.차녀 교육 AI 등급 유지 가능성38%.",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "primary": true,
+      "neural": {
+        "visible": true,
+        "text": "처리 기록\n업무 화면\n진행 기록\n지우 광고꿈 중단: 월\n-327 TOKEN.\n퇴직 후 예상 소득:\n-43%.\n가족 의료 플랜 갱신 비용:\n+16%.\n차녀 교육 AI 등급 유지 가능성:\n38%.",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 844
+        },
+        "scroll": {
+          "w": 405,
+          "h": 844,
+          "cw": 400,
+          "ch": 844
+        }
+      },
+      "portraits": [
+        "assets/jiwoo.webp",
+        "assets/seoin.webp"
+      ]
+    },
+    {
+      "id": "2",
+      "i": 118,
+      "name": "2-118",
+      "font": 20,
+      "height": 844,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "지우가 대답하지 못했다.\n\n⌄",
+        "rect": {
+          "x": 12,
+          "y": 650,
+          "w": 376,
+          "h": 132
+        },
+        "scroll": {
+          "w": 374,
+          "h": 130,
+          "cw": 374,
+          "ch": 130
+        }
+      },
+      "card": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "primary": false,
+      "neural": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "portraits": [
+        "assets/jiwoo.webp",
+        "assets/seoin.webp"
+      ]
+    },
+    {
+      "id": "20-1",
+      "i": 29,
+      "name": "20-1-eunkyung",
+      "font": 20,
+      "height": 844,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "05:40 알람 이름을 바꿨다.\n\n⌄",
+        "rect": {
+          "x": 12,
+          "y": 650,
+          "w": 376,
+          "h": 132
+        },
+        "scroll": {
+          "w": 374,
+          "h": 130,
+          "cw": 374,
+          "ch": 130
+        }
+      },
+      "card": {
+        "visible": true,
+        "text": "PERSONAL LINK\n잊지 않게\n05:40 알람 이름을 바꿨다.",
+        "rect": {
+          "x": 16,
+          "y": 132,
+          "w": 368,
+          "h": 100.796875
+        },
+        "scroll": {
+          "w": 366,
+          "h": 99,
+          "cw": 366,
+          "ch": 99
+        }
+      },
+      "primary": false,
+      "neural": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "portraits": []
+    },
+    {
+      "id": "20-1",
+      "i": 40,
+      "name": "20-1-haerin",
+      "font": 20,
+      "height": 844,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "치료 일정 08:00\n\n⌄",
+        "rect": {
+          "x": 12,
+          "y": 650,
+          "w": 376,
+          "h": 132
+        },
+        "scroll": {
+          "w": 374,
+          "h": 130,
+          "cw": 374,
+          "ch": 130
+        }
+      },
+      "card": {
+        "visible": true,
+        "text": "TWO PERSPECTIVES\n6시의 검증과 8시의 예약\n치료 일정 08:00",
+        "rect": {
+          "x": 16,
+          "y": 132,
+          "w": 368,
+          "h": 100.796875
+        },
+        "scroll": {
+          "w": 366,
+          "h": 99,
+          "cw": 366,
+          "ch": 99
+        }
+      },
+      "primary": false,
+      "neural": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "portraits": []
+    },
+    {
+      "id": "2",
+      "i": 97,
+      "name": "2-document-large",
+      "font": 28,
+      "height": 667,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "계속 읽기\n⌄",
+        "rect": {
+          "x": 18,
+          "y": 553,
+          "w": 364,
+          "h": 52
+        },
+        "scroll": {
+          "w": 362,
+          "h": 50,
+          "cw": 362,
+          "ch": 50
+        }
+      },
+      "card": {
+        "visible": false,
+        "text": "IN VIEW지우 가족의 가계 시뮬레이션지우 광고꿈 중단월 -327 TOKEN.퇴직 후 예상 소득-43%.가족 의료 플랜 갱신 비용+16%.차녀 교육 AI 등급 유지 가능성38%.",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "primary": true,
+      "neural": {
+        "visible": true,
+        "text": "처리 기록\n업무 화면\n진행 기록\n지우 광고꿈 중단: 월\n-327 TOKEN.\n퇴직 후 예상 소득:\n-43%.\n가족 의료 플랜 갱신 비용:\n+16%.\n차녀 교육 AI 등급 유지 가능성:\n38%.",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 667
+        },
+        "scroll": {
+          "w": 405,
+          "h": 667,
+          "cw": 400,
+          "ch": 667
+        }
+      },
+      "portraits": [
+        "assets/jiwoo.webp",
+        "assets/seoin.webp"
+      ]
+    },
+    {
+      "id": "20-1",
+      "i": 29,
+      "name": "20-1-eunkyung-large",
+      "font": 28,
+      "height": 667,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "05:40 알람 이름을 바꿨다.\n\n⌄",
+        "rect": {
+          "x": 12,
+          "y": 473,
+          "w": 376,
+          "h": 132
+        },
+        "scroll": {
+          "w": 374,
+          "h": 130,
+          "cw": 374,
+          "ch": 130
+        }
+      },
+      "card": {
+        "visible": true,
+        "text": "PERSONAL LINK\n잊지 않게\n05:40 알람 이름을 바꿨다.",
+        "rect": {
+          "x": 16,
+          "y": 132,
+          "w": 368,
+          "h": 100.796875
+        },
+        "scroll": {
+          "w": 366,
+          "h": 99,
+          "cw": 366,
+          "ch": 99
+        }
+      },
+      "primary": false,
+      "neural": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "portraits": []
+    },
+    {
+      "id": "20-1",
+      "i": 40,
+      "name": "20-1-haerin-large",
+      "font": 28,
+      "height": 667,
+      "overflow": false,
+      "story": {
+        "visible": true,
+        "text": "치료 일정 08:00\n\n⌄",
+        "rect": {
+          "x": 12,
+          "y": 473,
+          "w": 376,
+          "h": 132
+        },
+        "scroll": {
+          "w": 374,
+          "h": 130,
+          "cw": 374,
+          "ch": 130
+        }
+      },
+      "card": {
+        "visible": true,
+        "text": "TWO PERSPECTIVES\n6시의 검증과 8시의 예약\n치료 일정 08:00",
+        "rect": {
+          "x": 16,
+          "y": 132,
+          "w": 368,
+          "h": 100.796875
+        },
+        "scroll": {
+          "w": 366,
+          "h": 99,
+          "cw": 366,
+          "ch": 99
+        }
+      },
+      "primary": false,
+      "neural": {
+        "visible": false,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "scroll": {
+          "w": 0,
+          "h": 0,
+          "cw": 0,
+          "ch": 0
+        }
+      },
+      "portraits": []
+    }
+  ],
+  "errors": [],
+  "editionChecks": [
+    "desktop 1440px 2: expected scoped layout and controls",
+    "desktop 1440px 20-1: expected scoped layout and controls",
+    "standalone 400px 2: expected scoped layout and controls",
+    "standalone 400px 20-1: expected scoped layout and controls"
+  ],
+  "basis": "5d0c100",
+  "mode": "Current GitHub version review; Antigravity Windows local state not recovered"
+}

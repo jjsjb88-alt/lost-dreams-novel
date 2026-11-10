@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-19",
+  "canon": "Jiwoo is an adult woman; Seoin is a man. Author correction, no romance implied.",
+  "scope": "Episode-one active Jiwoo sprites and clay CG only; later chapter art is not claimed corrected",
+  "mode": "Built-in image_gen edits; PNG originals retained in execution workspace generated_images; runtime WebP format conversion only",
+  "assets": [
+    {
+      "key": "tease",
+      "name": "jiwoo-woman-tease",
+      "source": "exec-665f95ae-6b62-4855-b448-19a1b1e2b514.png",
+      "references": [
+        "vn/assets/ep1/jiwoo-tease.webp"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Correct a character casting error in this visual novel sprite. This character, Jiwoo, is canonically an ADULT KOREAN WOMAN, a female colleague and longtime friend of the male protagonist Seoin. The old reference was mistakenly drawn as a man: replace the masculine face and body with a clearly adult female character, not just an edit of the old man's eyelashes. Keep the original refined muted painterly semi-realistic game-art style, ordinary practical work wardrobe (loose light grey rolled-sleeve overshirt over a dark crewneck tee, charcoal trousers), and short-to-chin-length softly tousled chestnut-brown hair with an unstyled side part. Natural recognizable adult Korean woman in her late twenties, thoughtful almond eyes, subtle natural skin texture, no heavy makeup, no sexualized styling, no fashion-model pose. Medium seated sprite from upper thighs through the full head, hands fully visible, matching the original scale and seated anatomy. Her left cheek rests lightly against her hand, a small wry teasing smile, gaze angled slightly downward toward her desk, the other hand relaxed near her lap. This scene is a quiet friendly workplace exchange, not romantic fanservice. Preserve the relaxed mischievous personality. For reusability, no phone or tablet or physical screen: she uses a neural interface. Real transparent ALPHA cutout with ample clear space around the head and arms, absolutely no painted backdrop, black wash, gradients, floor, glow, checkerboard or rectangle; no text or watermark. Portrait 1024x1536 composition. This output becomes the authoritative female Jiwoo identity for the other expressions and event CG.",
+      "runtime": "vn/assets/ep1/jiwoo-woman-tease.webp",
+      "transparent": true
+    },
+    {
+      "key": "firm",
+      "name": "jiwoo-woman-firm",
+      "source": "exec-d7f93b5e-a794-4fb2-85f3-ee0870c406c5.png",
+      "references": [
+        "generated_images/exec-665f95ae-6b62-4855-b448-19a1b1e2b514.png"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Use the supplied corrected canonical Jiwoo sprite as the identity authority. The SAME ADULT KOREAN WOMAN Jiwoo: same feminine adult face, short-to-chin-length tousled chestnut-brown hair, grey loose rolled-sleeve work overshirt over charcoal crewneck tee, dark practical trousers. Draw a matching transparent sprite from upper thighs through full head, preserving exact art style, scale, facial identity and ordinary body proportions. Expression/acting only change: seated, head turned toward viewer LEFT to face her friend, direct eyes with a small stubborn weary half-smile and faint tired under-eyes, shoulders relaxed but quietly determined after approving resignation. Both hands still, one resting near her thigh and one near an unseen desk; no phone, screen or props. No melodrama or model posing. Character must read as the SAME adult woman, not an attractive man or a different woman. Genuine transparent ALPHA outside the character; no background, floor, haze, halo, gradient rectangle or checkerboard. No text/watermark. Portrait1024x1536.",
+      "runtime": "vn/assets/ep1/jiwoo-woman-firm.webp",
+      "transparent": true
+    },
+    {
+      "key": "wounded",
+      "name": "jiwoo-woman-wounded",
+      "source": "exec-c450ed40-36f8-4c20-8b6e-024390f3b24c.png",
+      "references": [
+        "generated_images/exec-665f95ae-6b62-4855-b448-19a1b1e2b514.png"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Use the supplied corrected canonical Jiwoo sprite as the identity authority. The SAME ADULT KOREAN WOMAN Jiwoo, same recognizable feminine adult face, short-to-chin-length brown tousled hair, grey loose rolled-sleeve overshirt, dark crewneck tee and charcoal work trousers. Create a matching upper-thigh-through-full-head seated transparent sprite in exactly the same muted painterly semi-realistic style and scale. Acting only change: the teasing smile has just disappeared after her friend asks about her father's treatment and sister's exams; gaze lowered, mouth closed, shoulders slightly released, hands loosely joined at her lap, restrained hurt and determination. No crying, glamor or sexualized pose. Keep natural adult female face/body, faithful to canonical reference. No props, phone or backdrop. Genuine transparent ALPHA, no painted background, glow, floor, black wash, gradient rectangle or checkerboard, no text/watermark. Portrait1024x1536.",
+      "runtime": "vn/assets/ep1/jiwoo-woman-wounded.webp",
+      "transparent": true
+    },
+    {
+      "key": "clay",
+      "name": "cg-clay-woman",
+      "source": "exec-7565bf0d-2625-48c6-ba85-ed0eb5f7f41f.png",
+      "references": [
+        "vn/assets/ep1/cg-clay.webp",
+        "generated_images/exec-665f95ae-6b62-4855-b448-19a1b1e2b514.png"
+      ],
+      "promptRecord": "verbatim submitted prompt",
+      "prompt": "Correct the mistaken character casting in the supplied office clay-box event CG. Keep the scene's painterly style, dusk office, old lopsided clay object, open worn cardboard box and natural handoff composition. The person at viewer LEFT is Jiwoo and must now be the SAME ADULT KOREAN WOMAN in the second supplied canonical reference: recognizable feminine adult face, short-to-chin-length tousled chestnut-brown hair, grey rolled overshirt over dark tee, ordinary practical clothes. The existing male Jiwoo face/body in the old CG was wrong: replace it with this canonical WOMAN, not a feminized version of the old man's face. She looks down at the strange old object she made as a child with a tiny empty attempted smile and eyes that do not smile. Viewer RIGHT edge: Seoin remains an ADULT KOREAN MAN, black hair, charcoal jacket, grey shirt, his identity/profile and receiving hand preserved. Do NOT change Seoin into a woman. Focus on both people's believable hands around one little open box and a single old imperfect fired-clay object, neither clearly a cup nor a plant pot. Keep Jiwoo's face and the object comfortably inside the central two-thirds to survive mobile cropping. Everyday intimacy and uncertainty, not romance, no new touch or relationship. Wide16:9 landscape, bottom fifth quiet for dialogue. No text, interface, logos or watermark.",
+      "runtime": "vn/assets/ep1/cg-clay-woman.webp",
+      "transparent": false
+    }
+  ],
+  "supersededBy": "jiwoo-body-provenance.json",
+  "revisionNote": "이 문서는 첫 얼굴·성별 정정의 과거 제출 기록이다. 작가가 몸 전체가 여전히 남성처럼 보인다고 재지적해 전신 비례를 재작화했으며 현재 runtime은 jiwoo-body-provenance.json을 따른다."
+}

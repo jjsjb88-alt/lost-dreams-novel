@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-19",
+  "baseMain": "22fb6bd4ad2e7392b2d098355a933b7474466eca",
+  "canon": "Jiwoo is a woman; Seoin is a man",
+  "scope": "Episode-one active sprites and clay CG; later chapters not claimed visually corrected",
+  "summary": {
+    "readingPages": 161,
+    "sourceBeats": 263,
+    "overflow": [],
+    "errors": [],
+    "failures": []
+  },
+  "checks": [
+    "episode one requests corrected woman Jiwoo assets; no legacy male Jiwoo image request",
+    "263 source beats in 161 mobile reading pages, optional point unselected, ending and chapter-two advance",
+    "legacy save111 resumes at111, previous110, next114, reload and original-line backlog",
+    "legacy observation choice restored; touch and keyboard expand/collapse do not advance; selection preserved",
+    "auto passes optional observation without selecting",
+    "auto delay includes the full grouped exchange",
+    "single-file edition loads new reading pages with no asset requests"
+  ],
+  "legacyMaleJiwooRequests": [],
+  "correctedAssetsRequested": [
+    "jiwoo-woman-tease",
+    "jiwoo-woman-firm",
+    "jiwoo-woman-wounded",
+    "cg-clay-woman"
+  ],
+  "alpha": {
+    "jiwoo-woman-tease": {
+      "mode": "RGBA",
+      "clearCorners": true
+    },
+    "jiwoo-woman-firm": {
+      "mode": "RGBA",
+      "clearCorners": true
+    },
+    "jiwoo-woman-wounded": {
+      "mode": "RGBA",
+      "clearCorners": true
+    }
+  },
+  "runtimeTestFilesPassed": 9,
+  "sourceTextReadingPagesAudioUnchanged": true,
+  "screenshots": {
+    "office-pc.png": "486f16166257415ad785874d154a3ced4732511edcc7bcae4c77f58ae7a6e2c4",
+    "tease-mobile.png": "b82b8437ab23e7bafb04cc7ef025dfbacd46170e1bf0bb0065a67561902274e3",
+    "firm-mobile.png": "2b093f227e862361c994159dd3f8ce9cc8fe529039b7f2d5a7c676f556801e39",
+    "wounded-mobile.png": "d17a5c670fdca1a41f9cc70ca6ab5d29027a25c4c4e0e062feedcd0e03ef97c4",
+    "clay-mobile.png": "0a59fcc7582517989a59ed9be1cddea2981d35d633c80cc2d2b2904622913ac1",
+    "clay-pc.png": "a97bd92dca15679e352339017aa28f2664b83585d3978efcb33951dbc04e9eca",
+    "approval-mobile.png": "83cd5c7fcac690cad3e44444d24629fb6e2049ab8facb28607aeda8c536ac20e",
+    "approval-pc.png": "7bd25888ecca4d4e5787c126beab97bdb2e6378330e7e220857bb502f8249cee"
+  },
+  "rawEvidenceSha256": "4cefd86d9b3f6a691c3d63f98a4192f4893aab5e73920b5ccf7f5ddb33dcb0ad",
+  "review": "same reviewer: corrected adult woman identity across three sprites and clay CG, male Seoin preservation and mobile composition PASS"
+}
